@@ -40,12 +40,14 @@ class worker
                 ($this->onConnect)($this,$client);
             }
 
+            //测是否已到达文件末尾，断开连接前到达末尾
             // $buffer = "";
             // while (!feof($client)) {
             //    $buffer = $buffer.fread($client, 65535);
             // }
 
             $data = fread($client,65535);
+
             if( is_callable($this->onReceive) ){
                 ($this->onReceive)($this, $client, $data);
             }

@@ -1,5 +1,5 @@
 <?php
-namespace client\blocking;
+namespace client\multiplex;
 
 class client
 {
@@ -19,8 +19,9 @@ class client
     {
         $new = time();
         fwrite($this->socket,'client success');
-        fread($this->socket,65535);
+        $data = fread($this->socket,65535);
         fclose($this->socket);
+        var_dump($data);
         echo "\n".time()-$new;
     }
 

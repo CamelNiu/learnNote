@@ -7,6 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'src\\' => array($baseDir . '/src'),
+    'server\\' => array($baseDir . '/server'),
     'client\\' => array($baseDir . '/client'),
-    'app\\' => array($baseDir . '/app'),
 );

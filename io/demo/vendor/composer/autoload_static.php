@@ -14,14 +14,11 @@ class ComposerStaticInit13347e65c8685395f1eeb06226261d71
         's' => 
         array (
             'src\\' => 4,
+            'server\\' => 7,
         ),
         'c' => 
         array (
             'client\\' => 7,
-        ),
-        'a' => 
-        array (
-            'app\\' => 4,
         ),
     );
 
@@ -30,13 +27,13 @@ class ComposerStaticInit13347e65c8685395f1eeb06226261d71
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'server\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/server',
+        ),
         'client\\' => 
         array (
             0 => __DIR__ . '/../..' . '/client',
-        ),
-        'app\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

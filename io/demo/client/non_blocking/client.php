@@ -1,5 +1,5 @@
 <?php
-namespace client\blocking;
+namespace client\non_blocking;
 
 class client
 {
@@ -15,13 +15,31 @@ class client
         $this->socket = stream_socket_client($socketAddress);
     }
 
+
     public function main()
     {
+        //设置程序为非阻塞
+        stream_set_blocking($this->socket,0);
         $new = time();
         fwrite($this->socket,'client success');
-        fread($this->socket,65535);
+
+        $data = $this->nonBlcGetData();
+        var_dump($data);
+
+        echo "\n".time()-$new."\n";
+
         fclose($this->socket);
-        echo "\n".time()-$new;
+    }
+
+    public function nonBlcGetData()
+    {
+        while (!feof($this->socket)) {
+            $data = fread($this->socket,65535);
+            if( !empty( $data ) ){
+                return $data;
+            }
+
+        }
     }
 
 }

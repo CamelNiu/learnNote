@@ -1,5 +1,5 @@
 <?php
-namespace app\blocking;
+namespace server\multiplex;
 
 
 class server
@@ -13,7 +13,7 @@ class server
 
     public function __construct()
     {
-        $this->server = new \src\blocking\worker($this->protocol,$this->ip,$this->port);
+        $this->server = new \src\multiplex\worker($this->protocol,$this->ip,$this->port);
     }
 
     public function main()
@@ -21,27 +21,25 @@ class server
         //$this->testConnect();
         $this->testOnReceive();
 
+        $this->server->start();
 
     }
 
     public function testOnReceive()
     {
         $this->server->on('onReceive',function($socket,$client,$data){
-
-            sleep(5);
+            echo $data."\n";
             //echo "send message \n";
             $socket->send($client,"hello word client \n");
         });
-        $this->server->start();
-
     }
 
     public function testConnect()
     {
         $this->server->on('onConnect',function($socket,$client){
             echo "connect success \n";
-        });
+            echo date('Y-m-d H:i:s')."\n";
 
-        $this->server->start();
+        });
     }
 }
