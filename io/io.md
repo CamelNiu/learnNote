@@ -1,3 +1,0 @@
-stream_socket_server
-stream_socket_client
-stream_socket_accept

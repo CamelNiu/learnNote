@@ -1,0 +1,22 @@
+{
+    "name": "demo/io-model",
+    "description": "i/o model php demo",
+    "authors": [
+        {
+            "name": "camelNiu",
+            "email": "camel_niu@163.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "src\\":"src/",
+            "server\\":"server/",
+            "client\\":"client/"
+        },
+        "files":[
+            "common/helper.php"
+        ]
+    }
+
+}
