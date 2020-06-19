@@ -20,6 +20,11 @@ switch ($handle) {
             $clientObj = new \client\multiplex_client($config['host']['client_host']);
         break;
 
+    case 'signal':
+        # code...
+            $clientObj = new \client\signal_client($config['host']['client_host']);
+        break;
+
     default:
         # code...
         break;

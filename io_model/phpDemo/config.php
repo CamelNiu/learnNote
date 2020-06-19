@@ -7,4 +7,4 @@ $config = [
     ],
 ];
 
-$handle = "multiplex";
+$handle = "signal";

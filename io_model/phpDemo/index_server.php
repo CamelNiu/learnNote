@@ -20,6 +20,10 @@ switch ($handle) {
             $serverObj = new \server\multiplex_server($config['host']['server_host']);
         break;
 
+    case 'signal':
+        # code...
+            $serverObj = new \server\signal_server($config['host']['server_host']);
+        break;
 
     default:
         # code...
