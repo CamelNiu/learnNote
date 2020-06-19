@@ -15,6 +15,12 @@ switch ($handle) {
             $serverObj = new \server\non_blocking_server($config['host']['server_host']);
         break;
 
+    case 'multiplex':
+        # code...
+            $serverObj = new \server\multiplex_server($config['host']['server_host']);
+        break;
+
+
     default:
         # code...
         break;

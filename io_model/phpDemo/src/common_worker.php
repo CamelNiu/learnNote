@@ -16,7 +16,6 @@ class common_worker
     {
         $this->host = $host;
         $this->socket = stream_socket_server($this->host);
-
         echo "[SERVER] ".$this->host." server created \n";
 
     }

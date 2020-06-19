@@ -17,8 +17,7 @@ class common_server
     public function testSend()
     {
         $this->server->on("onSend",function($socket,$client){
-            sleep(5);
-            $socket->send($client,"[SERVER] this message is server send to client,client receive");
+            $socket->send($client,"[SERVER] this message is server send to client,client receive \n");
         });
     }
 

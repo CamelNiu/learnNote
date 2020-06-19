@@ -7,4 +7,4 @@ $config = [
     ],
 ];
 
-$handle = "non_blocking";
+$handle = "multiplex";

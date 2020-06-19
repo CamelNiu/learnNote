@@ -7,12 +7,17 @@ require_once "./base.php";
 switch ($handle) {
     case 'blocking':
         # code...
-            $serverObj = new \client\blocking_client($config['host']['client_host']);
+            $clientObj = new \client\blocking_client($config['host']['client_host']);
         break;
 
     case 'non_blocking':
         # code...
-            $serverObj = new \client\non_blocking_client($config['host']['client_host']);
+            $clientObj = new \client\non_blocking_client($config['host']['client_host']);
+        break;
+
+    case 'multiplex':
+        # code...
+            $clientObj = new \client\multiplex_client($config['host']['client_host']);
         break;
 
     default:
@@ -20,4 +25,4 @@ switch ($handle) {
         break;
 }
 
-$serverObj->main();
+$clientObj->main();
