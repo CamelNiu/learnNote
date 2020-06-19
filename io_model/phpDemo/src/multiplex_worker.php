@@ -55,9 +55,9 @@ class multiplex_worker extends common_worker
         $data = fread($client,65535);
 
         if( $data == "" || $data == false ){
-            fclose($client);
-            unset($this->sockets[(int)$client]);
-            return;
+            // fclose($client);
+            // unset($this->sockets[(int)$client]);
+            // return;
         }
 
         if(is_callable($this->funcType['onReceive'])){
