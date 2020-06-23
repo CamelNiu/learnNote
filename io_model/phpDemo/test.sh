@@ -1,7 +1,7 @@
 #!/bin/bash
 function testCurl()
 {
-    php /data/www/learnNote/io_model/phpDemo/index_client.php
+    php /data/www/learnNote/io_model/phpDemo/index_client.php &
 }
 
 

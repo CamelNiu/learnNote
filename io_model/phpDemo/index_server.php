@@ -25,6 +25,11 @@ switch ($handle) {
             $serverObj = new \server\signal_server($config['host']['server_host']);
         break;
 
+    case 'async':
+        # code...
+            $serverObj = new \server\async_server($config['host']['server_host']);
+        break;
+
     default:
         # code...
         break;

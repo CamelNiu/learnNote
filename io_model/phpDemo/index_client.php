@@ -25,6 +25,11 @@ switch ($handle) {
             $clientObj = new \client\signal_client($config['host']['client_host']);
         break;
 
+    case 'async':
+        # code...
+            $clientObj = new \client\async_client($config['host']['client_host']);
+        break;
+
     default:
         # code...
         break;
