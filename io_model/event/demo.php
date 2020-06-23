@@ -20,7 +20,7 @@ Event       事件类
 EventBase   事件库
 Event::PERSIST 循环，持续执行
 Event::TIMEOUT 失效时间，这里就是循环间隔时间
-new Event 就是注册时间
+new Event 就是注册事件
 $event->add添加已注册好的事件
 $eventbase->loop() 就是事件库对事件执行操作
 */
