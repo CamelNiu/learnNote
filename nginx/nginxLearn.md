@@ -16,7 +16,7 @@
 
 nginx优化
 	增大worker
-	
+
 	绑定cpu
 
 
@@ -35,7 +35,7 @@ nginx限流和限ip，重定向
 	3apache稳定
 
 	4nginx负载均衡，反向代理
-	
+
 	5apache适用动态代理
 
 

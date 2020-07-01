@@ -1,4 +1,4 @@
-### 漏桶算法-php实现
+### 漏桶算法-php,python实现
 
 ##### 1，概览
 
@@ -22,7 +22,7 @@
 
 
 
-##### 2，实现
+##### 2，PHP实现
 
 	
 	/**
@@ -72,8 +72,48 @@
 	    usleep(50000);
 	}
 
+#####3.Python面向对象实现
 
-##### 3，说明：
+	import time
+	
+	class Leaky(object):
+	    """docstring for Leaky"""
+	    water = 0
+	    pretime = 0
+	
+	    #container 总容量
+	    #rate      1s流出量
+	    #addNum    每次注入量
+	    def main(self,container,rate,addNum):
+	        #当前时间
+	        nowTime = int(time.time())
+	        #上次到目前流出去的水
+	        curWater = self.water-( ( nowTime-self.pretime) * rate )
+	        #水不能为负
+	        if curWater<0:
+	            curWater = 0
+	        #更新本次注入时间
+	        self.pretime = nowTime
+	        #水流出了一部分，不是上一次的水了，更新下，注入再更新，不注入则当前水量
+	        self.water = curWater
+	        if (curWater+addNum)<=container :
+	            #通过，注水后更新水量
+	            self.water = curWater+addNum
+	            return True
+	        else:
+	
+	            return False
+	
+	
+	#测试
+	l = Leaky()
+	for i in range(1,300):
+	    time.sleep(0.1)
+	    res = l.main(5,1,2)
+	    print(res)
+
+
+##### 4，说明：
 
 	上面的漏桶算法更加的一般化了，容器总量，注水量，排水量都可以随机设置。
 	为了完全使用php实现，时间参数$preTime和当前水量$water都利用了php的引用赋值。作为全局变量。
