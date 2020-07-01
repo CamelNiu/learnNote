@@ -13,7 +13,7 @@
 
 ##### 2，实现
 
-	在在 http 指令下配置 upstream
+	在 http 指令下配置 upstream
 
 	语法：
 		upstream name { ... } 
