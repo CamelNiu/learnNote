@@ -4,8 +4,12 @@ function testCurl()
     curl 8.8.8.2:80/demo.php &
 }
 
+function balanceTest()
+{
+    curl 8.8.8.2 &
+}
 
-for((i=0;i<100;i++));
+for((i=0;i<200;i++));
 do
-    testCurl;
+    balanceTest;
 done
