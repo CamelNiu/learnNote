@@ -119,4 +119,7 @@ gzip
 		
 		大文件，磁盘io的缓冲
 
-	sendfile零拷贝提升性能
+	sendfile零拷贝提升性能 
+
+
+	异步读取磁盘io
