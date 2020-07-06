@@ -71,3 +71,52 @@ nginx限流和限ip，重定向
 		
 	consul做动态负载均衡
 		
+
+
+nginx缓存
+
+	expires 静态资源缓存
+
+	动态缓存：
+		proxy模块
+
+		proxy_cache_path
+
+	key_zone
+	max_size
+	inactive
+	expired
+
+
+nginxio
+
+	 syn攻击
+
+		tcp/udp通信协议
+		
+		tcp
+		
+		nginx
+			监听socket
+			seq,ack
+
+		syn队列
+
+
+	crsf
+
+	
+nagle
+
+gzip
+
+	就是压缩服务器的回传数据     
+
+磁盘IO优化
+
+	零拷贝-零复制
+		  
+		
+		大文件，磁盘io的缓冲
+
+	sendfile零拷贝提升性能

@@ -1,7 +1,7 @@
 ### Nginx rewrite模块
 
 **1.详细文档**
-	
+
 	淘宝团队翻译的详细文档
 
 	http://tengine.taobao.org/nginx_docs/cn/docs/http/ngx_http_rewrite_module.html
@@ -17,15 +17,15 @@
 		   如果这个循环重复10次，nginx则报500错误
 
 **2.配置指令**
-	
+
 	1.if
 		if ( condition ){ ... }
 		上下文：server,location
 		注意:血的教训，if和括号之间一定要有一个空格，没有的话报错
-		
+
 		condition:
 			#1.变量,如果为空或者0开头字符则为假
-			#2.=和!= 做比较	
+			#2.=和!= 做比较
 			#3.使用“-f”和“!-f”运算符检查文件是否存在；
 			#4.使用“-d”和“!-d”运算符检查目录是否存在；
 			#5.使用“-e”和“!-e”运算符检查文件、目录或符号链接是否存在；
@@ -37,7 +37,7 @@
 		上下文：server,location,if
 		停止处理当前这一轮的ngx_http_rewrite_module指令集
 
-	3，return 
+	3，return
 		上下文：server,location,if
 
 		   return code text
@@ -63,8 +63,8 @@
 		默认值: 	rewrite_log off;
 		上下文: 	http, server, location, if
 
-    5,set 
-	
+    5,set
+
 		语法: 	set variable value;
 		默认值: 	—
 		上下文: 	server, location, if

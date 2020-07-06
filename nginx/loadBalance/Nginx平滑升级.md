@@ -17,17 +17,17 @@
 
 #####3,操作过程
 	1，查看当前已安装nginx的配置参数
-		
+
 		/usr/local/nginx/sbin/nginx -V
 
 		例如：
 			#执行命令
 			#已安装配置参数 即--prefix=/usr/local/nginx
-			[root@4598d101709d ~]# /usr/local/nginx/sbin/nginx -V	
+			[root@4598d101709d ~]# /usr/local/nginx/sbin/nginx -V
 			nginx version: nginx/1.18.0
 			built by gcc 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC)
-			configure arguments: --prefix=/usr/local/nginx			
-		
+			configure arguments: --prefix=/usr/local/nginx
+
 
 	2，进入nginx源码包目录(没有的话自行下载源码包,下载的版本即是当前操作后的版本)
 
@@ -37,7 +37,7 @@
 				   --with-http_geoip_module      安装的时候加某个模块
 				   --without-http_charset_module  安装的时候不要某个模块
 				第三方模块
-				   --add-module=/nginxModule/loadBalance/nginx-upsync-module-2.1.0 
+				   --add-module=/nginxModule/loadBalance/nginx-upsync-module-2.1.0
 				   后面跟第三方模块的绝对路径
 
 		2，注意：
