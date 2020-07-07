@@ -1,9 +1,0 @@
-curl -X PUT -d '{"weight":1,"max_fails":2,"fail_timeout":10}' http://127.0.0.1:8500/v1/kv/upstreams/syncTest/8.8.8.5:9001
-
-./configure \
---prefix=/usr/local/nginx \
---add-module=/data/www/learnNote/nginx/loadBalance/nginx-upsync-module-2.1.0 \
---with-mail=dynamic \
-
-
-consul agent  -server  -bootstrap-expect 1 -data-dir /tmp/consul -node=ali -bind=8.8.8.2    -ui   -client=0.0.0.0
