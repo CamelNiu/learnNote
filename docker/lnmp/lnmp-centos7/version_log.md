@@ -54,3 +54,15 @@
 	2,nginx平滑升级安装模块nginx-upsync-module(动态负载均衡)
 	3,nginx平滑升级安装模块ngx_cache_purge(nginx删除缓存)
 	4,php根目录index.html,index.php修改内容，以前是调试内容，现在是欢迎语
+
+
+####v1.0.1[plan]
+1.v1.0.0
+
+	niushaogang/lnmp-centos7:v1.0.0
+2.plan
+
+	1,安装consul应用
+
+3.describe
+
