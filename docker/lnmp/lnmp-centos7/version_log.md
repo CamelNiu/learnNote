@@ -63,6 +63,8 @@
 2.plan
 
 	1,安装consul应用
+	2,系统时区，php时区
+	3,安装composer
 
 3.describe
 

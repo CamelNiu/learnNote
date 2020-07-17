@@ -1,0 +1,33 @@
+64:M 10 Jul 2020 11:39:22.809 # User requested shutdown...
+64:M 10 Jul 2020 11:39:22.809 * Saving the final RDB snapshot before exiting.
+64:M 10 Jul 2020 11:39:22.812 * DB saved on disk
+64:M 10 Jul 2020 11:39:22.812 * Removing the pid file.
+64:M 10 Jul 2020 11:39:22.812 # Redis is now ready to exit, bye bye...
+74:C 10 Jul 2020 11:39:22.816 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+74:C 10 Jul 2020 11:39:22.816 # Redis version=5.0.8, bits=64, commit=00000000, modified=0, pid=74, just started
+74:C 10 Jul 2020 11:39:22.816 # Configuration loaded
+74:M 10 Jul 2020 11:39:22.818 * No cluster configuration found, I'm e4e0f0edc6f4e29e2112a6f8dacbb945405912eb
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 74
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+74:M 10 Jul 2020 11:39:22.821 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+74:M 10 Jul 2020 11:39:22.821 # Server initialized
+74:M 10 Jul 2020 11:39:22.821 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+74:M 10 Jul 2020 11:39:22.821 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+74:M 10 Jul 2020 11:39:22.821 * DB loaded from disk: 0.000 seconds
+74:M 10 Jul 2020 11:39:22.821 * Ready to accept connections

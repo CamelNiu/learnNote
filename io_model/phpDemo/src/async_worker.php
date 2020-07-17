@@ -14,6 +14,7 @@ class async_worker extends common_worker
 
     public function accept()
     {
+        //注册一个事件
         Event::add($this->socket,$this->createClientConn($this->socket));
 
     }

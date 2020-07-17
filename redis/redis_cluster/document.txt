@@ -1,0 +1,37 @@
+redis-cli --cluster create \
+8.8.8.11:6379 \
+8.8.8.12:6379 \
+8.8.8.13:6379 \
+8.8.8.14:6379 \
+8.8.8.15:6379 \
+8.8.8.16:6379 \
+--cluster-replicas \
+
+
+./init.sh stop
+
+
+./init.sh restart
+
+
+./init.sh
+
+
+redis-cli flushall
+
+
+redis-cli flushall
+
+
+cluster meet 8.8.8.11 6379
+cluster meet 8.8.8.12 6379
+cluster meet 8.8.8.13 6379
+cluster meet 8.8.8.14 6379
+cluster meet 8.8.8.15 6379
+cluster meet 8.8.8.16 6379
+
+
+cluster nodes
+
+
+cluster replicate 9d574f48b520b16e59b03acc5a76c30b5395ef3d

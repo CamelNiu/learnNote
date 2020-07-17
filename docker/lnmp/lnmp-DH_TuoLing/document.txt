@@ -1,0 +1,2 @@
+linux: docker run -itd --name lnmp-DH_TuoLing  -p 8080:80 -p 26379:6379 -p 23306:3306 -v /data/www:/data/www camelniu/lnmp-centos7:v1.0.0
+

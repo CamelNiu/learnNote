@@ -7,7 +7,7 @@
 		在redis主从复制架构中，假如master-redis宕机，整个redis系统就会瘫痪。
 		要解决这个问题，只有人工在slave-redis执行slaveof no one选为新的master-redis。
 		然后配置其他slave-redis复制新的master-redis。最后告知客户端，新的主节点地址，从节点地址。
-		
+
 		redis哨兵，就是把上面的操作自动化完成，不需要人工执行。目的就是保证redis主从复制系统的高可用。
 
 2.哨兵集群是怎样的？
@@ -25,7 +25,7 @@
 		4,故障转移后,redis出从架构选出了新的主节点，其他从节点复制新的主节点。
 
 		这个过程sentinel直接自动化完成，不需要人工干预。
-	
+
 4.官方给出的哨兵功能？
 
 		1.监控 sentinel监控所有其他sentinel节点以及所有redis数据节点。
@@ -49,13 +49,13 @@
 
 		复制初始的redis.conf，改名为sentinel.conf。比redis.conf再多加几行sentinel特有的配置即可。下面是sentinel特有配置描述
 
-		sentinel monitor master1 x.x.x.x 6379 2     
+		sentinel monitor master1 x.x.x.x 6379 2
 			 --表示sentinel要监控的主节点信息。master1是主节点别名，因为有可能一台sentinel监控多个主节点。x.x.x.x表示主节点host，6379表示主节点port,2表示有2台哨兵确认主节点下线则主节点客观下线。注意2这个地方不能大于哨兵总数，要不然永远都不会故障转移
 		sentinel down-after-milliseconds master1 30000
 			 --表示数据节点ping不通超时时间。单位微秒，默认30000，即30s。也就是说哨兵监控某个数据节点30s未收到回复表示当前sentinel认定为主观下线。
 		sentinel parallel-syncs master1 1
 			 --故障转移之后，从节点向新的主节点发起复制操作的从节点个数。默认为1表示一次只能一台进行复制。如果设置为大于1的话，多台从节点一起复制会增加主节点的压力。建议没有特殊必要设置为1
-		sentinel failover-timeout master1 180000 
+		sentinel failover-timeout master1 180000
 			 --故障转移超时时间,超过180000也就是3min没有完成则表示故障转移失败
 		sentinel auth-pass xxxxxx...
 			 --表示监控主节点的密码，主节点没设密码无需配置
@@ -65,7 +65,7 @@
 2.核心配置列表
 
 		//sentinel就是不存数据的redis节点，所以也要按照redis的配置为可远程连接，后台运行
-		#bind 0.0.0.0 
+		#bind 0.0.0.0
 		protected-mode no
 		daemonize no
 		port 26379 //最好不要跟redis节点的端口重复
@@ -73,7 +73,7 @@
 		sentinel monitor mymaster 8.8.8.5 6379 2
 		sentinel parallel-syncs master1 1
 		sentinel down-after-milliseconds mymaster 1000
-		sentinel failover-timeout master1 180000 
+		sentinel failover-timeout master1 180000
 		#sentinel auth-pass xxxxxx...
 3.启动
 
@@ -81,7 +81,7 @@
 		redis-sentinel sentinel.conf
 
 		注意：真实情况下，可执行文件以及配置文件的路径要正确
-		
+
 		启动之后sentinel就开始监控redis主从节点以及其他sentinel。也就是说哨兵部署完成
 
 4.主从监控

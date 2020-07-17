@@ -30,6 +30,16 @@ switch ($handle) {
             $clientObj = new \client\async_client($config['host']['client_host']);
         break;
 
+    case 'multi_process':
+        # code...
+            $clientObj = new \client\multi_process_client($config['host']['client_host']);
+        break;
+
+    case 'reactor':
+        # code...
+            $clientObj = new \client\reactor_client($config['host']['client_host']);
+        break;
+
     default:
         # code...
         break;

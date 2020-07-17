@@ -1,0 +1,86 @@
+version: "3.7"
+services:
+  redis11:
+    image: camelniu/redis-centos7:v1.0.0
+    networks:
+       mynet:
+         ipv4_address: 8.8.8.11   #设置ip地址
+    container_name: redis11 # 这是容器的名称
+    ports: # 配置容器与宿主机的端口
+      - "6311:6379"
+      - "16311:16379"
+    volumes: # 配置数据挂载
+        - /data/learnNote/redis/:/data/www/
+    command: ping www.baidu.com
+
+  redis12:
+    image: camelniu/redis-centos7:v1.0.0
+    networks:
+       mynet:
+         ipv4_address: 8.8.8.12   #设置ip地址
+    container_name: redis12 # 这是容器的名称
+    ports: # 配置容器与宿主机的端口
+      - "6312:6379"
+      - "16312:16379"
+    volumes: # 配置数据挂载
+        - /data/learnNote/redis/:/data/www/
+    command: ping www.baidu.com
+
+  redis13:
+    image: camelniu/redis-centos7:v1.0.0
+    networks:
+       mynet:
+         ipv4_address: 8.8.8.13   #设置ip地址
+    container_name: redis13 # 这是容器的名称
+    ports: # 配置容器与宿主机的端口
+      - "6313:6379"
+      - "16313:16379"
+    volumes: # 配置数据挂载
+        - /data/learnNote/redis/:/data/www/
+    command: ping www.baidu.com
+
+  redis14:
+    image: camelniu/redis-centos7:v1.0.0
+    networks:
+       mynet:
+         ipv4_address: 8.8.8.14   #设置ip地址
+    container_name: redis14 # 这是容器的名称
+    ports: # 配置容器与宿主机的端口
+      - "6314:6379"
+      - "16314:16379"
+    volumes: # 配置数据挂载
+        - /data/learnNote/redis/:/data/www/
+    command: ping www.baidu.com
+
+  redis15:
+    image: camelniu/redis-centos7:v1.0.0
+    networks:
+       mynet:
+         ipv4_address: 8.8.8.15   #设置ip地址
+    container_name: redis15 # 这是容器的名称
+    ports: # 配置容器与宿主机的端口
+      - "6315:6379"
+      - "16315:16379"
+    volumes: # 配置数据挂载
+        - /data/learnNote/redis/:/data/www/
+    command: ping www.baidu.com
+
+  redis16:
+    image: camelniu/redis-centos7:v1.0.0
+    networks:
+       mynet:
+         ipv4_address: 8.8.8.16   #设置ip地址
+    container_name: redis16 # 这是容器的名称
+    ports: # 配置容器与宿主机的端口
+      - "6316:6379"
+      - "16316:16379"
+    volumes: # 配置数据挂载
+        - /data/learnNote/redis/:/data/www/
+    command: ping www.baidu.com
+
+# 网段设置
+networks:
+  #引用外部预先定义好的网段
+  mynet:
+    external:
+      name: mynet

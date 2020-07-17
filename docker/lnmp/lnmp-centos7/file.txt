@@ -1,0 +1,2 @@
+win:
+    docker run -itd --name lnmps -v /e:/data/www -p 8081:80 --network=mynet --ip 8.8.8.3  camelniu/lnmp-centos7:v1.0.0

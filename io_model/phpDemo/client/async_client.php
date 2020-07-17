@@ -21,7 +21,7 @@ class async_client extends common_client
         // $time2 = time();
         // echo "[CLIENT] end time:".($time2-$time1)."\n";
 
-        $this->longConn();
+
 
     }
 }

@@ -28,9 +28,7 @@ class common_client
             echo ($data);
             $time2 = time();
             echo "[CLIENT] end time:".($time2-$time1)."\n";
-
             sleep(2);
-
         }
     }
 
