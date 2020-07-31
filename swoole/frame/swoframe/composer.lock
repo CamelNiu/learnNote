@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e931a8f752d5d48bf2d98439506c44a9",
+    "packages": [
+        {
+            "name": "niushao/swocore",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../swocore",
+                "reference": "c2c404490199bc1d35028bd9afcec9abf5f78adf"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "src\\": "./src/"
+                },
+                "files": [
+                    "src/Supper/Helper.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "NiuShao.Lenovo",
+                    "email": "camel_niu@163.com"
+                }
+            ],
+            "description": "swoole test frame",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "niushao/swocore": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

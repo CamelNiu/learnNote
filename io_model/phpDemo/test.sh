@@ -2,11 +2,11 @@
 start=`date +"%s.%N"`
 function testCurl()
 {
-    php /data/www/learnNote/io_model/phpDemo/index_client.php &
+    curl http://127.0.0.1/www/DH_TuoLing/item/public/index.php/api/ipinfo?ip=172.104.88.48 &
 }
 
 
-for((i=0;i<50000000;i++));
+for((i=0;i<5000;i++));
 do
     testCurl;
 done

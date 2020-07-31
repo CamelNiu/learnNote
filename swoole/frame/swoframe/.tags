@@ -1,0 +1,210 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	.\app\App.php	/^class App$/;"	c
+Application	.\vendor\niushao\swocore\src\Foundation\Application.php	/^class Application extends Container$/;"	c
+ClassLoader	.\vendor\composer\ClassLoader.php	/^class ClassLoader$/;"	c
+ComposerAutoloaderInit677b88ca78bfe7d72caf6d1aca6b8eea	.\vendor\composer\autoload_real.php	/^class ComposerAutoloaderInit677b88ca78bfe7d72caf6d1aca6b8eea$/;"	c
+ComposerStaticInit677b88ca78bfe7d72caf6d1aca6b8eea	.\vendor\composer\autoload_static.php	/^class ComposerStaticInit677b88ca78bfe7d72caf6d1aca6b8eea$/;"	c
+Container	.\vendor\niushao\swocore\src\Container\Container.php	/^class Container$/;"	c
+HttpRequest	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^class HttpRequest$/;"	c
+HttpServer	.\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^class HttpServer extends Server$/;"	c
+Index	.\app\Http\Controller\IndexController.php	/^class Index$/;"	c
+Index	.\vendor\niushao\swocore\src\Index.php	/^class Index$/;"	c
+Route	.\vendor\niushao\swocore\src\Routes\Route.php	/^class Route$/;"	c
+Server	.\vendor\niushao\swocore\src\Server\Server.php	/^abstract class Server$/;"	c
+__construct	.\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function __construct($path = null)$/;"	f
+__construct	.\vendor\niushao\swocore\src\Routes\Route.php	/^    protected function __construct()$/;"	f
+__construct	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function __construct($app)$/;"	f
+action	.\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_CREATE';$/;"	v
+action	.\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_DELETE';$/;"	v
+action	.\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_MODIF';$/;"	v
+action	.\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_MOVE';$/;"	v
+action	.\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/ $action = 'file:';$/;"	v
+add	.\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f
+addClassMap	.\vendor\composer\ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f
+addPsr4	.\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f
+addRoute	.\vendor\niushao\swocore\src\Routes\Route.php	/^    protected function addRoute($methods,$uri,$action)$/;"	f
+any	.\vendor\niushao\swocore\src\Routes\Route.php	/^    public function any($uri, $action)$/;"	f
+apcuPrefix	.\vendor\composer\ClassLoader.php	/^        $this->apcuPrefix = function_exists('apcu_fetch') && filter_var(ini_get('apc.enabled'), FILTER_VALIDATE_BOOLEAN) ? $apcuPrefix : null;$/;"	v
+apcuPrefix	.\vendor\composer\ClassLoader.php	/^    private $apcuPrefix;$/;"	v
+app	.\vendor\niushao\swocore\src\Server\Server.php	/^        $this->app = $app;$/;"	v
+app	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $app;$/;"	v
+app	.\vendor\niushao\swocore\src\Supper\Helper.php	/^    function app($a = null)$/;"	f
+baseDir	.\vendor\composer\autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\vendor\composer\autoload_files.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\vendor\composer\autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\vendor\composer\autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+basePath	.\vendor\niushao\swocore\src\Foundation\Application.php	/^        $this->basePath = \\rtrim($path,"\\\/");$/;"	v
+basePath	.\vendor\niushao\swocore\src\Foundation\Application.php	/^    protected $basePath = "";$/;"	v
+bind	.\vendor\niushao\swocore\src\Container\Container.php	/^    public function bind($abstract,$object)$/;"	f
+bindings	.\vendor\niushao\swocore\src\Container\Container.php	/^    protected $bindings = [];$/;"	v
+binds	.\vendor\niushao\swocore\src\Foundation\Application.php	/^        $binds = [$/;"	v
+classMap	.\vendor\composer\ClassLoader.php	/^            $this->classMap = $classMap;$/;"	v
+classMap	.\vendor\composer\ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v
+classMap	.\vendor\composer\ClassLoader.php	/^    private $classMap = array();$/;"	v
+classMap	.\vendor\composer\autoload_real.php	/^            $classMap = require __DIR__ . '\/autoload_classmap.php';$/;"	v
+classMapAuthoritative	.\vendor\composer\ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v
+classMapAuthoritative	.\vendor\composer\ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v
+composerRequire677b88ca78bfe7d72caf6d1aca6b8eea	.\vendor\composer\autoload_real.php	/^function composerRequire677b88ca78bfe7d72caf6d1aca6b8eea($fileIdentifier, $file)$/;"	f
+config	.\vendor\niushao\swocore\src\Server\Server.php	/^        $this->config = array_map($this->config,$config);$/;"	v
+config	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $config = [$/;"	v
+createServer	.\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^    public function createServer()$/;"	f
+createServer	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected abstract function createServer();$/;"	f
+dd	.\vendor\niushao\swocore\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	f
+description	.\vendor\niushao\swocore\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	v
+does	.\vendor\composer\ClassLoader.php	/^            \/\/ Remember that this class does not exist.$/;"	c
+event	.\vendor\niushao\swocore\src\Server\Server.php	/^            foreach($events as $event => $func){$/;"	v
+event	.\vendor\niushao\swocore\src\Server\Server.php	/^        \/\/     foreach ($events as $event => $func) {$/;"	v
+event	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $event = [$/;"	v
+fallbackDirsPsr0	.\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v
+fallbackDirsPsr0	.\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v
+fallbackDirsPsr0	.\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v
+fallbackDirsPsr4	.\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v
+fallbackDirsPsr4	.\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
+fallbackDirsPsr4	.\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
+file	.\vendor\composer\ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
+file	.\vendor\composer\ClassLoader.php	/^            $file = apcu_fetch($this->apcuPrefix.$class, $hit);$/;"	v
+file	.\vendor\composer\ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v
+file	.\vendor\composer\ClassLoader.php	/^        if ($this->useIncludePath && $file = stream_resolve_include_path($logicalPathPsr0)) {$/;"	v
+fileIdentifier	.\vendor\composer\autoload_real.php	/^        foreach ($includeFiles as $fileIdentifier => $file) {$/;"	v
+files	.\vendor\composer\ClassLoader.php	/^     * Turns on searching the include path for class files.$/;"	c
+files	.\vendor\composer\autoload_static.php	/^    public static $files = array ($/;"	v
+findFile	.\vendor\composer\ClassLoader.php	/^    public function findFile($class)$/;"	f
+findFileWithExtension	.\vendor\composer\ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f
+first	.\vendor\composer\ClassLoader.php	/^        $first = $class[0];$/;"	v
+first	.\vendor\composer\ClassLoader.php	/^        $first = $prefix[0];$/;"	v
+get	.\vendor\niushao\swocore\src\Routes\Route.php	/^    public function get($uri, $action)$/;"	f
+getApcuPrefix	.\vendor\composer\ClassLoader.php	/^    public function getApcuPrefix()$/;"	f
+getBasePath	.\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function getBasePath()$/;"	f
+getClassMap	.\vendor\composer\ClassLoader.php	/^    public function getClassMap()$/;"	f
+getConfig	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function getConfig()$/;"	f
+getFallbackDirs	.\vendor\composer\ClassLoader.php	/^    public function getFallbackDirs()$/;"	f
+getFallbackDirsPsr4	.\vendor\composer\ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f
+getInitializer	.\vendor\composer\autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f
+getInstance	.\vendor\niushao\swocore\src\Container\Container.php	/^    public static function getInstance()$/;"	f
+getInstance	.\vendor\niushao\swocore\src\Routes\Route.php	/^    public static function getInstance()$/;"	f
+getLoader	.\vendor\composer\autoload_real.php	/^    public static function getLoader()$/;"	f
+getMethod	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^    public function getMethod()$/;"	f
+getPrefixes	.\vendor\composer\ClassLoader.php	/^    public function getPrefixes()$/;"	f
+getPrefixesPsr4	.\vendor\composer\ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f
+getRoutes	.\vendor\niushao\swocore\src\Routes\Route.php	/^    public function getRoutes()$/;"	f
+getUriPath	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^    public function getUriPath()$/;"	f
+getUseIncludePath	.\vendor\composer\ClassLoader.php	/^    public function getUseIncludePath()$/;"	f
+has	.\vendor\niushao\swocore\src\Container\Container.php	/^    public function has($abstract)$/;"	f
+host	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $host       = "0.0.0.0";$/;"	v
+httpServer	.\vendor\niushao\swocore\src\Foundation\Application.php	/^        $httpServer = new HttpServer($this);$/;"	v
+in	.\vendor\composer\ClassLoader.php	/^ * In this example, if you try to use a class in the Symfony\\Component$/;"	c
+includeFile	.\vendor\composer\ClassLoader.php	/^function includeFile($file)$/;"	f
+includeFiles	.\vendor\composer\autoload_real.php	/^            $includeFiles = Composer\\Autoload\\ComposerStaticInit677b88ca78bfe7d72caf6d1aca6b8eea::$files;$/;"	v
+includeFiles	.\vendor\composer\autoload_real.php	/^            $includeFiles = require __DIR__ . '\/autoload_files.php';$/;"	v
+index	.\app\App.php	/^    public function index()$/;"	f
+index	.\app\Http\Controller\IndexController.php	/^    public function index()$/;"	f
+index	.\vendor\niushao\swocore\src\Index.php	/^    public function index()$/;"	f
+init	.\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function init()$/;"	f
+init	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^    public static function init(SwooleRequest $request)$/;"	f
+initEvent	.\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^    protected function initEvent()$/;"	f
+initEvent	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected abstract function initEvent();$/;"	f
+inotify	.\vendor\niushao\swocore\src\Server\Server.php	/^            $this->inotify = new Inotify($this->app->getBasePath(), $this->watchEvent());$/;"	v
+inotify	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $inotify = null;$/;"	v
+instance	.\vendor\niushao\swocore\src\Container\Container.php	/^    protected static $instance;$/;"	v
+instance	.\vendor\niushao\swocore\src\Routes\Route.php	/^    protected static $instance;$/;"	v
+instances	.\vendor\niushao\swocore\src\Container\Container.php	/^    protected $instances = [];$/;"	v
+is	.\vendor\composer\ClassLoader.php	/^     * Finds the path to the file where the class is defined.$/;"	c
+is	.\vendor\composer\ClassLoader.php	/^ * This class is loosely based on the Symfony UniversalClassLoader.$/;"	c
+isClassMapAuthoritative	.\vendor\composer\ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f
+key	.\vendor\niushao\swocore\src\Foundation\Application.php	/^        foreach ($binds as $key => $value) {$/;"	v
+key	.\vendor\niushao\swocore\src\Routes\Route.php	/^        foreach ($this->routeMap as $key => $path) {$/;"	v
+lastPos	.\vendor\composer\ClassLoader.php	/^            while (false !== $lastPos = strrpos($subPath, '\\\\')) {$/;"	v
+length	.\vendor\composer\ClassLoader.php	/^            $length = strlen($prefix);$/;"	v
+loadClass	.\vendor\composer\ClassLoader.php	/^    public function loadClass($class)$/;"	f
+loadClassLoader	.\vendor\composer\autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f
+loader	.\vendor\composer\ClassLoader.php	/^ *     $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	.\vendor\composer\ClassLoader.php	/^ * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.$/;"	c
+loader	.\vendor\composer\autoload_real.php	/^        self::$loader = $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	.\vendor\composer\autoload_real.php	/^    private static $loader;$/;"	v
+logicalPathPsr0	.\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr0	.\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v
+logicalPathPsr4	.\vendor\composer\ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+lookup	.\vendor\composer\ClassLoader.php	/^     * Should class lookup fail if not found in the current class map?$/;"	c
+make	.\vendor\niushao\swocore\src\Container\Container.php	/^    public function make($abstract,$parameters = [])$/;"	f
+map	.\vendor\composer\ClassLoader.php	/^        \/\/ class map lookup$/;"	c
+map	.\vendor\composer\ClassLoader.php	/^     * that have not been registered with the class map.$/;"	c
+map	.\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_namespaces.php';$/;"	v
+map	.\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_psr4.php';$/;"	v
+method	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^    protected $method;$/;"	v
+missingClasses	.\vendor\composer\ClassLoader.php	/^    private $missingClasses = array();$/;"	v
+name	.\vendor\composer\ClassLoader.php	/^            \/\/ PEAR-like class name$/;"	c
+name	.\vendor\composer\ClassLoader.php	/^            \/\/ namespaced class name$/;"	c
+namespace	.\vendor\composer\autoload_real.php	/^            foreach ($map as $namespace => $path) {$/;"	v
+object	.\vendor\niushao\swocore\src\Container\Container.php	/^        $object = $this->bindings[$abstract];$/;"	v
+onManagerStart	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStop	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onRequest	.\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^    public function onRequest($request,$response)$/;"	f
+onShutdown	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onStart	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onWorkerError	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function onWorkerError(SwooleServer $server)$/;"	f
+onWorkerStart	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function onWorkerStart(SwooleServer $server,int $worker_id)$/;"	f
+onWorkerStop	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function onWorkerStop(SwooleServer $server)$/;"	f
+or	.\vendor\composer\ClassLoader.php	/^     * Loads the given class or interface.$/;"	c
+pathEnd	.\vendor\composer\ClassLoader.php	/^                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);$/;"	v
+pidMap	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $pidMap = [$/;"	v
+port	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $port       = "80";$/;"	v
+pos	.\vendor\composer\ClassLoader.php	/^        if (false !== $pos = strrpos($class, '\\\\')) {$/;"	v
+post	.\vendor\niushao\swocore\src\Routes\Route.php	/^    public function post($uri, $action)$/;"	f
+prefix	.\vendor\composer\ClassLoader.php	/^            foreach ($this->prefixesPsr0[$first] as $prefix => $dirs) {$/;"	v
+prefixDirsPsr4	.\vendor\composer\ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v
+prefixDirsPsr4	.\vendor\composer\autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v
+prefixLengthsPsr4	.\vendor\composer\ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v
+prefixLengthsPsr4	.\vendor\composer\autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v
+prefixesPsr0	.\vendor\composer\ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v
+prepend	.\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	v
+prepend	.\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	v
+register	.\vendor\composer\ClassLoader.php	/^    public function register($prepend = false)$/;"	f
+registerBaseBindings	.\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function registerBaseBindings()$/;"	f
+registerRoute	.\vendor\niushao\swocore\src\Routes\Route.php	/^    public function registerRoute()$/;"	f
+resolve	.\vendor\niushao\swocore\src\Container\Container.php	/^    public function resolve($abstract,$parameters = [])$/;"	f
+routeMap	.\vendor\niushao\swocore\src\Routes\Route.php	/^        $this->routeMap = [$/;"	v
+routeMap	.\vendor\niushao\swocore\src\Routes\Route.php	/^    protected $routeMap = [];$/;"	v
+routes	.\vendor\niushao\swocore\src\Routes\Route.php	/^    protected $routes = [];$/;"	v
+run	.\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function run()$/;"	f
+search	.\vendor\composer\ClassLoader.php	/^                $search = $subPath . '\\\\';$/;"	v
+self	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^        $self = app('httpRequest');$/;"	v
+serverType	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $serverType = "TCP";$/;"	v
+set	.\vendor\composer\ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f
+setApcuPrefix	.\vendor\composer\ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f
+setBasePath	.\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function setBasePath($path)$/;"	f
+setClassMapAuthoritative	.\vendor\composer\ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f
+setConfig	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function setConfig()$/;"	f
+setEvent	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function setEvent($type,$event)$/;"	f
+setInstance	.\vendor\niushao\swocore\src\Container\Container.php	/^    public static function setInstance($container = null)$/;"	f
+setPsr4	.\vendor\composer\ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f
+setSwooleEvent	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected function setSwooleEvent()$/;"	f
+setUseIncludePath	.\vendor\composer\ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f
+start	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function start()$/;"	f
+subPath	.\vendor\composer\ClassLoader.php	/^                $subPath = substr($subPath, 0, $lastPos);$/;"	v
+subPath	.\vendor\composer\ClassLoader.php	/^            $subPath = $class;$/;"	v
+swooleRequest	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^    protected $swooleRequest;$/;"	v
+swooleServer	.\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^        $this->swooleServer = new SwooleServer($this->host,$this->port);$/;"	v
+swooleServer	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $swooleServer;$/;"	v
+type	.\vendor\niushao\swocore\src\Server\Server.php	/^        \/\/ foreach ($this->event as $type => $events) {$/;"	v
+type	.\vendor\niushao\swocore\src\Server\Server.php	/^        foreach($this->event as $type => $events){$/;"	v
+type	.\vendor\niushao\swocore\src\Server\Server.php	/^        if( $type == 'server' ){$/;"	v
+under	.\vendor\composer\ClassLoader.php	/^ * the autoloader will first look for the class under the component\/$/;"	c
+unregister	.\vendor\composer\ClassLoader.php	/^    public function unregister()$/;"	f
+uriPath	.\vendor\niushao\swocore\src\Message\Http\HttpRequest.php	/^    protected $uriPath;$/;"	v
+useIncludePath	.\vendor\composer\ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v
+useIncludePath	.\vendor\composer\ClassLoader.php	/^    private $useIncludePath = false;$/;"	v
+useStaticLoader	.\vendor\composer\autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());$/;"	v
+vendorDir	.\vendor\composer\autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\vendor\composer\autoload_files.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\vendor\composer\autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\vendor\composer\autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+verbs	.\vendor\niushao\swocore\src\Routes\Route.php	/^    protected $verbs = ['GET','POST','PUT','PATCH','DELETE'];$/;"	v
+watchEvent	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected function watchEvent()$/;"	f
+watchFile	.\vendor\niushao\swocore\src\Server\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	.\vendor\niushao\swocore\src\Server\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	.\vendor\niushao\swocore\src\Server\Server.php	/^    public function watchFile($watchFile)$/;"	f

@@ -1,0 +1,1131 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	.\frame\app\App.php	/^class App$/;"	c
+Application	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^class Application extends Container$/;"	c
+Application	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^class Application extends Container$/;"	c
+Application	.\swostar\src\Foundation\Application.php	/^class Application extends Container$/;"	c
+ClassLoader	.\frame\vendor\composer\ClassLoader.php	/^class ClassLoader$/;"	c
+ClassLoader	.\swocloud\vendor\composer\ClassLoader.php	/^class ClassLoader$/;"	c
+ComposerAutoloaderInitaa25c8d0ced7542ab0964733c05d9a33	.\swocloud\vendor\composer\autoload_real.php	/^class ComposerAutoloaderInitaa25c8d0ced7542ab0964733c05d9a33$/;"	c
+ComposerAutoloaderInite15e0ab7d2876ca9af7583a419e24ee2	.\frame\vendor\composer\autoload_real.php	/^class ComposerAutoloaderInite15e0ab7d2876ca9af7583a419e24ee2$/;"	c
+ComposerStaticInitaa25c8d0ced7542ab0964733c05d9a33	.\swocloud\vendor\composer\autoload_static.php	/^class ComposerStaticInitaa25c8d0ced7542ab0964733c05d9a33$/;"	c
+ComposerStaticInite15e0ab7d2876ca9af7583a419e24ee2	.\frame\vendor\composer\autoload_static.php	/^class ComposerStaticInite15e0ab7d2876ca9af7583a419e24ee2$/;"	c
+Config	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^class Config$/;"	c
+Config	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^class Config$/;"	c
+Config	.\swostar\src\Config\Config.php	/^class Config$/;"	c
+Connections	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^class Connections$/;"	c
+Connections	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^class Connections$/;"	c
+Connections	.\swostar\src\Server\WebSocket\Connections.php	/^class Connections$/;"	c
+Container	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^class Container$/;"	c
+Container	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^class Container$/;"	c
+Container	.\swostar\src\Container\Container.php	/^class Container$/;"	c
+DemoController	.\frame\app\WebSocket\Controller\DemoController.php	/^class DemoController$/;"	c
+Dispatcher	.\swocloud\src\Dispatcher.php	/^class Dispatcher$/;"	c
+Event	.\frame\vendor\shineyork\swostar\src\Event\Event.php	/^class Event$/;"	c
+Event	.\swocloud\vendor\shineyork\swostar\src\Event\Event.php	/^class Event$/;"	c
+Event	.\swostar\src\Event\Event.php	/^class Event$/;"	c
+HttpServer	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^class HttpServer extends Server$/;"	c
+HttpServer	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^class HttpServer extends Server$/;"	c
+HttpServer	.\swostar\src\Server\Http\HttpServer.php	/^class HttpServer extends Server$/;"	c
+Index	.\frame\tests\index.php	/^class Index$/;"	c
+Index	.\frame\vendor\shineyork\swostar\src\Index.php	/^class Index$/;"	c
+Index	.\swocloud\vendor\shineyork\swostar\src\Index.php	/^class Index$/;"	c
+Index	.\swostar\src\Index.php	/^class Index$/;"	c
+IndexController	.\frame\app\Http\Controller\IndexController.php	/^class IndexController$/;"	c
+IndexController	.\frame\app\WebSocket\Controller\IndexController.php	/^class IndexController$/;"	c
+Inotify	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^class Inotify$/;"	c
+Inotify	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^class Inotify$/;"	c
+Inotify	.\swostar\src\Supper\Inotify.php	/^class Inotify$/;"	c
+Input	.\frame\vendor\shineyork\swostar\src\Console\Input.php	/^class Input$/;"	c
+Input	.\swocloud\vendor\shineyork\swostar\src\Console\Input.php	/^class Input$/;"	c
+Input	.\swostar\src\Console\Input.php	/^class Input$/;"	c
+Listener	.\frame\vendor\shineyork\swostar\src\Event\Listener.php	/^abstract class Listener$/;"	c
+Listener	.\swocloud\vendor\shineyork\swostar\src\Event\Listener.php	/^abstract class Listener$/;"	c
+Listener	.\swostar\src\Event\Listener.php	/^abstract class Listener$/;"	c
+Request	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^class Request$/;"	c
+Request	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^class Request$/;"	c
+Request	.\swostar\src\Message\Http\Request.php	/^class Request$/;"	c
+Route	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^class Route$/;"	c
+Route	.\swocloud\src\Route.php	/^class Route extends Server$/;"	c
+Route	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^class Route$/;"	c
+Route	.\swostar\src\Routes\Route.php	/^class Route$/;"	c
+Rpc	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^class Rpc$/;"	c
+Rpc	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^class Rpc$/;"	c
+Rpc	.\swostar\src\RPC\Rpc.php	/^class Rpc$/;"	c
+Server	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^abstract class Server$/;"	c
+Server	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^abstract class Server$/;"	c
+Server	.\swocloud\src\Server.php	/^abstract class Server$/;"	c
+Server	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^abstract class Server$/;"	c
+Server	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^abstract class Server$/;"	c
+Server	.\swostar\src\Server\Server.php	/^abstract class Server$/;"	c
+Server	.\swostar\src\Server\Server1.php	/^abstract class Server$/;"	c
+StartListener	.\frame\app\Listener\StartListener.php	/^class StartListener extends Listener$/;"	c
+SwoCloud	.\swocloud\src\SwoCloud.php	/^class SwoCloud$/;"	c
+WebSocketServer	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^class WebSocketServer extends HttpServer$/;"	c
+WebSocketServer	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^class WebSocketServer extends HttpServer$/;"	c
+WebSocketServer	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^class WebSocketServer extends HttpServer$/;"	c
+__construct	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^    function __construct()$/;"	f
+__construct	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function __construct($path = null)$/;"	f
+__construct	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function __construct(Server $server, $config)$/;"	f
+__construct	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected function __construct( )$/;"	f
+__construct	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function __construct(Application $app )$/;"	f
+__construct	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function __construct(Application $app)$/;"	f
+__construct	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function __construct($watchPath, callable $watchHandler, $watchMask = IN_CREATE | IN_DELETE | IN_MODIFY | IN_MOVE)$/;"	f
+__construct	.\swocloud\src\Server.php	/^    public function __construct()$/;"	f
+__construct	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^    function __construct()$/;"	f
+__construct	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function __construct($path = null)$/;"	f
+__construct	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function __construct(Server $server, $config)$/;"	f
+__construct	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected function __construct( )$/;"	f
+__construct	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function __construct(Application $app )$/;"	f
+__construct	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function __construct(Application $app)$/;"	f
+__construct	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function __construct($watchPath, callable $watchHandler, $watchMask = IN_CREATE | IN_DELETE | IN_MODIFY | IN_MOVE)$/;"	f
+__construct	.\swostar\src\Config\Config.php	/^    function __construct()$/;"	f
+__construct	.\swostar\src\Foundation\Application.php	/^    public function __construct($path = null)$/;"	f
+__construct	.\swostar\src\RPC\Rpc.php	/^    public function __construct(Server $server, $config)$/;"	f
+__construct	.\swostar\src\Routes\Route.php	/^    protected function __construct( )$/;"	f
+__construct	.\swostar\src\Server\Server.php	/^    public function __construct(Application $app )$/;"	f
+__construct	.\swostar\src\Server\Server1.php	/^    public function __construct(Application $app)$/;"	f
+__construct	.\swostar\src\Supper\Inotify.php	/^    public function __construct($watchPath, callable $watchHandler, $watchMask = IN_CREATE | IN_DELETE | IN_MODIFY | IN_MOVE)$/;"	f
+__destruct	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function __destruct()$/;"	f
+__destruct	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function __destruct()$/;"	f
+__destruct	.\swostar\src\Supper\Inotify.php	/^    public function __destruct()$/;"	f
+_watch	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function _watch($path)$/;"	f
+_watch	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function _watch($path)$/;"	f
+_watch	.\swostar\src\Supper\Inotify.php	/^    protected function _watch($path)$/;"	f
+action	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^                $action = $value;$/;"	v
+action	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        $action = null;$/;"	v
+action	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_CREATE';$/;"	v
+action	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_DELETE';$/;"	v
+action	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_MODIF';$/;"	v
+action	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_MOVE';$/;"	v
+action	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/ $action = 'file:';$/;"	v
+action	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^                $action = $value;$/;"	v
+action	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        $action = null;$/;"	v
+action	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_CREATE';$/;"	v
+action	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_DELETE';$/;"	v
+action	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_MODIF';$/;"	v
+action	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_MOVE';$/;"	v
+action	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^            \/\/ $action = 'file:';$/;"	v
+action	.\swostar\src\Routes\Route.php	/^                $action = $value;$/;"	v
+action	.\swostar\src\Routes\Route.php	/^        $action = null;$/;"	v
+action	.\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_CREATE';$/;"	v
+action	.\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_DELETE';$/;"	v
+action	.\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_MODIF';$/;"	v
+action	.\swostar\src\Server\Server.php	/^            \/\/       $action = 'IN_MOVE';$/;"	v
+action	.\swostar\src\Server\Server.php	/^            \/\/ $action = 'file:';$/;"	v
+actions	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        $actions = [$/;"	v
+actions	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        $actions = [$/;"	v
+actions	.\swostar\src\Routes\Route.php	/^        $actions = [$/;"	v
+add	.\frame\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f
+add	.\swocloud\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f
+addClassMap	.\frame\vendor\composer\ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f
+addClassMap	.\swocloud\vendor\composer\ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f
+addFileType	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function addFileType($type)$/;"	f
+addFileType	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function addFileType($type)$/;"	f
+addFileType	.\swostar\src\Supper\Inotify.php	/^    public function addFileType($type)$/;"	f
+addFileTypes	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function addFileTypes(array $types)$/;"	f
+addFileTypes	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function addFileTypes(array $types)$/;"	f
+addFileTypes	.\swostar\src\Supper\Inotify.php	/^    public function addFileTypes(array $types)$/;"	f
+addPsr4	.\frame\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f
+addPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f
+addRoute	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected function addRoute($methods, $uri, $action)$/;"	f
+addRoute	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected function addRoute($methods, $uri, $action)$/;"	f
+addRoute	.\swostar\src\Routes\Route.php	/^    protected function addRoute($methods, $uri, $action)$/;"	f
+any	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function any($uri, $action)$/;"	f
+any	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function any($uri, $action)$/;"	f
+any	.\swostar\src\Routes\Route.php	/^    public function any($uri, $action)$/;"	f
+apcuPrefix	.\frame\vendor\composer\ClassLoader.php	/^        $this->apcuPrefix = function_exists('apcu_fetch') && filter_var(ini_get('apc.enabled'), FILTER_VALIDATE_BOOLEAN) ? $apcuPrefix : null;$/;"	v
+apcuPrefix	.\frame\vendor\composer\ClassLoader.php	/^    private $apcuPrefix;$/;"	v
+apcuPrefix	.\swocloud\vendor\composer\ClassLoader.php	/^        $this->apcuPrefix = function_exists('apcu_fetch') && filter_var(ini_get('apc.enabled'), FILTER_VALIDATE_BOOLEAN) ? $apcuPrefix : null;$/;"	v
+apcuPrefix	.\swocloud\vendor\composer\ClassLoader.php	/^    private $apcuPrefix;$/;"	v
+app	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->app = $app;$/;"	v
+app	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $app ;$/;"	v
+app	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->app = $app;$/;"	v
+app	.\frame\vendor\shineyork\swostar\src\Supper\Helper.php	/^    function app($a = null)$/;"	f
+app	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->app = $app;$/;"	v
+app	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $app ;$/;"	v
+app	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->app = $app;$/;"	v
+app	.\swocloud\vendor\shineyork\swostar\src\Supper\Helper.php	/^    function app($a = null)$/;"	f
+app	.\swostar\src\Server\Server.php	/^        $this->app = $app;$/;"	v
+app	.\swostar\src\Server\Server.php	/^    protected $app ;$/;"	v
+app	.\swostar\src\Server\Server1.php	/^        $this->app = $app;$/;"	v
+app	.\swostar\src\Supper\Helper.php	/^    function app($a = null)$/;"	f
+arr	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^            $arr = \\explode("@", $action);$/;"	v
+arr	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^            $arr = \\explode("@", $action);$/;"	v
+arr	.\swostar\src\Routes\Route.php	/^            $arr = \\explode("@", $action);$/;"	v
+baseDir	.\frame\vendor\composer\autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\frame\vendor\composer\autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\frame\vendor\composer\autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\swocloud\vendor\composer\autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\swocloud\vendor\composer\autoload_files.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\swocloud\vendor\composer\autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	.\swocloud\vendor\composer\autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+basePath	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $this->basePath = \\rtrim($path, '\\\/');$/;"	v
+basePath	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    protected $basePath = "";$/;"	v
+basePath	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $this->basePath = \\rtrim($path, '\\\/');$/;"	v
+basePath	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    protected $basePath = "";$/;"	v
+basePath	.\swostar\src\Foundation\Application.php	/^        $this->basePath = \\rtrim($path, '\\\/');$/;"	v
+basePath	.\swostar\src\Foundation\Application.php	/^    protected $basePath = "";$/;"	v
+bind	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public function bind($abstract, $object)$/;"	f
+bind	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function bind($wd, $path)$/;"	f
+bind	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public function bind($abstract, $object)$/;"	f
+bind	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function bind($wd, $path)$/;"	f
+bind	.\swostar\src\Container\Container.php	/^    public function bind($abstract, $object)$/;"	f
+bind	.\swostar\src\Supper\Inotify.php	/^    protected function bind($wd, $path)$/;"	f
+bindings	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    protected $bindings = [];$/;"	v
+bindings	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    protected $bindings = [];$/;"	v
+bindings	.\swostar\src\Container\Container.php	/^    protected $bindings = [];$/;"	v
+binds	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $binds = [$/;"	v
+binds	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $binds = [$/;"	v
+binds	.\swostar\src\Foundation\Application.php	/^        $binds = [$/;"	v
+class	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^            $class = 'App\\\\Listener\\\\'.\\explode('.', $file)[0];$/;"	v
+class	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^            $class = new $controller();$/;"	v
+class	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^            $class = 'App\\\\Listener\\\\'.\\explode('.', $file)[0];$/;"	v
+class	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^            $class = new $controller();$/;"	v
+class	.\swostar\src\Foundation\Application.php	/^            $class = 'App\\\\Listener\\\\'.\\explode('.', $file)[0];$/;"	v
+class	.\swostar\src\Routes\Route.php	/^            $class = new $controller();$/;"	v
+classMap	.\frame\vendor\composer\ClassLoader.php	/^            $this->classMap = $classMap;$/;"	v
+classMap	.\frame\vendor\composer\ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v
+classMap	.\frame\vendor\composer\ClassLoader.php	/^    private $classMap = array();$/;"	v
+classMap	.\frame\vendor\composer\autoload_real.php	/^            $classMap = require __DIR__ . '\/autoload_classmap.php';$/;"	v
+classMap	.\swocloud\vendor\composer\ClassLoader.php	/^            $this->classMap = $classMap;$/;"	v
+classMap	.\swocloud\vendor\composer\ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v
+classMap	.\swocloud\vendor\composer\ClassLoader.php	/^    private $classMap = array();$/;"	v
+classMap	.\swocloud\vendor\composer\autoload_real.php	/^            $classMap = require __DIR__ . '\/autoload_classmap.php';$/;"	v
+classMapAuthoritative	.\frame\vendor\composer\ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v
+classMapAuthoritative	.\frame\vendor\composer\ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v
+classMapAuthoritative	.\swocloud\vendor\composer\ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v
+classMapAuthoritative	.\swocloud\vendor\composer\ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v
+clearWatch	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function clearWatch()$/;"	f
+clearWatch	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function clearWatch()$/;"	f
+clearWatch	.\swostar\src\Supper\Inotify.php	/^    protected function clearWatch()$/;"	f
+cli	.\frame\app\Listener\StartListener.php	/^            $cli = new \\Swoole\\Coroutine\\Http\\Client('192.168.186.130', 9500);$/;"	v
+cli	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        \/\/     $cli = new \\Swoole\\Coroutine\\Http\\Client('192.168.186.130', 9500);$/;"	v
+cli	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        \/\/     $cli = new \\Swoole\\Coroutine\\Http\\Client('192.168.186.130', 9500);$/;"	v
+cli	.\swostar\src\Server\Server.php	/^        \/\/     $cli = new \\Swoole\\Coroutine\\Http\\Client('192.168.186.130', 9500);$/;"	v
+close	.\frame\app\WebSocket\Controller\DemoController.php	/^    public function close($ser, $fd)$/;"	f
+close	.\frame\app\WebSocket\Controller\IndexController.php	/^    public function close($ser, $fd)$/;"	f
+close	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function close($serv, $fd) {$/;"	f
+close	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function close($serv, $fd) {$/;"	f
+close	.\swostar\src\RPC\Rpc.php	/^    public function close($serv, $fd) {$/;"	f
+composerRequireaa25c8d0ced7542ab0964733c05d9a33	.\swocloud\vendor\composer\autoload_real.php	/^function composerRequireaa25c8d0ced7542ab0964733c05d9a33($fileIdentifier, $file)$/;"	f
+config	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        $config = app('config');$/;"	v
+config	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->config = array_map($this->config, $config);$/;"	v
+config	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $config = [$/;"	v
+config	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->config = array_map($this->config, $config);$/;"	v
+config	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $config = [$/;"	v
+config	.\swocloud\src\Server.php	/^        $this->config = array_map($this->config, $config);$/;"	v
+config	.\swocloud\src\Server.php	/^    protected $config = [$/;"	v
+config	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        $config = app('config');$/;"	v
+config	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->config = array_map($this->config, $config);$/;"	v
+config	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $config = [$/;"	v
+config	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->config = array_map($this->config, $config);$/;"	v
+config	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $config = [$/;"	v
+config	.\swostar\src\Server\Server.php	/^        $config = app('config');$/;"	v
+config	.\swostar\src\Server\Server.php	/^        $this->config = array_map($this->config, $config);$/;"	v
+config	.\swostar\src\Server\Server.php	/^    protected $config = [$/;"	v
+config	.\swostar\src\Server\Server1.php	/^        $this->config = array_map($this->config, $config);$/;"	v
+config	.\swostar\src\Server\Server1.php	/^    protected $config = [$/;"	v
+configPath	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^        $this->configPath = app()->getBasePath().'\/config';$/;"	v
+configPath	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^    protected $configPath = '';$/;"	v
+configPath	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^        $this->configPath = app()->getBasePath().'\/config';$/;"	v
+configPath	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^    protected $configPath = '';$/;"	v
+configPath	.\swostar\src\Config\Config.php	/^        $this->configPath = app()->getBasePath().'\/config';$/;"	v
+configPath	.\swostar\src\Config\Config.php	/^    protected $configPath = '';$/;"	v
+connect	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function connect($serv, $fd){$/;"	f
+connect	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function connect($serv, $fd){$/;"	f
+connect	.\swostar\src\RPC\Rpc.php	/^    public function connect($serv, $fd){$/;"	f
+connections	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    protected static $connections = [];$/;"	v
+connections	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    protected static $connections = [];$/;"	v
+connections	.\swostar\src\Server\WebSocket\Connections.php	/^    protected static $connections = [];$/;"	v
+controller	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^            $controller = $namespace.$arr[0];$/;"	v
+controller	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^            $controller = $namespace.$arr[0];$/;"	v
+controller	.\swostar\src\Routes\Route.php	/^            $controller = $namespace.$arr[0];$/;"	v
+createServer	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^    public function createServer()$/;"	f
+createServer	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected abstract function createServer();$/;"	f
+createServer	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected abstract function createServer();$/;"	f
+createServer	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function createServer()$/;"	f
+createServer	.\swocloud\src\Route.php	/^    public function createServer()$/;"	f
+createServer	.\swocloud\src\Server.php	/^    protected abstract function createServer();$/;"	f
+createServer	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^    public function createServer()$/;"	f
+createServer	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected abstract function createServer();$/;"	f
+createServer	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected abstract function createServer();$/;"	f
+createServer	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function createServer()$/;"	f
+createServer	.\swostar\src\Server\Http\HttpServer.php	/^    public function createServer()$/;"	f
+createServer	.\swostar\src\Server\Server.php	/^    protected abstract function createServer();$/;"	f
+createServer	.\swostar\src\Server\Server1.php	/^    protected abstract function createServer();$/;"	f
+createServer	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function createServer()$/;"	f
+data	.\frame\app\Listener\StartListener.php	/^                $data = [$/;"	v
+data	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^            $data = $data[$value];$/;"	v
+data	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^        $data = $this->itmes;$/;"	v
+data	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^        $data = null;$/;"	v
+data	.\swocloud\src\Route.php	/^        $data = \\json_decode($frame->data, true);$/;"	v
+data	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^            $data = $data[$value];$/;"	v
+data	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^        $data = $this->itmes;$/;"	v
+data	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^        $data = null;$/;"	v
+data	.\swostar\src\Config\Config.php	/^            $data = $data[$value];$/;"	v
+data	.\swostar\src\Config\Config.php	/^        $data = $this->itmes;$/;"	v
+data	.\swostar\src\Config\Config.php	/^        $data = null;$/;"	v
+dd	.\frame\app\Http\Controller\IndexController.php	/^    public function dd()$/;"	f
+dd	.\frame\vendor\shineyork\swostar\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	f
+dd	.\swocloud\vendor\shineyork\swostar\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	f
+dd	.\swostar\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	f
+del	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    public static function del($fd)$/;"	f
+del	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    public static function del($fd)$/;"	f
+del	.\swostar\src\Server\WebSocket\Connections.php	/^    public static function del($fd)$/;"	f
+demo	.\frame\tests\index.php	/^    public function demo()$/;"	f
+description	.\frame\vendor\shineyork\swostar\src\Console\Input.php	/^    public static function info($message, $description = null)$/;"	v
+description	.\frame\vendor\shineyork\swostar\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	v
+description	.\swocloud\vendor\shineyork\swostar\src\Console\Input.php	/^    public static function info($message, $description = null)$/;"	v
+description	.\swocloud\vendor\shineyork\swostar\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	v
+description	.\swostar\src\Console\Input.php	/^    public static function info($message, $description = null)$/;"	v
+description	.\swostar\src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	v
+dispatcher	.\swocloud\src\Route.php	/^            $this->dispatcher = new Dispatcher;$/;"	v
+dispatcher	.\swocloud\src\Route.php	/^    protected $dispatcher = null;$/;"	v
+does	.\frame\vendor\composer\ClassLoader.php	/^            \/\/ Remember that this class does not exist.$/;"	c
+does	.\swocloud\vendor\composer\ClassLoader.php	/^            \/\/ Remember that this class does not exist.$/;"	c
+doing	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                    $this->doing = false;$/;"	v
+doing	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                $this->doing = true;$/;"	v
+doing	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $doing        = false;$/;"	v
+doing	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                    $this->doing = false;$/;"	v
+doing	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                $this->doing = true;$/;"	v
+doing	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $doing        = false;$/;"	v
+doing	.\swostar\src\Supper\Inotify.php	/^                    $this->doing = false;$/;"	v
+doing	.\swostar\src\Supper\Inotify.php	/^                $this->doing = true;$/;"	v
+doing	.\swostar\src\Supper\Inotify.php	/^    private $doing        = false;$/;"	v
+event	.\frame\vendor\shineyork\swostar\src\Event\Event.php	/^        $event = \\strtolower($event);$/;"	v
+event	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $event = new Event();$/;"	v
+event	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^            foreach ($events as $event => $func) {$/;"	v
+event	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $event = [$/;"	v
+event	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^            foreach ($events as $event => $func) {$/;"	v
+event	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $event = [$/;"	v
+event	.\swocloud\src\Server.php	/^            foreach ($events as $event => $func) {$/;"	v
+event	.\swocloud\src\Server.php	/^    protected $event = [$/;"	v
+event	.\swocloud\vendor\shineyork\swostar\src\Event\Event.php	/^        $event = \\strtolower($event);$/;"	v
+event	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $event = new Event();$/;"	v
+event	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^            foreach ($events as $event => $func) {$/;"	v
+event	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $event = [$/;"	v
+event	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^            foreach ($events as $event => $func) {$/;"	v
+event	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $event = [$/;"	v
+event	.\swostar\src\Event\Event.php	/^        $event = \\strtolower($event);$/;"	v
+event	.\swostar\src\Foundation\Application.php	/^        $event = new Event();$/;"	v
+event	.\swostar\src\Server\Server.php	/^            foreach ($events as $event => $func) {$/;"	v
+event	.\swostar\src\Server\Server.php	/^    protected $event = [$/;"	v
+event	.\swostar\src\Server\Server1.php	/^            foreach ($events as $event => $func) {$/;"	v
+event	.\swostar\src\Server\Server1.php	/^    protected $event = [$/;"	v
+events	.\frame\vendor\shineyork\swostar\src\Event\Event.php	/^    protected $events = [];$/;"	v
+events	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^            $events = inotify_read($fp);$/;"	v
+events	.\swocloud\vendor\shineyork\swostar\src\Event\Event.php	/^    protected $events = [];$/;"	v
+events	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^            $events = inotify_read($fp);$/;"	v
+events	.\swostar\src\Event\Event.php	/^    protected $events = [];$/;"	v
+events	.\swostar\src\Supper\Inotify.php	/^            $events = inotify_read($fp);$/;"	v
+fallbackDirsPsr0	.\frame\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v
+fallbackDirsPsr0	.\frame\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v
+fallbackDirsPsr0	.\frame\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v
+fallbackDirsPsr0	.\swocloud\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v
+fallbackDirsPsr0	.\swocloud\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v
+fallbackDirsPsr0	.\swocloud\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v
+fallbackDirsPsr4	.\frame\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v
+fallbackDirsPsr4	.\frame\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
+fallbackDirsPsr4	.\frame\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
+fallbackDirsPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v
+fallbackDirsPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
+fallbackDirsPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
+fd	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->fd = inotify_init();$/;"	v
+fd	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $fd;$/;"	v
+fd	.\swocloud\src\Route.php	/^        $fd = $frame->fd;$/;"	v
+fd	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->fd = inotify_init();$/;"	v
+fd	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $fd;$/;"	v
+fd	.\swostar\src\Supper\Inotify.php	/^        $this->fd = inotify_init();$/;"	v
+fd	.\swostar\src\Supper\Inotify.php	/^    private $fd;$/;"	v
+file	.\frame\vendor\composer\ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
+file	.\frame\vendor\composer\ClassLoader.php	/^            $file = apcu_fetch($this->apcuPrefix.$class, $hit);$/;"	v
+file	.\frame\vendor\composer\ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v
+file	.\frame\vendor\composer\ClassLoader.php	/^        if ($this->useIncludePath && $file = stream_resolve_include_path($logicalPathPsr0)) {$/;"	v
+file	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^            if ($file === '.' || $file === '..') {$/;"	v
+file	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^            \/\/ $file => StartListener.php$/;"	v
+file	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^            if ($file === '.' || $file === '..') {$/;"	v
+file	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                $file = $path . DIRECTORY_SEPARATOR . $file;$/;"	v
+file	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                if ($file === '.' || $file === '..') {$/;"	v
+file	.\swocloud\vendor\composer\ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
+file	.\swocloud\vendor\composer\ClassLoader.php	/^            $file = apcu_fetch($this->apcuPrefix.$class, $hit);$/;"	v
+file	.\swocloud\vendor\composer\ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v
+file	.\swocloud\vendor\composer\ClassLoader.php	/^        if ($this->useIncludePath && $file = stream_resolve_include_path($logicalPathPsr0)) {$/;"	v
+file	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^            if ($file === '.' || $file === '..') {$/;"	v
+file	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^            \/\/ $file => StartListener.php$/;"	v
+file	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^            if ($file === '.' || $file === '..') {$/;"	v
+file	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                $file = $path . DIRECTORY_SEPARATOR . $file;$/;"	v
+file	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                if ($file === '.' || $file === '..') {$/;"	v
+file	.\swostar\src\Config\Config.php	/^            if ($file === '.' || $file === '..') {$/;"	v
+file	.\swostar\src\Foundation\Application.php	/^            \/\/ $file => StartListener.php$/;"	v
+file	.\swostar\src\Foundation\Application.php	/^            if ($file === '.' || $file === '..') {$/;"	v
+file	.\swostar\src\Supper\Inotify.php	/^                $file = $path . DIRECTORY_SEPARATOR . $file;$/;"	v
+file	.\swostar\src\Supper\Inotify.php	/^                if ($file === '.' || $file === '..') {$/;"	v
+fileIdentifier	.\swocloud\vendor\composer\autoload_real.php	/^        foreach ($includeFiles as $fileIdentifier => $file) {$/;"	v
+fileType	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                $fileType = strchr($event['name'], '.');$/;"	v
+fileType	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^                $fileType = strchr($event['name'], '.');$/;"	v
+fileType	.\swostar\src\Supper\Inotify.php	/^                $fileType = strchr($event['name'], '.');$/;"	v
+fileTypes	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $fileTypes    = [$/;"	v
+fileTypes	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $fileTypes    = [$/;"	v
+fileTypes	.\swostar\src\Supper\Inotify.php	/^    private $fileTypes    = [$/;"	v
+filename	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^            $filename = \\stristr($file, ".php", true);$/;"	v
+filename	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^            $filename = \\stristr($file, ".php", true);$/;"	v
+filename	.\swostar\src\Config\Config.php	/^            $filename = \\stristr($file, ".php", true);$/;"	v
+files	.\frame\vendor\composer\ClassLoader.php	/^     * Turns on searching the include path for class files.$/;"	c
+files	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^        $files = scandir($this->configPath);$/;"	v
+files	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $files = scandir($this->getBasePath().'\/app\/Listener');$/;"	v
+files	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^            $files = scandir($path);$/;"	v
+files	.\swocloud\vendor\composer\ClassLoader.php	/^     * Turns on searching the include path for class files.$/;"	c
+files	.\swocloud\vendor\composer\autoload_static.php	/^    public static $files = array ($/;"	v
+files	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^        $files = scandir($this->configPath);$/;"	v
+files	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $files = scandir($this->getBasePath().'\/app\/Listener');$/;"	v
+files	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^            $files = scandir($path);$/;"	v
+files	.\swostar\src\Config\Config.php	/^        $files = scandir($this->configPath);$/;"	v
+files	.\swostar\src\Foundation\Application.php	/^        $files = scandir($this->getBasePath().'\/app\/Listener');$/;"	v
+files	.\swostar\src\Supper\Inotify.php	/^            $files = scandir($path);$/;"	v
+findFile	.\frame\vendor\composer\ClassLoader.php	/^    public function findFile($class)$/;"	f
+findFile	.\swocloud\vendor\composer\ClassLoader.php	/^    public function findFile($class)$/;"	f
+findFileWithExtension	.\frame\vendor\composer\ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f
+findFileWithExtension	.\swocloud\vendor\composer\ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f
+first	.\frame\vendor\composer\ClassLoader.php	/^        $first = $class[0];$/;"	v
+first	.\frame\vendor\composer\ClassLoader.php	/^        $first = $prefix[0];$/;"	v
+first	.\swocloud\vendor\composer\ClassLoader.php	/^        $first = $class[0];$/;"	v
+first	.\swocloud\vendor\composer\ClassLoader.php	/^        $first = $prefix[0];$/;"	v
+flag	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^            $this->flag = $key;$/;"	v
+flag	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        $this->flag = $flag;$/;"	v
+flag	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $flag = null;$/;"	v
+flag	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^            $this->flag = $key;$/;"	v
+flag	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        $this->flag = $flag;$/;"	v
+flag	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $flag = null;$/;"	v
+flag	.\swostar\src\Routes\Route.php	/^            $this->flag = $key;$/;"	v
+flag	.\swostar\src\Routes\Route.php	/^        $this->flag = $flag;$/;"	v
+flag	.\swostar\src\Routes\Route.php	/^    protected $flag = null;$/;"	v
+get	.\frame\tests\index.php	/^    public function get()$/;"	f
+get	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^    public function get($keys)$/;"	f
+get	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function get(){$/;"	f
+get	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function get($uri, $action)$/;"	f
+get	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    public static function get($fd)$/;"	f
+get	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^    public function get($keys)$/;"	f
+get	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function get(){$/;"	f
+get	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function get($uri, $action)$/;"	f
+get	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    public static function get($fd)$/;"	f
+get	.\swostar\src\Config\Config.php	/^    public function get($keys)$/;"	f
+get	.\swostar\src\Message\Http\Request.php	/^    public function get(){$/;"	f
+get	.\swostar\src\Routes\Route.php	/^    public function get($uri, $action)$/;"	f
+get	.\swostar\src\Server\WebSocket\Connections.php	/^    public static function get($fd)$/;"	f
+getApcuPrefix	.\frame\vendor\composer\ClassLoader.php	/^    public function getApcuPrefix()$/;"	f
+getApcuPrefix	.\swocloud\vendor\composer\ClassLoader.php	/^    public function getApcuPrefix()$/;"	f
+getBasePath	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function getBasePath()$/;"	f
+getBasePath	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function getBasePath()$/;"	f
+getBasePath	.\swostar\src\Foundation\Application.php	/^    public function getBasePath()$/;"	f
+getClassMap	.\frame\vendor\composer\ClassLoader.php	/^    public function getClassMap()$/;"	f
+getClassMap	.\swocloud\vendor\composer\ClassLoader.php	/^    public function getClassMap()$/;"	f
+getConfig	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function getConfig(): array$/;"	f
+getConfig	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getConfig(): array$/;"	f
+getConfig	.\swocloud\src\Server.php	/^    public function getConfig(): array$/;"	f
+getConfig	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function getConfig(): array$/;"	f
+getConfig	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getConfig(): array$/;"	f
+getConfig	.\swostar\src\Server\Server.php	/^    public function getConfig(): array$/;"	f
+getConfig	.\swostar\src\Server\Server1.php	/^    public function getConfig(): array$/;"	f
+getDispatcher	.\swocloud\src\Route.php	/^    public function getDispatcher()$/;"	f
+getEvent	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getEvent(): array$/;"	f
+getEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getEvent(): array$/;"	f
+getEvent	.\swostar\src\Server\Server1.php	/^    public function getEvent(): array$/;"	f
+getEvents	.\frame\vendor\shineyork\swostar\src\Event\Event.php	/^    public function getEvents($event = null)$/;"	f
+getEvents	.\swocloud\vendor\shineyork\swostar\src\Event\Event.php	/^    public function getEvents($event = null)$/;"	f
+getEvents	.\swostar\src\Event\Event.php	/^    public function getEvents($event = null)$/;"	f
+getFallbackDirs	.\frame\vendor\composer\ClassLoader.php	/^    public function getFallbackDirs()$/;"	f
+getFallbackDirs	.\swocloud\vendor\composer\ClassLoader.php	/^    public function getFallbackDirs()$/;"	f
+getFallbackDirsPsr4	.\frame\vendor\composer\ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f
+getFallbackDirsPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f
+getHost	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function getHost(): string$/;"	f
+getHost	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getHost(): string$/;"	f
+getHost	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function getHost(): string$/;"	f
+getHost	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getHost(): string$/;"	f
+getHost	.\swostar\src\Server\Server.php	/^    public function getHost(): string$/;"	f
+getHost	.\swostar\src\Server\Server1.php	/^    public function getHost(): string$/;"	f
+getInitializer	.\frame\vendor\composer\autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f
+getInitializer	.\swocloud\vendor\composer\autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f
+getInstance	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public static function getInstance()$/;"	f
+getInstance	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public static function getInstance()$/;"	f
+getInstance	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public static function getInstance()$/;"	f
+getInstance	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public static function getInstance()$/;"	f
+getInstance	.\swostar\src\Container\Container.php	/^    public static function getInstance()$/;"	f
+getInstance	.\swostar\src\Routes\Route.php	/^    public static function getInstance()$/;"	f
+getLoader	.\frame\vendor\composer\autoload_real.php	/^    public static function getLoader()$/;"	f
+getLoader	.\swocloud\vendor\composer\autoload_real.php	/^    public static function getLoader()$/;"	f
+getMethod	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function getMethod()$/;"	f
+getMethod	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function getMethod()$/;"	f
+getMethod	.\swostar\src\Message\Http\Request.php	/^    public function getMethod()$/;"	f
+getName	.\frame\vendor\shineyork\swostar\src\Event\Listener.php	/^    public function getName()$/;"	f
+getName	.\swocloud\vendor\shineyork\swostar\src\Event\Listener.php	/^    public function getName()$/;"	f
+getName	.\swostar\src\Event\Listener.php	/^    public function getName()$/;"	f
+getPort	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function getPort(): int$/;"	f
+getPort	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getPort(): int$/;"	f
+getPort	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function getPort(): int$/;"	f
+getPort	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getPort(): int$/;"	f
+getPort	.\swostar\src\Server\Server.php	/^    public function getPort(): int$/;"	f
+getPort	.\swostar\src\Server\Server1.php	/^    public function getPort(): int$/;"	f
+getPrefixes	.\frame\vendor\composer\ClassLoader.php	/^    public function getPrefixes()$/;"	f
+getPrefixes	.\swocloud\vendor\composer\ClassLoader.php	/^    public function getPrefixes()$/;"	f
+getPrefixesPsr4	.\frame\vendor\composer\ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f
+getPrefixesPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f
+getRedis	.\swocloud\src\Route.php	/^    public function getRedis()$/;"	f
+getRoutes	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function getRoutes()$/;"	f
+getRoutes	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function getRoutes()$/;"	f
+getRoutes	.\swostar\src\Routes\Route.php	/^    public function getRoutes()$/;"	f
+getServerKey	.\swocloud\src\Route.php	/^    public function getServerKey()$/;"	f
+getServerType	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getServerType()$/;"	f
+getServerType	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function getServerType()$/;"	f
+getServerType	.\swostar\src\Server\Server1.php	/^    public function getServerType()$/;"	f
+getUriPath	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function getUriPath()$/;"	f
+getUriPath	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function getUriPath()$/;"	f
+getUriPath	.\swostar\src\Message\Http\Request.php	/^    public function getUriPath()$/;"	f
+getUseIncludePath	.\frame\vendor\composer\ClassLoader.php	/^    public function getUseIncludePath()$/;"	f
+getUseIncludePath	.\swocloud\vendor\composer\ClassLoader.php	/^    public function getUseIncludePath()$/;"	f
+getWatchedFileCount	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function getWatchedFileCount()$/;"	f
+getWatchedFileCount	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function getWatchedFileCount()$/;"	f
+getWatchedFileCount	.\swostar\src\Supper\Inotify.php	/^    public function getWatchedFileCount()$/;"	f
+handler	.\frame\app\Listener\StartListener.php	/^    public function handler()$/;"	f
+handler	.\frame\vendor\shineyork\swostar\src\Event\Listener.php	/^    public abstract function handler();$/;"	f
+handler	.\swocloud\vendor\shineyork\swostar\src\Event\Listener.php	/^    public abstract function handler();$/;"	f
+handler	.\swostar\src\Event\Listener.php	/^    public abstract function handler();$/;"	f
+has	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public function has($abstract)$/;"	f
+has	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public function has($abstract)$/;"	f
+has	.\swostar\src\Container\Container.php	/^    public function has($abstract)$/;"	f
+host	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    protected $host ;$/;"	v
+host	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->host = $config->get('http.host');$/;"	v
+host	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $host = "0.0.0.0";$/;"	v
+host	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->host = $host;$/;"	v
+host	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $host = '0.0.0.0';$/;"	v
+host	.\swocloud\src\Server.php	/^    protected $host = "0.0.0.0";$/;"	v
+host	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    protected $host ;$/;"	v
+host	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->host = $config->get('http.host');$/;"	v
+host	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $host = "0.0.0.0";$/;"	v
+host	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->host = $host;$/;"	v
+host	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $host = '0.0.0.0';$/;"	v
+host	.\swostar\src\RPC\Rpc.php	/^    protected $host ;$/;"	v
+host	.\swostar\src\Server\Server.php	/^        $this->host = $config->get('http.host');$/;"	v
+host	.\swostar\src\Server\Server.php	/^    protected $host = "0.0.0.0";$/;"	v
+host	.\swostar\src\Server\Server1.php	/^        $this->host = $host;$/;"	v
+host	.\swostar\src\Server\Server1.php	/^    protected $host = '0.0.0.0';$/;"	v
+httpRequest	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $httpRequest = HttpRequest::init($request);$/;"	v
+httpRequest	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $httpRequest = HttpRequest::init($request);$/;"	v
+httpRequest	.\swostar\src\Server\Http\HttpServer.php	/^        $httpRequest = HttpRequest::init($request);$/;"	v
+in	.\frame\vendor\composer\ClassLoader.php	/^ * In this example, if you try to use a class in the Symfony\\Component$/;"	c
+in	.\swocloud\vendor\composer\ClassLoader.php	/^ * In this example, if you try to use a class in the Symfony\\Component$/;"	c
+includeFile	.\frame\vendor\composer\ClassLoader.php	/^function includeFile($file)$/;"	f
+includeFile	.\swocloud\vendor\composer\ClassLoader.php	/^function includeFile($file)$/;"	f
+includeFiles	.\swocloud\vendor\composer\autoload_real.php	/^            $includeFiles = Composer\\Autoload\\ComposerStaticInitaa25c8d0ced7542ab0964733c05d9a33::$files;$/;"	v
+includeFiles	.\swocloud\vendor\composer\autoload_real.php	/^            $includeFiles = require __DIR__ . '\/autoload_files.php';$/;"	v
+index	.\frame\app\App.php	/^    public function index()$/;"	f
+index	.\frame\vendor\shineyork\swostar\src\Index.php	/^    public function index()$/;"	f
+index	.\swocloud\vendor\shineyork\swostar\src\Index.php	/^    public function index()$/;"	f
+index	.\swostar\src\Index.php	/^    public function index()$/;"	f
+info	.\frame\vendor\shineyork\swostar\src\Console\Input.php	/^    public static function info($message, $description = null)$/;"	f
+info	.\swocloud\vendor\shineyork\swostar\src\Console\Input.php	/^    public static function info($message, $description = null)$/;"	f
+info	.\swostar\src\Console\Input.php	/^    public static function info($message, $description = null)$/;"	f
+init	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function init()$/;"	f
+init	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public static function init(SwooleRequest $request)$/;"	f
+init	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    public static function init($fd, $path)$/;"	f
+init	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function init()$/;"	f
+init	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public static function init(SwooleRequest $request)$/;"	f
+init	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\Connections.php	/^    public static function init($fd, $path)$/;"	f
+init	.\swostar\src\Foundation\Application.php	/^    public function init()$/;"	f
+init	.\swostar\src\Message\Http\Request.php	/^    public static function init(SwooleRequest $request)$/;"	f
+init	.\swostar\src\Server\WebSocket\Connections.php	/^    public static function init($fd, $path)$/;"	f
+initEvent	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^    protected function initEvent(){$/;"	f
+initEvent	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected abstract function initEvent();$/;"	f
+initEvent	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected abstract function initEvent();$/;"	f
+initEvent	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    protected function initEvent(){$/;"	f
+initEvent	.\swocloud\src\Route.php	/^    protected function initEvent(){$/;"	f
+initEvent	.\swocloud\src\Server.php	/^    protected abstract function initEvent();$/;"	f
+initEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^    protected function initEvent(){$/;"	f
+initEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected abstract function initEvent();$/;"	f
+initEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected abstract function initEvent();$/;"	f
+initEvent	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    protected function initEvent(){$/;"	f
+initEvent	.\swostar\src\Server\Http\HttpServer.php	/^    protected function initEvent(){$/;"	f
+initEvent	.\swostar\src\Server\Server.php	/^    protected abstract function initEvent();$/;"	f
+initEvent	.\swostar\src\Server\Server1.php	/^    protected abstract function initEvent();$/;"	f
+initEvent	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^    protected function initEvent(){$/;"	f
+initSetting	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function initSetting()$/;"	f
+initSetting	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function initSetting()$/;"	f
+initSetting	.\swostar\src\Server\Server.php	/^    public function initSetting()$/;"	f
+inotify	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^            $this->inotify = new Inotify($this->app->getBasePath(), $this->watchEvent());$/;"	v
+inotify	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $inotify = null;$/;"	v
+inotify	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $inotify = null;$/;"	v
+inotify	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^            $this->inotify = new Inotify($this->app->getBasePath(), $this->watchEvent());$/;"	v
+inotify	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $inotify = null;$/;"	v
+inotify	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $inotify = null;$/;"	v
+inotify	.\swostar\src\Server\Server.php	/^            $this->inotify = new Inotify($this->app->getBasePath(), $this->watchEvent());$/;"	v
+inotify	.\swostar\src\Server\Server.php	/^    protected $inotify = null;$/;"	v
+inotify	.\swostar\src\Server\Server1.php	/^    protected $inotify = null;$/;"	v
+input	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function input(){$/;"	f
+input	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function input(){$/;"	f
+input	.\swostar\src\Message\Http\Request.php	/^    public function input(){$/;"	f
+instance	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    protected static $instance;$/;"	v
+instance	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected static $instance = null;$/;"	v
+instance	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    protected static $instance;$/;"	v
+instance	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected static $instance = null;$/;"	v
+instance	.\swostar\src\Container\Container.php	/^    protected static $instance;$/;"	v
+instance	.\swostar\src\Routes\Route.php	/^    protected static $instance = null;$/;"	v
+instances	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    protected $instances = [];$/;"	v
+instances	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    protected $instances = [];$/;"	v
+instances	.\swostar\src\Container\Container.php	/^    protected $instances = [];$/;"	v
+is	.\frame\vendor\composer\ClassLoader.php	/^     * Finds the path to the file where the class is defined.$/;"	c
+is	.\frame\vendor\composer\ClassLoader.php	/^ * This class is loosely based on the Symfony UniversalClassLoader.$/;"	c
+is	.\swocloud\vendor\composer\ClassLoader.php	/^     * Finds the path to the file where the class is defined.$/;"	c
+is	.\swocloud\vendor\composer\ClassLoader.php	/^ * This class is loosely based on the Symfony UniversalClassLoader.$/;"	c
+isClassMapAuthoritative	.\frame\vendor\composer\ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f
+isClassMapAuthoritative	.\swocloud\vendor\composer\ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f
+itmes	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^        $this->itmes = $this->phpParser();$/;"	v
+itmes	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^    protected $itmes = [];$/;"	v
+itmes	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^        $this->itmes = $this->phpParser();$/;"	v
+itmes	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^    protected $itmes = [];$/;"	v
+itmes	.\swostar\src\Config\Config.php	/^        $this->itmes = $this->phpParser();$/;"	v
+itmes	.\swostar\src\Config\Config.php	/^    protected $itmes = [];$/;"	v
+key	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^        foreach ($files as $key => $file) {$/;"	v
+key	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^        foreach (\\explode('.', $keys) as $key => $value) {$/;"	v
+key	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^        foreach ($binds as $key => $value) {$/;"	v
+key	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^        foreach ($files as $key => $file) {$/;"	v
+key	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        foreach ($actions as $key => $action) {$/;"	v
+key	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        foreach ($this->routeMap as $key => $path) {$/;"	v
+key	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^        foreach ($files as $key => $file) {$/;"	v
+key	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^        foreach (\\explode('.', $keys) as $key => $value) {$/;"	v
+key	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^        foreach ($binds as $key => $value) {$/;"	v
+key	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^        foreach ($files as $key => $file) {$/;"	v
+key	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        foreach ($actions as $key => $action) {$/;"	v
+key	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        foreach ($this->routeMap as $key => $path) {$/;"	v
+key	.\swostar\src\Config\Config.php	/^        foreach ($files as $key => $file) {$/;"	v
+key	.\swostar\src\Config\Config.php	/^        foreach (\\explode('.', $keys) as $key => $value) {$/;"	v
+key	.\swostar\src\Foundation\Application.php	/^        foreach ($binds as $key => $value) {$/;"	v
+key	.\swostar\src\Foundation\Application.php	/^        foreach ($files as $key => $file) {$/;"	v
+key	.\swostar\src\Routes\Route.php	/^        foreach ($actions as $key => $action) {$/;"	v
+key	.\swostar\src\Routes\Route.php	/^        foreach ($this->routeMap as $key => $path) {$/;"	v
+lastPos	.\frame\vendor\composer\ClassLoader.php	/^            while (false !== $lastPos = strrpos($subPath, '\\\\')) {$/;"	v
+lastPos	.\swocloud\vendor\composer\ClassLoader.php	/^            while (false !== $lastPos = strrpos($subPath, '\\\\')) {$/;"	v
+length	.\frame\vendor\composer\ClassLoader.php	/^            $length = strlen($prefix);$/;"	v
+length	.\swocloud\vendor\composer\ClassLoader.php	/^            $length = strlen($prefix);$/;"	v
+listen	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^        $listen = $server->listen($config['host'], $config['port'], SWOOLE_SOCK_TCP);$/;"	v
+listen	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^        $listen = $server->listen($config['host'], $config['port'], SWOOLE_SOCK_TCP);$/;"	v
+listen	.\swostar\src\RPC\Rpc.php	/^        $listen = $server->listen($config['host'], $config['port'], SWOOLE_SOCK_TCP);$/;"	v
+listener	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^                $listener = new $class;$/;"	v
+listener	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^                $listener = new $class;$/;"	v
+listener	.\swostar\src\Foundation\Application.php	/^                $listener = new $class;$/;"	v
+loadClass	.\frame\vendor\composer\ClassLoader.php	/^    public function loadClass($class)$/;"	f
+loadClass	.\swocloud\vendor\composer\ClassLoader.php	/^    public function loadClass($class)$/;"	f
+loadClassLoader	.\frame\vendor\composer\autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f
+loadClassLoader	.\swocloud\vendor\composer\autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f
+loader	.\frame\vendor\composer\ClassLoader.php	/^ *     $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	.\frame\vendor\composer\ClassLoader.php	/^ * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.$/;"	c
+loader	.\frame\vendor\composer\autoload_real.php	/^        self::$loader = $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	.\frame\vendor\composer\autoload_real.php	/^    private static $loader;$/;"	v
+loader	.\swocloud\vendor\composer\ClassLoader.php	/^ *     $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	.\swocloud\vendor\composer\ClassLoader.php	/^ * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.$/;"	c
+loader	.\swocloud\vendor\composer\autoload_real.php	/^        self::$loader = $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	.\swocloud\vendor\composer\autoload_real.php	/^    private static $loader;$/;"	v
+logicalPathPsr0	.\frame\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr0	.\frame\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v
+logicalPathPsr0	.\swocloud\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr0	.\swocloud\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v
+logicalPathPsr4	.\frame\vendor\composer\ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+lookup	.\frame\vendor\composer\ClassLoader.php	/^     * Should class lookup fail if not found in the current class map?$/;"	c
+lookup	.\swocloud\vendor\composer\ClassLoader.php	/^     * Should class lookup fail if not found in the current class map?$/;"	c
+make	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public function make($abstract, $parameters = [])$/;"	f
+make	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public function make($abstract, $parameters = [])$/;"	f
+make	.\swostar\src\Container\Container.php	/^    public function make($abstract, $parameters = [])$/;"	f
+map	.\frame\vendor\composer\ClassLoader.php	/^        \/\/ class map lookup$/;"	c
+map	.\frame\vendor\composer\ClassLoader.php	/^     * that have not been registered with the class map.$/;"	c
+map	.\frame\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_namespaces.php';$/;"	v
+map	.\frame\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_psr4.php';$/;"	v
+map	.\swocloud\vendor\composer\ClassLoader.php	/^        \/\/ class map lookup$/;"	c
+map	.\swocloud\vendor\composer\ClassLoader.php	/^     * that have not been registered with the class map.$/;"	c
+map	.\swocloud\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_namespaces.php';$/;"	v
+map	.\swocloud\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_psr4.php';$/;"	v
+match	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function match($path, $param = [])$/;"	f
+match	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function match($path, $param = [])$/;"	f
+match	.\swostar\src\Routes\Route.php	/^    public function match($path, $param = [])$/;"	f
+message	.\frame\app\WebSocket\Controller\DemoController.php	/^    public function message($server, $frame)$/;"	f
+message	.\frame\app\WebSocket\Controller\IndexController.php	/^    public function message($server, $frame)$/;"	f
+method	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    protected $method;$/;"	v
+method	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        $this->method = $method;$/;"	v
+method	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $method = null;$/;"	v
+method	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    protected $method;$/;"	v
+method	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        $this->method = $method;$/;"	v
+method	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $method = null;$/;"	v
+method	.\swostar\src\Message\Http\Request.php	/^    protected $method;$/;"	v
+method	.\swostar\src\Routes\Route.php	/^        $this->method = $method;$/;"	v
+method	.\swostar\src\Routes\Route.php	/^    protected $method = null;$/;"	v
+missingClasses	.\frame\vendor\composer\ClassLoader.php	/^    private $missingClasses = array();$/;"	v
+missingClasses	.\swocloud\vendor\composer\ClassLoader.php	/^    private $missingClasses = array();$/;"	v
+mod	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $mod = SWOOLE_PROCESS;$/;"	v
+mod	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $mod = SWOOLE_PROCESS;$/;"	v
+mod	.\swostar\src\Server\Server1.php	/^    protected $mod = SWOOLE_PROCESS;$/;"	v
+name	.\frame\app\Listener\StartListener.php	/^    protected $name = 'start';$/;"	v
+name	.\frame\vendor\composer\ClassLoader.php	/^            \/\/ PEAR-like class name$/;"	c
+name	.\frame\vendor\composer\ClassLoader.php	/^            \/\/ namespaced class name$/;"	c
+name	.\frame\vendor\shineyork\swostar\src\Event\Listener.php	/^    protected $name = 'listener';$/;"	v
+name	.\swocloud\vendor\composer\ClassLoader.php	/^            \/\/ PEAR-like class name$/;"	c
+name	.\swocloud\vendor\composer\ClassLoader.php	/^            \/\/ namespaced class name$/;"	c
+name	.\swocloud\vendor\shineyork\swostar\src\Event\Listener.php	/^    protected $name = 'listener';$/;"	v
+name	.\swostar\src\Event\Listener.php	/^    protected $name = 'listener';$/;"	v
+namespace	.\frame\vendor\composer\autoload_real.php	/^            foreach ($map as $namespace => $path) {$/;"	v
+namespace	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^            $namespace = "\\App\\\\".$this->flag."\\Controller\\\\";$/;"	v
+namespace	.\swocloud\vendor\composer\autoload_real.php	/^            foreach ($map as $namespace => $path) {$/;"	v
+namespace	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^            $namespace = "\\App\\\\".$this->flag."\\Controller\\\\";$/;"	v
+namespace	.\swostar\src\Routes\Route.php	/^            $namespace = "\\App\\\\".$this->flag."\\Controller\\\\";$/;"	v
+object	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^        $object = $this->bindings[$abstract];$/;"	v
+object	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^        $object = $this->bindings[$abstract];$/;"	v
+object	.\swostar\src\Container\Container.php	/^        $object = $this->bindings[$abstract];$/;"	v
+onClose	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onClose($ser, $fd) {$/;"	f
+onClose	.\swocloud\src\Route.php	/^    public function onClose(SwooleServer $ser, $fd) {$/;"	f
+onClose	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onClose($ser, $fd) {$/;"	f
+onClose	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onClose($ser, $fd) {$/;"	f
+onManagerStart	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStart	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStart	.\swocloud\src\Server.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStart	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStart	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStart	.\swostar\src\Server\Server.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStart	.\swostar\src\Server\Server1.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStop	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onManagerStop	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onManagerStop	.\swocloud\src\Server.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onManagerStop	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onManagerStop	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onManagerStop	.\swostar\src\Server\Server.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onManagerStop	.\swostar\src\Server\Server1.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onMessage	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onMessage(SwooleServer $server, $frame) {$/;"	f
+onMessage	.\swocloud\src\Route.php	/^    public function onMessage(SwooleServer $server, $frame) {$/;"	f
+onMessage	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onMessage(SwooleServer $server, $frame) {$/;"	f
+onMessage	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onMessage(SwooleServer $server, $frame) {$/;"	f
+onOpen	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onOpen(SwooleServer $server, $request) {$/;"	f
+onOpen	.\swocloud\src\Route.php	/^    public function onOpen(SwooleServer $server, $request) {$/;"	f
+onOpen	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onOpen(SwooleServer $server, $request) {$/;"	f
+onOpen	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^    public function onOpen(SwooleServer $server, $request) {$/;"	f
+onRequest	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^    public function onRequest(SwooleRequest $request, SwooleResponse $response)$/;"	f
+onRequest	.\swocloud\src\Route.php	/^    public function onRequest(SwooleRequest $request, SwooleResponse $response){$/;"	f
+onRequest	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^    public function onRequest(SwooleRequest $request, SwooleResponse $response)$/;"	f
+onRequest	.\swostar\src\Server\Http\HttpServer.php	/^    public function onRequest(SwooleRequest $request, SwooleResponse $response)$/;"	f
+onShutdown	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onShutdown	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onShutdown	.\swocloud\src\Server.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onShutdown	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onShutdown	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onShutdown	.\swostar\src\Server\Server.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onShutdown	.\swostar\src\Server\Server1.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onStart	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onStart	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onStart	.\swocloud\src\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onStart	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onStart	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onStart	.\swostar\src\Server\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onStart	.\swostar\src\Server\Server1.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onWorkerError	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onWorkerError(SwooleServer $server, int $workerId, int $workerPid, int $exitCode, int $signal)$/;"	f
+onWorkerError	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onWorkerError(SwooleServer $server, int $workerId, int $workerPid, int $exitCode, int $signal)$/;"	f
+onWorkerError	.\swocloud\src\Server.php	/^    public function onWorkerError(SwooleServer $server, int $workerId, int $workerPid, int $exitCode, int $signal)$/;"	f
+onWorkerError	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onWorkerError(SwooleServer $server, int $workerId, int $workerPid, int $exitCode, int $signal)$/;"	f
+onWorkerError	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onWorkerError(SwooleServer $server, int $workerId, int $workerPid, int $exitCode, int $signal)$/;"	f
+onWorkerError	.\swostar\src\Server\Server.php	/^    public function onWorkerError(SwooleServer $server, int $workerId, int $workerPid, int $exitCode, int $signal)$/;"	f
+onWorkerError	.\swostar\src\Server\Server1.php	/^    public function onWorkerError(SwooleServer $server, int $workerId, int $workerPid, int $exitCode, int $signal)$/;"	f
+onWorkerStart	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onWorkerStart(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStart	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onWorkerStart(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStart	.\swocloud\src\Route.php	/^    public function onWorkerStart(SwooleServer $server, $worker_id)$/;"	f
+onWorkerStart	.\swocloud\src\Server.php	/^    public function onWorkerStart(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStart	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onWorkerStart(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStart	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onWorkerStart(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStart	.\swostar\src\Server\Server.php	/^    public function onWorkerStart(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStart	.\swostar\src\Server\Server1.php	/^    public function onWorkerStart(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStop	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onWorkerStop(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStop	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onWorkerStop(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStop	.\swocloud\src\Server.php	/^    public function onWorkerStop(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStop	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function onWorkerStop(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStop	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function onWorkerStop(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStop	.\swostar\src\Server\Server.php	/^    public function onWorkerStop(SwooleServer $server, int $worker_id)$/;"	f
+onWorkerStop	.\swostar\src\Server\Server1.php	/^    public function onWorkerStop(SwooleServer $server, int $worker_id)$/;"	f
+open	.\frame\app\WebSocket\Controller\DemoController.php	/^    public function open($server, $request)$/;"	f
+open	.\frame\app\WebSocket\Controller\IndexController.php	/^    public function open($server, $request)$/;"	f
+or	.\frame\vendor\composer\ClassLoader.php	/^     * Loads the given class or interface.$/;"	c
+or	.\swocloud\vendor\composer\ClassLoader.php	/^     * Loads the given class or interface.$/;"	c
+param	.\frame\vendor\shineyork\swostar\src\Event\Event.php	/^    public function trigger($event, $param = [])$/;"	v
+param	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    private function runAction($action, $param = null)$/;"	v
+param	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function match($path, $param = [])$/;"	v
+param	.\swocloud\vendor\shineyork\swostar\src\Event\Event.php	/^    public function trigger($event, $param = [])$/;"	v
+param	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    private function runAction($action, $param = null)$/;"	v
+param	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function match($path, $param = [])$/;"	v
+param	.\swostar\src\Event\Event.php	/^    public function trigger($event, $param = [])$/;"	v
+param	.\swostar\src\Routes\Route.php	/^    private function runAction($action, $param = null)$/;"	v
+param	.\swostar\src\Routes\Route.php	/^    public function match($path, $param = [])$/;"	v
+parameters	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public function make($abstract, $parameters = [])$/;"	v
+parameters	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public function resolve($abstract, $parameters = [])$/;"	v
+parameters	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public function make($abstract, $parameters = [])$/;"	v
+parameters	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public function resolve($abstract, $parameters = [])$/;"	v
+parameters	.\swostar\src\Container\Container.php	/^    public function make($abstract, $parameters = [])$/;"	v
+parameters	.\swostar\src\Container\Container.php	/^    public function resolve($abstract, $parameters = [])$/;"	v
+path	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $path = (Connections::get($fd))['path'];$/;"	v
+path	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $path = (Connections::get($frame->fd))['path'];$/;"	v
+path	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function unbind($wd, $path = null)$/;"	v
+path	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $path = (Connections::get($fd))['path'];$/;"	v
+path	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $path = (Connections::get($frame->fd))['path'];$/;"	v
+path	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function unbind($wd, $path = null)$/;"	v
+path	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $path = (Connections::get($fd))['path'];$/;"	v
+path	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $path = (Connections::get($frame->fd))['path'];$/;"	v
+path	.\swostar\src\Supper\Inotify.php	/^    protected function unbind($wd, $path = null)$/;"	v
+pathEnd	.\frame\vendor\composer\ClassLoader.php	/^                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);$/;"	v
+pathEnd	.\swocloud\vendor\composer\ClassLoader.php	/^                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);$/;"	v
+pathWd	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->pathWd = [];$/;"	v
+pathWd	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $pathWd       = [];$/;"	v
+pathWd	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->pathWd = [];$/;"	v
+pathWd	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $pathWd       = [];$/;"	v
+pathWd	.\swostar\src\Supper\Inotify.php	/^        $this->pathWd = [];$/;"	v
+pathWd	.\swostar\src\Supper\Inotify.php	/^    private $pathWd       = [];$/;"	v
+phpParser	.\frame\vendor\shineyork\swostar\src\Config\Config.php	/^    protected function phpParser()$/;"	f
+phpParser	.\swocloud\vendor\shineyork\swostar\src\Config\Config.php	/^    protected function phpParser()$/;"	f
+phpParser	.\swostar\src\Config\Config.php	/^    protected function phpParser()$/;"	f
+pidFile	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $pidFile = "\/runtime\/swostar.pid";$/;"	v
+pidFile	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $pidFile = "\/runtime\/swostar.pid";$/;"	v
+pidFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $pidFile = "\/runtime\/swostar.pid";$/;"	v
+pidFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $pidFile = "\/runtime\/swostar.pid";$/;"	v
+pidFile	.\swostar\src\Server\Server.php	/^    protected $pidFile = "\/runtime\/swostar.pid";$/;"	v
+pidFile	.\swostar\src\Server\Server1.php	/^    protected $pidFile = "\/runtime\/swostar.pid";$/;"	v
+pidMap	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $pidMap = [$/;"	v
+pidMap	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $pidMap = [$/;"	v
+pidMap	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $pidMap = [$/;"	v
+pidMap	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $pidMap = [$/;"	v
+pidMap	.\swostar\src\Server\Server.php	/^    protected $pidMap = [$/;"	v
+pidMap	.\swostar\src\Server\Server1.php	/^    protected $pidMap = [$/;"	v
+port	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    protected $port;$/;"	v
+port	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->port = $config->get('http.port');$/;"	v
+port	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $port = 9000;$/;"	v
+port	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->port = $port;$/;"	v
+port	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $port = 9000;$/;"	v
+port	.\swocloud\src\Server.php	/^    protected $port = 9500;$/;"	v
+port	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    protected $port;$/;"	v
+port	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->port = $config->get('http.port');$/;"	v
+port	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $port = 9000;$/;"	v
+port	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->port = $port;$/;"	v
+port	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $port = 9000;$/;"	v
+port	.\swostar\src\RPC\Rpc.php	/^    protected $port;$/;"	v
+port	.\swostar\src\Server\Server.php	/^        $this->port = $config->get('http.port');$/;"	v
+port	.\swostar\src\Server\Server.php	/^    protected $port = 9000;$/;"	v
+port	.\swostar\src\Server\Server1.php	/^        $this->port = $port;$/;"	v
+port	.\swostar\src\Server\Server1.php	/^    protected $port = 9000;$/;"	v
+pos	.\frame\vendor\composer\ClassLoader.php	/^        if (false !== $pos = strrpos($class, '\\\\')) {$/;"	v
+pos	.\swocloud\vendor\composer\ClassLoader.php	/^        if (false !== $pos = strrpos($class, '\\\\')) {$/;"	v
+post	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function post(){$/;"	f
+post	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function post($uri, $action)$/;"	f
+post	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    public function post(){$/;"	f
+post	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function post($uri, $action)$/;"	f
+post	.\swostar\src\Message\Http\Request.php	/^    public function post(){$/;"	f
+post	.\swostar\src\Routes\Route.php	/^    public function post($uri, $action)$/;"	f
+prefix	.\frame\vendor\composer\ClassLoader.php	/^            foreach ($this->prefixesPsr0[$first] as $prefix => $dirs) {$/;"	v
+prefix	.\swocloud\vendor\composer\ClassLoader.php	/^            foreach ($this->prefixesPsr0[$first] as $prefix => $dirs) {$/;"	v
+prefixDirsPsr4	.\frame\vendor\composer\ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v
+prefixDirsPsr4	.\frame\vendor\composer\autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v
+prefixDirsPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v
+prefixDirsPsr4	.\swocloud\vendor\composer\autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v
+prefixLengthsPsr4	.\frame\vendor\composer\ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v
+prefixLengthsPsr4	.\frame\vendor\composer\autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v
+prefixLengthsPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v
+prefixLengthsPsr4	.\swocloud\vendor\composer\autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v
+prefixesPsr0	.\frame\vendor\composer\ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v
+prefixesPsr0	.\swocloud\vendor\composer\ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v
+prepend	.\frame\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	v
+prepend	.\frame\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	v
+prepend	.\swocloud\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	v
+prepend	.\swocloud\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	v
+receive	.\frame\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function receive($serv, $fd, $from_id, $data) {$/;"	f
+receive	.\swocloud\vendor\shineyork\swostar\src\RPC\Rpc.php	/^    public function receive($serv, $fd, $from_id, $data) {$/;"	f
+receive	.\swostar\src\RPC\Rpc.php	/^    public function receive($serv, $fd, $from_id, $data) {$/;"	f
+redis	.\swocloud\src\Dispatcher.php	/^        $redis = $route->getRedis();$/;"	v
+redis	.\swocloud\src\Route.php	/^        $this->redis = new Redis;$/;"	v
+redis	.\swocloud\src\Route.php	/^    protected $redis = null;$/;"	v
+register	.\frame\vendor\composer\ClassLoader.php	/^    public function register($prepend = false)$/;"	f
+register	.\frame\vendor\shineyork\swostar\src\Event\Event.php	/^    public function register($event, $callback)$/;"	f
+register	.\swocloud\src\Dispatcher.php	/^    public function register(Route $route,SwooleServer $server, $fd, $data)$/;"	f
+register	.\swocloud\vendor\composer\ClassLoader.php	/^    public function register($prepend = false)$/;"	f
+register	.\swocloud\vendor\shineyork\swostar\src\Event\Event.php	/^    public function register($event, $callback)$/;"	f
+register	.\swostar\src\Event\Event.php	/^    public function register($event, $callback)$/;"	f
+registerBaseBindings	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function registerBaseBindings()$/;"	f
+registerBaseBindings	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function registerBaseBindings()$/;"	f
+registerBaseBindings	.\swostar\src\Foundation\Application.php	/^    public function registerBaseBindings()$/;"	f
+registerEvent	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function registerEvent()$/;"	f
+registerEvent	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function registerEvent()$/;"	f
+registerEvent	.\swostar\src\Foundation\Application.php	/^    public function registerEvent()$/;"	f
+registerRoute	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function registerRoute()$/;"	f
+registerRoute	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function registerRoute()$/;"	f
+registerRoute	.\swostar\src\Routes\Route.php	/^    public function registerRoute()$/;"	f
+resolve	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public function resolve($abstract, $parameters = [])$/;"	f
+resolve	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public function resolve($abstract, $parameters = [])$/;"	f
+resolve	.\swostar\src\Container\Container.php	/^    public function resolve($abstract, $parameters = [])$/;"	f
+ret	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        \/\/     $ret = $cli->upgrade("\/");$/;"	v
+ret	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        \/\/     $ret = $cli->upgrade("\/");$/;"	v
+ret	.\swostar\src\Server\Server.php	/^        \/\/     $ret = $cli->upgrade("\/");$/;"	v
+return	.\frame\vendor\shineyork\swostar\src\Console\Input.php	/^            $return = $return.\\var_export($message, true);$/;"	v
+return	.\frame\vendor\shineyork\swostar\src\Console\Input.php	/^        $return = "======>>> ".$description." start\\n";$/;"	v
+return	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $return = app('route')->setFlag('Http')->setMethod($httpRequest->getMethod())->match($httpRequest->getUriPath());$/;"	v
+return	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('close')->match($path, [$server, $fd]);$/;"	v
+return	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('message')->match($path, [$server, $frame]);$/;"	v
+return	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('open')->match($request->server['path_info'], [$server, $request]);$/;"	v
+return	.\swocloud\vendor\shineyork\swostar\src\Console\Input.php	/^            $return = $return.\\var_export($message, true);$/;"	v
+return	.\swocloud\vendor\shineyork\swostar\src\Console\Input.php	/^        $return = "======>>> ".$description." start\\n";$/;"	v
+return	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $return = app('route')->setFlag('Http')->setMethod($httpRequest->getMethod())->match($httpRequest->getUriPath());$/;"	v
+return	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('close')->match($path, [$server, $fd]);$/;"	v
+return	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('message')->match($path, [$server, $frame]);$/;"	v
+return	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('open')->match($request->server['path_info'], [$server, $request]);$/;"	v
+return	.\swostar\src\Console\Input.php	/^            $return = $return.\\var_export($message, true);$/;"	v
+return	.\swostar\src\Console\Input.php	/^        $return = "======>>> ".$description." start\\n";$/;"	v
+return	.\swostar\src\Server\Http\HttpServer.php	/^        $return = app('route')->setFlag('Http')->setMethod($httpRequest->getMethod())->match($httpRequest->getUriPath());$/;"	v
+return	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('close')->match($path, [$server, $fd]);$/;"	v
+return	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('message')->match($path, [$server, $frame]);$/;"	v
+return	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $return = app('route')->setFlag('WebSocket')->setMethod('open')->match($request->server['path_info'], [$server, $request]);$/;"	v
+routeMap	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        $this->routeMap = [$/;"	v
+routeMap	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $routeMap = [];$/;"	v
+routeMap	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        $this->routeMap = [$/;"	v
+routeMap	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $routeMap = [];$/;"	v
+routeMap	.\swostar\src\Routes\Route.php	/^        $this->routeMap = [$/;"	v
+routeMap	.\swostar\src\Routes\Route.php	/^    protected $routeMap = [];$/;"	v
+routes	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $routes = [];$/;"	v
+routes	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $routes = [];$/;"	v
+routes	.\swostar\src\Routes\Route.php	/^    protected $routes = [];$/;"	v
+run	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function run($arg)$/;"	f
+run	.\swocloud\src\SwoCloud.php	/^    public function run()$/;"	f
+run	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function run($arg)$/;"	f
+run	.\swostar\src\Foundation\Application.php	/^    public function run($arg)$/;"	f
+runAction	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    private function runAction($action, $param = null)$/;"	f
+runAction	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    private function runAction($action, $param = null)$/;"	f
+runAction	.\swostar\src\Routes\Route.php	/^    private function runAction($action, $param = null)$/;"	f
+search	.\frame\vendor\composer\ClassLoader.php	/^                $search = $subPath . '\\\\';$/;"	v
+search	.\swocloud\vendor\composer\ClassLoader.php	/^                $search = $subPath . '\\\\';$/;"	v
+self	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^        $self = app('httpRequest');$/;"	v
+self	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^        $self = app('httpRequest');$/;"	v
+self	.\swostar\src\Message\Http\Request.php	/^        $self = app('httpRequest');$/;"	v
+server	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^            $server = new HttpServer($this);$/;"	v
+server	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^            $server = new WebSocketServer($this);$/;"	v
+server	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $server = null;$/;"	v
+server	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^            $server = new HttpServer($this);$/;"	v
+server	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^            $server = new WebSocketServer($this);$/;"	v
+server	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^        $server = null;$/;"	v
+server	.\swostar\src\Foundation\Application.php	/^            $server = new HttpServer($this);$/;"	v
+server	.\swostar\src\Foundation\Application.php	/^            $server = new WebSocketServer($this);$/;"	v
+server	.\swostar\src\Foundation\Application.php	/^        $server = null;$/;"	v
+serverKey	.\swocloud\src\Dispatcher.php	/^        $serverKey = $route->getServerKey();$/;"	v
+serverKey	.\swocloud\src\Route.php	/^    protected $serverKey = 'im_server';$/;"	v
+serverType	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->serverType = $serverType;$/;"	v
+serverType	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $serverType = 'TCP';$/;"	v
+serverType	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->serverType = $serverType;$/;"	v
+serverType	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $serverType = 'TCP';$/;"	v
+serverType	.\swostar\src\Server\Server1.php	/^        $this->serverType = $serverType;$/;"	v
+serverType	.\swostar\src\Server\Server1.php	/^    protected $serverType = 'TCP';$/;"	v
+set	.\frame\vendor\composer\ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f
+set	.\swocloud\vendor\composer\ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f
+setApcuPrefix	.\frame\vendor\composer\ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f
+setApcuPrefix	.\swocloud\vendor\composer\ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f
+setBasePath	.\frame\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function setBasePath($path)$/;"	f
+setBasePath	.\swocloud\vendor\shineyork\swostar\src\Foundation\Application.php	/^    public function setBasePath($path)$/;"	f
+setBasePath	.\swostar\src\Foundation\Application.php	/^    public function setBasePath($path)$/;"	f
+setClassMapAuthoritative	.\frame\vendor\composer\ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f
+setClassMapAuthoritative	.\swocloud\vendor\composer\ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f
+setConfig	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function setConfig($config)$/;"	f
+setConfig	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setConfig($config)$/;"	f
+setConfig	.\swocloud\src\Server.php	/^    public function setConfig($config)$/;"	f
+setConfig	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function setConfig($config)$/;"	f
+setConfig	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setConfig($config)$/;"	f
+setConfig	.\swostar\src\Server\Server.php	/^    public function setConfig($config)$/;"	f
+setConfig	.\swostar\src\Server\Server1.php	/^    public function setConfig($config)$/;"	f
+setEvent	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function setEvent($type, $event)$/;"	f
+setEvent	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setEvent($type, $event)$/;"	f
+setEvent	.\swocloud\src\Server.php	/^    public function setEvent($type, $event)$/;"	f
+setEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function setEvent($type, $event)$/;"	f
+setEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setEvent($type, $event)$/;"	f
+setEvent	.\swostar\src\Server\Server.php	/^    public function setEvent($type, $event)$/;"	f
+setEvent	.\swostar\src\Server\Server1.php	/^    public function setEvent($type, $event)$/;"	f
+setFlag	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function setFlag($flag)$/;"	f
+setFlag	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function setFlag($flag)$/;"	f
+setFlag	.\swostar\src\Routes\Route.php	/^    public function setFlag($flag)$/;"	f
+setHost	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setHost($host)$/;"	f
+setHost	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setHost($host)$/;"	f
+setHost	.\swostar\src\Server\Server1.php	/^    public function setHost($host)$/;"	f
+setInstance	.\frame\vendor\shineyork\swostar\src\Container\Container.php	/^    public static function setInstance($container = null)$/;"	f
+setInstance	.\swocloud\vendor\shineyork\swostar\src\Container\Container.php	/^    public static function setInstance($container = null)$/;"	f
+setInstance	.\swostar\src\Container\Container.php	/^    public static function setInstance($container = null)$/;"	f
+setMethod	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function setMethod($method)$/;"	f
+setMethod	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function setMethod($method)$/;"	f
+setMethod	.\swostar\src\Routes\Route.php	/^    public function setMethod($method)$/;"	f
+setPort	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setPort($port)$/;"	f
+setPort	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setPort($port)$/;"	f
+setPort	.\swostar\src\Server\Server1.php	/^    public function setPort($port)$/;"	f
+setPsr4	.\frame\vendor\composer\ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f
+setPsr4	.\swocloud\vendor\composer\ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f
+setServerType	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setServerType($serverType)$/;"	f
+setServerType	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setServerType($serverType)$/;"	f
+setServerType	.\swostar\src\Server\Server1.php	/^    public function setServerType($serverType)$/;"	f
+setSwooleEvent	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected function setSwooleEvent()$/;"	f
+setSwooleEvent	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected function setSwooleEvent()$/;"	f
+setSwooleEvent	.\swocloud\src\Server.php	/^    protected function setSwooleEvent()$/;"	f
+setSwooleEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected function setSwooleEvent()$/;"	f
+setSwooleEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected function setSwooleEvent()$/;"	f
+setSwooleEvent	.\swostar\src\Server\Server.php	/^    protected function setSwooleEvent()$/;"	f
+setSwooleEvent	.\swostar\src\Server\Server1.php	/^    protected function setSwooleEvent()$/;"	f
+setUseIncludePath	.\frame\vendor\composer\ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f
+setUseIncludePath	.\swocloud\vendor\composer\ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f
+setWatchFile	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setWatchFile($watch)$/;"	f
+setWatchFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function setWatchFile($watch)$/;"	f
+setWatchFile	.\swostar\src\Server\Server1.php	/^    public function setWatchFile($watch)$/;"	f
+sock_type	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $sock_type = SWOOLE_SOCK_TCP;$/;"	v
+sock_type	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $sock_type = SWOOLE_SOCK_TCP;$/;"	v
+sock_type	.\swostar\src\Server\Server1.php	/^    protected $sock_type = SWOOLE_SOCK_TCP;$/;"	v
+start	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function start()$/;"	f
+start	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function start()$/;"	f
+start	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function start()$/;"	f
+start	.\swocloud\src\Server.php	/^    public function start()$/;"	f
+start	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function start()$/;"	f
+start	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function start()$/;"	f
+start	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function start()$/;"	f
+start	.\swostar\src\Server\Server.php	/^    public function start()$/;"	f
+start	.\swostar\src\Server\Server1.php	/^    public function start()$/;"	f
+start	.\swostar\src\Supper\Inotify.php	/^    public function start()$/;"	f
+stop	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function stop()$/;"	f
+stop	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function stop()$/;"	f
+stop	.\swostar\src\Supper\Inotify.php	/^    public function stop()$/;"	f
+subPath	.\frame\vendor\composer\ClassLoader.php	/^                $subPath = substr($subPath, 0, $lastPos);$/;"	v
+subPath	.\frame\vendor\composer\ClassLoader.php	/^            $subPath = $class;$/;"	v
+subPath	.\swocloud\vendor\composer\ClassLoader.php	/^                $subPath = substr($subPath, 0, $lastPos);$/;"	v
+subPath	.\swocloud\vendor\composer\ClassLoader.php	/^            $subPath = $class;$/;"	v
+swooleRequest	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    protected $swooleRequest;$/;"	v
+swooleRequest	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    protected $swooleRequest;$/;"	v
+swooleRequest	.\swostar\src\Message\Http\Request.php	/^    protected $swooleRequest;$/;"	v
+swooleServer	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $this->swooleServer = new SwooleServer($this->host, $this->port);$/;"	v
+swooleServer	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $swooleServer;$/;"	v
+swooleServer	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $swooleServer;$/;"	v
+swooleServer	.\frame\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $this->swooleServer = new SwooleServer($this->host, $this->port);$/;"	v
+swooleServer	.\swocloud\src\Route.php	/^        $this->swooleServer = new SwooleWebSocketServer($this->host, $this->port);$/;"	v
+swooleServer	.\swocloud\src\Server.php	/^    protected $swooleServer;$/;"	v
+swooleServer	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $this->swooleServer = new SwooleServer($this->host, $this->port);$/;"	v
+swooleServer	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $swooleServer;$/;"	v
+swooleServer	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $swooleServer;$/;"	v
+swooleServer	.\swocloud\vendor\shineyork\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $this->swooleServer = new SwooleServer($this->host, $this->port);$/;"	v
+swooleServer	.\swostar\src\Server\Http\HttpServer.php	/^        $this->swooleServer = new SwooleServer($this->host, $this->port);$/;"	v
+swooleServer	.\swostar\src\Server\Server.php	/^    protected $swooleServer;$/;"	v
+swooleServer	.\swostar\src\Server\Server1.php	/^    protected $swooleServer;$/;"	v
+swooleServer	.\swostar\src\Server\WebSocket\WebSocketServer.php	/^        $this->swooleServer = new SwooleServer($this->host, $this->port);$/;"	v
+trigger	.\frame\vendor\shineyork\swostar\src\Event\Event.php	/^    public function trigger($event, $param = [])$/;"	f
+trigger	.\swocloud\vendor\shineyork\swostar\src\Event\Event.php	/^    public function trigger($event, $param = [])$/;"	f
+trigger	.\swostar\src\Event\Event.php	/^    public function trigger($event, $param = [])$/;"	f
+type	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        foreach ($this->event as $type => $events) {$/;"	v
+type	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^        foreach ($this->event as $type => $events) {$/;"	v
+type	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $type = '.' . trim($type, '.');$/;"	v
+type	.\swocloud\src\Server.php	/^        foreach ($this->event as $type => $events) {$/;"	v
+type	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        foreach ($this->event as $type => $events) {$/;"	v
+type	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^        foreach ($this->event as $type => $events) {$/;"	v
+type	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $type = '.' . trim($type, '.');$/;"	v
+type	.\swostar\src\Server\Server.php	/^        foreach ($this->event as $type => $events) {$/;"	v
+type	.\swostar\src\Server\Server1.php	/^        foreach ($this->event as $type => $events) {$/;"	v
+type	.\swostar\src\Supper\Inotify.php	/^        $type = '.' . trim($type, '.');$/;"	v
+unbind	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function unbind($wd, $path = null)$/;"	f
+unbind	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    protected function unbind($wd, $path = null)$/;"	f
+unbind	.\swostar\src\Supper\Inotify.php	/^    protected function unbind($wd, $path = null)$/;"	f
+under	.\frame\vendor\composer\ClassLoader.php	/^ * the autoloader will first look for the class under the component\/$/;"	c
+under	.\swocloud\vendor\composer\ClassLoader.php	/^ * the autoloader will first look for the class under the component\/$/;"	c
+unregister	.\frame\vendor\composer\ClassLoader.php	/^    public function unregister()$/;"	f
+unregister	.\swocloud\vendor\composer\ClassLoader.php	/^    public function unregister()$/;"	f
+uri	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^            $uri = ($uri && substr($uri,0,1)!='\/') ? "\/".$uri : $uri;$/;"	v
+uri	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^        foreach ($this->routes[$this->flag][$this->method] as $uri => $value) {$/;"	v
+uri	.\frame\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $uri = $request->server['request_uri'];$/;"	v
+uri	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^            $uri = ($uri && substr($uri,0,1)!='\/') ? "\/".$uri : $uri;$/;"	v
+uri	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^        foreach ($this->routes[$this->flag][$this->method] as $uri => $value) {$/;"	v
+uri	.\swocloud\vendor\shineyork\swostar\src\Server\Http\HttpServer.php	/^        $uri = $request->server['request_uri'];$/;"	v
+uri	.\swostar\src\Routes\Route.php	/^            $uri = ($uri && substr($uri,0,1)!='\/') ? "\/".$uri : $uri;$/;"	v
+uri	.\swostar\src\Routes\Route.php	/^        foreach ($this->routes[$this->flag][$this->method] as $uri => $value) {$/;"	v
+uri	.\swostar\src\Server\Http\HttpServer.php	/^        $uri = $request->server['request_uri'];$/;"	v
+uriPath	.\frame\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    protected $uriPath;$/;"	v
+uriPath	.\swocloud\vendor\shineyork\swostar\src\Message\Http\Request.php	/^    protected $uriPath;$/;"	v
+uriPath	.\swostar\src\Message\Http\Request.php	/^    protected $uriPath;$/;"	v
+useIncludePath	.\frame\vendor\composer\ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v
+useIncludePath	.\frame\vendor\composer\ClassLoader.php	/^    private $useIncludePath = false;$/;"	v
+useIncludePath	.\swocloud\vendor\composer\ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v
+useIncludePath	.\swocloud\vendor\composer\ClassLoader.php	/^    private $useIncludePath = false;$/;"	v
+useStaticLoader	.\frame\vendor\composer\autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());$/;"	v
+useStaticLoader	.\swocloud\vendor\composer\autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());$/;"	v
+value	.\swocloud\src\Dispatcher.php	/^        $value = \\json_encode([$/;"	v
+vendorDir	.\frame\vendor\composer\autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\frame\vendor\composer\autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\frame\vendor\composer\autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\swocloud\vendor\composer\autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\swocloud\vendor\composer\autoload_files.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\swocloud\vendor\composer\autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	.\swocloud\vendor\composer\autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+verbs	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $verbs = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'];$/;"	v
+verbs	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    protected $verbs = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'];$/;"	v
+verbs	.\swostar\src\Routes\Route.php	/^    protected $verbs = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'];$/;"	v
+watch	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function watch()$/;"	f
+watch	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function watch()$/;"	f
+watch	.\swostar\src\Supper\Inotify.php	/^    public function watch()$/;"	f
+watchEvent	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected function watchEvent()$/;"	f
+watchEvent	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function watchEvent()$/;"	f
+watchEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected function watchEvent()$/;"	f
+watchEvent	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    public function watchEvent()$/;"	f
+watchEvent	.\swostar\src\Server\Server.php	/^    protected function watchEvent()$/;"	f
+watchEvent	.\swostar\src\Server\Server1.php	/^    public function watchEvent()$/;"	f
+watchFile	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	.\frame\vendor\shineyork\swostar\src\Server\Server.php	/^    public function watchFile($watchFile)$/;"	f
+watchFile	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->watchFile = $watch;$/;"	v
+watchFile	.\frame\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $watchFile = false;$/;"	v
+watchFile	.\swocloud\src\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	.\swocloud\src\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	.\swocloud\src\Server.php	/^    public function watchFile($watchFile)$/;"	f
+watchFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server.php	/^    public function watchFile($watchFile)$/;"	f
+watchFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^        $this->watchFile = $watch;$/;"	v
+watchFile	.\swocloud\vendor\shineyork\swostar\src\Server\Server1.php	/^    protected $watchFile = false;$/;"	v
+watchFile	.\swostar\src\Server\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	.\swostar\src\Server\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	.\swostar\src\Server\Server.php	/^    public function watchFile($watchFile)$/;"	f
+watchFile	.\swostar\src\Server\Server1.php	/^        $this->watchFile = $watch;$/;"	v
+watchFile	.\swostar\src\Server\Server1.php	/^    protected $watchFile = false;$/;"	v
+watchHandler	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->watchHandler = $watchHandler;$/;"	v
+watchHandler	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $watchHandler;$/;"	v
+watchHandler	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->watchHandler = $watchHandler;$/;"	v
+watchHandler	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $watchHandler;$/;"	v
+watchHandler	.\swostar\src\Supper\Inotify.php	/^        $this->watchHandler = $watchHandler;$/;"	v
+watchHandler	.\swostar\src\Supper\Inotify.php	/^    private $watchHandler;$/;"	v
+watchMask	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->watchMask = $watchMask;$/;"	v
+watchMask	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $watchMask;$/;"	v
+watchMask	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function __construct($watchPath, callable $watchHandler, $watchMask = IN_CREATE | IN_DELETE | IN_MODIFY | IN_MOVE)$/;"	v
+watchMask	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->watchMask = $watchMask;$/;"	v
+watchMask	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $watchMask;$/;"	v
+watchMask	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    public function __construct($watchPath, callable $watchHandler, $watchMask = IN_CREATE | IN_DELETE | IN_MODIFY | IN_MOVE)$/;"	v
+watchMask	.\swostar\src\Supper\Inotify.php	/^        $this->watchMask = $watchMask;$/;"	v
+watchMask	.\swostar\src\Supper\Inotify.php	/^    private $watchMask;$/;"	v
+watchMask	.\swostar\src\Supper\Inotify.php	/^    public function __construct($watchPath, callable $watchHandler, $watchMask = IN_CREATE | IN_DELETE | IN_MODIFY | IN_MOVE)$/;"	v
+watchPath	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->watchPath = $watchPath;$/;"	v
+watchPath	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $watchPath;$/;"	v
+watchPath	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->watchPath = $watchPath;$/;"	v
+watchPath	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $watchPath;$/;"	v
+watchPath	.\swostar\src\Supper\Inotify.php	/^        $this->watchPath = $watchPath;$/;"	v
+watchPath	.\swostar\src\Supper\Inotify.php	/^    private $watchPath;$/;"	v
+wd	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^            $wd = inotify_add_watch($this->fd, $path, $this->watchMask);$/;"	v
+wd	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $wd = inotify_add_watch($this->fd, $path, $this->watchMask);$/;"	v
+wd	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        foreach ($this->wdPath as $wd => $path) {$/;"	v
+wd	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^            $wd = inotify_add_watch($this->fd, $path, $this->watchMask);$/;"	v
+wd	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $wd = inotify_add_watch($this->fd, $path, $this->watchMask);$/;"	v
+wd	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        foreach ($this->wdPath as $wd => $path) {$/;"	v
+wd	.\swostar\src\Supper\Inotify.php	/^            $wd = inotify_add_watch($this->fd, $path, $this->watchMask);$/;"	v
+wd	.\swostar\src\Supper\Inotify.php	/^        $wd = inotify_add_watch($this->fd, $path, $this->watchMask);$/;"	v
+wd	.\swostar\src\Supper\Inotify.php	/^        foreach ($this->wdPath as $wd => $path) {$/;"	v
+wdPath	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->wdPath = [];$/;"	v
+wdPath	.\frame\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $wdPath       = [];$/;"	v
+wdPath	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^        $this->wdPath = [];$/;"	v
+wdPath	.\swocloud\vendor\shineyork\swostar\src\Supper\Inotify.php	/^    private $wdPath       = [];$/;"	v
+wdPath	.\swostar\src\Supper\Inotify.php	/^        $this->wdPath = [];$/;"	v
+wdPath	.\swostar\src\Supper\Inotify.php	/^    private $wdPath       = [];$/;"	v
+wsController	.\frame\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function wsController($uri, $controller)$/;"	f
+wsController	.\swocloud\vendor\shineyork\swostar\src\Routes\Route.php	/^    public function wsController($uri, $controller)$/;"	f
+wsController	.\swostar\src\Routes\Route.php	/^    public function wsController($uri, $controller)$/;"	f

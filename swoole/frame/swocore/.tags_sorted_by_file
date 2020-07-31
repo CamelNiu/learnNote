@@ -1,0 +1,104 @@
+Container	src\Container\Container.php	/^class Container$/;"	c
+bind	src\Container\Container.php	/^    public function bind($abstract,$object)$/;"	f
+bindings	src\Container\Container.php	/^    protected $bindings = [];$/;"	v
+getInstance	src\Container\Container.php	/^    public static function getInstance()$/;"	f
+has	src\Container\Container.php	/^    public function has($abstract)$/;"	f
+instance	src\Container\Container.php	/^    protected static $instance;$/;"	v
+instances	src\Container\Container.php	/^    protected $instances = [];$/;"	v
+make	src\Container\Container.php	/^    public function make($abstract,$parameters = [])$/;"	f
+object	src\Container\Container.php	/^        $object = $this->bindings[$abstract];$/;"	v
+resolve	src\Container\Container.php	/^    public function resolve($abstract,$parameters = [])$/;"	f
+setInstance	src\Container\Container.php	/^    public static function setInstance($container = null)$/;"	f
+Application	src\Foundation\Application.php	/^class Application extends Container$/;"	c
+__construct	src\Foundation\Application.php	/^    public function __construct($path = null)$/;"	f
+basePath	src\Foundation\Application.php	/^        $this->basePath = \\rtrim($path,"\\\/");$/;"	v
+basePath	src\Foundation\Application.php	/^    protected $basePath = "";$/;"	v
+binds	src\Foundation\Application.php	/^        $binds = [$/;"	v
+getBasePath	src\Foundation\Application.php	/^    public function getBasePath()$/;"	f
+httpServer	src\Foundation\Application.php	/^        $httpServer = new HttpServer($this);$/;"	v
+init	src\Foundation\Application.php	/^    public function init()$/;"	f
+key	src\Foundation\Application.php	/^        foreach ($binds as $key => $value) {$/;"	v
+registerBaseBindings	src\Foundation\Application.php	/^    public function registerBaseBindings()$/;"	f
+run	src\Foundation\Application.php	/^    public function run()$/;"	f
+setBasePath	src\Foundation\Application.php	/^    public function setBasePath($path)$/;"	f
+Index	src\Index.php	/^class Index$/;"	c
+index	src\Index.php	/^    public function index()$/;"	f
+HttpRequest	src\Message\Http\HttpRequest.php	/^class HttpRequest$/;"	c
+getMethod	src\Message\Http\HttpRequest.php	/^    public function getMethod()$/;"	f
+getUriPath	src\Message\Http\HttpRequest.php	/^    public function getUriPath()$/;"	f
+init	src\Message\Http\HttpRequest.php	/^    public static function init(SwooleRequest $request)$/;"	f
+method	src\Message\Http\HttpRequest.php	/^    protected $method;$/;"	v
+self	src\Message\Http\HttpRequest.php	/^        $self = app('httpRequest');$/;"	v
+swooleRequest	src\Message\Http\HttpRequest.php	/^    protected $swooleRequest;$/;"	v
+uriPath	src\Message\Http\HttpRequest.php	/^    protected $uriPath;$/;"	v
+Route	src\Routes\Route.php	/^class Route$/;"	c
+__construct	src\Routes\Route.php	/^    protected function __construct()$/;"	f
+addRoute	src\Routes\Route.php	/^    protected function addRoute($methods,$uri,$action)$/;"	f
+any	src\Routes\Route.php	/^    public function any($uri, $action)$/;"	f
+get	src\Routes\Route.php	/^    public function get($uri, $action)$/;"	f
+getInstance	src\Routes\Route.php	/^    public static function getInstance()$/;"	f
+getRoutes	src\Routes\Route.php	/^    public function getRoutes()$/;"	f
+instance	src\Routes\Route.php	/^    protected static $instance;$/;"	v
+key	src\Routes\Route.php	/^        foreach ($this->routeMap as $key => $path) {$/;"	v
+post	src\Routes\Route.php	/^    public function post($uri, $action)$/;"	f
+registerRoute	src\Routes\Route.php	/^    public function registerRoute()$/;"	f
+routeMap	src\Routes\Route.php	/^        $this->routeMap = [$/;"	v
+routeMap	src\Routes\Route.php	/^    protected $routeMap = [];$/;"	v
+routes	src\Routes\Route.php	/^    protected $routes = [];$/;"	v
+verbs	src\Routes\Route.php	/^    protected $verbs = ['GET','POST','PUT','PATCH','DELETE'];$/;"	v
+HttpServer	src\Server\Http\HttpServer.php	/^class HttpServer extends Server$/;"	c
+createServer	src\Server\Http\HttpServer.php	/^    public function createServer()$/;"	f
+initEvent	src\Server\Http\HttpServer.php	/^    protected function initEvent()$/;"	f
+onRequest	src\Server\Http\HttpServer.php	/^    public function onRequest($request,$response)$/;"	f
+swooleServer	src\Server\Http\HttpServer.php	/^        $this->swooleServer = new SwooleServer($this->host,$this->port);$/;"	v
+Server	src\Server\Server.php	/^abstract class Server$/;"	c
+__construct	src\Server\Server.php	/^    public function __construct($app)$/;"	f
+action	src\Server\Server.php	/^            \/\/       $action = 'IN_CREATE';$/;"	v
+action	src\Server\Server.php	/^            \/\/       $action = 'IN_DELETE';$/;"	v
+action	src\Server\Server.php	/^            \/\/       $action = 'IN_MODIF';$/;"	v
+action	src\Server\Server.php	/^            \/\/       $action = 'IN_MOVE';$/;"	v
+action	src\Server\Server.php	/^            \/\/ $action = 'file:';$/;"	v
+app	src\Server\Server.php	/^        $this->app = $app;$/;"	v
+app	src\Server\Server.php	/^    protected $app;$/;"	v
+config	src\Server\Server.php	/^        $this->config = array_map($this->config,$config);$/;"	v
+config	src\Server\Server.php	/^    protected $config = [$/;"	v
+createServer	src\Server\Server.php	/^    protected abstract function createServer();$/;"	f
+event	src\Server\Server.php	/^            foreach($events as $event => $func){$/;"	v
+event	src\Server\Server.php	/^        \/\/     foreach ($events as $event => $func) {$/;"	v
+event	src\Server\Server.php	/^    protected $event = [$/;"	v
+getConfig	src\Server\Server.php	/^    public function getConfig()$/;"	f
+host	src\Server\Server.php	/^    protected $host       = "0.0.0.0";$/;"	v
+initEvent	src\Server\Server.php	/^    protected abstract function initEvent();$/;"	f
+inotify	src\Server\Server.php	/^            $this->inotify = new Inotify($this->app->getBasePath(), $this->watchEvent());$/;"	v
+inotify	src\Server\Server.php	/^    protected $inotify = null;$/;"	v
+onManagerStart	src\Server\Server.php	/^    public function onManagerStart(SwooleServer $server)$/;"	f
+onManagerStop	src\Server\Server.php	/^    public function onManagerStop(SwooleServer $server)$/;"	f
+onShutdown	src\Server\Server.php	/^    public function onShutdown(SwooleServer $server)$/;"	f
+onStart	src\Server\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onWorkerError	src\Server\Server.php	/^    public function onWorkerError(SwooleServer $server)$/;"	f
+onWorkerStart	src\Server\Server.php	/^    public function onWorkerStart(SwooleServer $server,int $worker_id)$/;"	f
+onWorkerStop	src\Server\Server.php	/^    public function onWorkerStop(SwooleServer $server)$/;"	f
+pidMap	src\Server\Server.php	/^    protected $pidMap = [$/;"	v
+port	src\Server\Server.php	/^    protected $port       = "80";$/;"	v
+serverType	src\Server\Server.php	/^    protected $serverType = "TCP";$/;"	v
+setConfig	src\Server\Server.php	/^    public function setConfig()$/;"	f
+setEvent	src\Server\Server.php	/^    public function setEvent($type,$event)$/;"	f
+setSwooleEvent	src\Server\Server.php	/^    protected function setSwooleEvent()$/;"	f
+start	src\Server\Server.php	/^    public function start()$/;"	f
+swooleServer	src\Server\Server.php	/^    protected $swooleServer;$/;"	v
+type	src\Server\Server.php	/^        \/\/ foreach ($this->event as $type => $events) {$/;"	v
+type	src\Server\Server.php	/^        foreach($this->event as $type => $events){$/;"	v
+type	src\Server\Server.php	/^        if( $type == 'server' ){$/;"	v
+watchEvent	src\Server\Server.php	/^    protected function watchEvent()$/;"	f
+watchFile	src\Server\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	src\Server\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	src\Server\Server.php	/^    public function watchFile($watchFile)$/;"	f
+app	src\Supper\Helper.php	/^    function app($a = null)$/;"	f
+dd	src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	f
+description	src\Supper\Helper.php	/^    function dd($message, $description = null)$/;"	v
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

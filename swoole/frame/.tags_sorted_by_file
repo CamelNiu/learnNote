@@ -1,0 +1,210 @@
+Application	swocore\src\Foundation\Application.php	/^class Application$/;"	c
+__construct	swocore\src\Foundation\Application.php	/^    public function __construct($path = null)$/;"	f
+basePath	swocore\src\Foundation\Application.php	/^        $this->basePath = \\rtrim($path,"\\\/");$/;"	v
+basePath	swocore\src\Foundation\Application.php	/^    protected $basePath = "";$/;"	v
+getBasePath	swocore\src\Foundation\Application.php	/^    public function getBasePath()$/;"	f
+httpServer	swocore\src\Foundation\Application.php	/^        $httpServer = new HttpServer($this);$/;"	v
+run	swocore\src\Foundation\Application.php	/^    public function run()$/;"	f
+setBasePath	swocore\src\Foundation\Application.php	/^    public function setBasePath($path)$/;"	f
+Index	swocore\src\Index.php	/^class Index$/;"	c
+index	swocore\src\Index.php	/^    public function index()$/;"	f
+HttpServer	swocore\src\Server\Http\HttpServer.php	/^class HttpServer extends Server$/;"	c
+createServer	swocore\src\Server\Http\HttpServer.php	/^    public function createServer()$/;"	f
+initEvent	swocore\src\Server\Http\HttpServer.php	/^    protected function initEvent()$/;"	f
+onRequest	swocore\src\Server\Http\HttpServer.php	/^    public function onRequest($request,$response)$/;"	f
+swooleServer	swocore\src\Server\Http\HttpServer.php	/^        $this->swooleServer = new SwooleServer($this->host,$this->port);$/;"	v
+Server	swocore\src\Server\Server.php	/^abstract class Server$/;"	c
+__construct	swocore\src\Server\Server.php	/^    public function __construct($app)$/;"	f
+action	swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_CREATE';$/;"	v
+action	swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_DELETE';$/;"	v
+action	swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_MODIF';$/;"	v
+action	swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_MOVE';$/;"	v
+action	swocore\src\Server\Server.php	/^            \/\/ $action = 'file:';$/;"	v
+app	swocore\src\Server\Server.php	/^        $this->app = $app;$/;"	v
+app	swocore\src\Server\Server.php	/^    protected $app;$/;"	v
+config	swocore\src\Server\Server.php	/^        $this->config = array_map($this->config,$config);$/;"	v
+config	swocore\src\Server\Server.php	/^    protected $config = [$/;"	v
+createServer	swocore\src\Server\Server.php	/^    protected abstract function createServer();$/;"	f
+event	swocore\src\Server\Server.php	/^            foreach($events as $event => $func){$/;"	v
+event	swocore\src\Server\Server.php	/^    protected $event = [$/;"	v
+getConfig	swocore\src\Server\Server.php	/^    public function getConfig()$/;"	f
+host	swocore\src\Server\Server.php	/^    protected $host       = "0.0.0.0";$/;"	v
+initEvent	swocore\src\Server\Server.php	/^    protected abstract function initEvent();$/;"	f
+inotify	swocore\src\Server\Server.php	/^            $this->inotify = new Inotify($this->app->getBasePath(), $this->watchEvent());$/;"	v
+inotify	swocore\src\Server\Server.php	/^    protected $inotify = null;$/;"	v
+onStart	swocore\src\Server\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onWorkerStart	swocore\src\Server\Server.php	/^    public function onWorkerStart(SwooleServer $server,int $worker_id)$/;"	f
+pidMap	swocore\src\Server\Server.php	/^    protected $pidMap = [$/;"	v
+port	swocore\src\Server\Server.php	/^    protected $port       = "9005";$/;"	v
+serverType	swocore\src\Server\Server.php	/^    protected $serverType = "TCP";$/;"	v
+setConfig	swocore\src\Server\Server.php	/^    public function setConfig()$/;"	f
+setEvent	swocore\src\Server\Server.php	/^    public function setEvent($type,$event)$/;"	f
+setSwooleEvent	swocore\src\Server\Server.php	/^    protected function setSwooleEvent()$/;"	f
+start	swocore\src\Server\Server.php	/^    public function start()$/;"	f
+swooleServer	swocore\src\Server\Server.php	/^    protected $swooleServer;$/;"	v
+type	swocore\src\Server\Server.php	/^        foreach($this->event as $type => $events){$/;"	v
+type	swocore\src\Server\Server.php	/^        if( $type == 'server' ){$/;"	v
+watchEvent	swocore\src\Server\Server.php	/^    protected function watchEvent()$/;"	f
+watchFile	swocore\src\Server\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	swocore\src\Server\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	swocore\src\Server\Server.php	/^    public function watchFile($watchFile)$/;"	f
+App	swoframe\app\App.php	/^class App$/;"	c
+index	swoframe\app\App.php	/^    public function index()$/;"	f
+ClassLoader	swoframe\vendor\composer\ClassLoader.php	/^class ClassLoader$/;"	c
+add	swoframe\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f
+addClassMap	swoframe\vendor\composer\ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f
+addPsr4	swoframe\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f
+apcuPrefix	swoframe\vendor\composer\ClassLoader.php	/^        $this->apcuPrefix = function_exists('apcu_fetch') && filter_var(ini_get('apc.enabled'), FILTER_VALIDATE_BOOLEAN) ? $apcuPrefix : null;$/;"	v
+apcuPrefix	swoframe\vendor\composer\ClassLoader.php	/^    private $apcuPrefix;$/;"	v
+classMap	swoframe\vendor\composer\ClassLoader.php	/^            $this->classMap = $classMap;$/;"	v
+classMap	swoframe\vendor\composer\ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v
+classMap	swoframe\vendor\composer\ClassLoader.php	/^    private $classMap = array();$/;"	v
+classMapAuthoritative	swoframe\vendor\composer\ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v
+classMapAuthoritative	swoframe\vendor\composer\ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v
+does	swoframe\vendor\composer\ClassLoader.php	/^            \/\/ Remember that this class does not exist.$/;"	c
+fallbackDirsPsr0	swoframe\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v
+fallbackDirsPsr0	swoframe\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v
+fallbackDirsPsr0	swoframe\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v
+fallbackDirsPsr4	swoframe\vendor\composer\ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v
+fallbackDirsPsr4	swoframe\vendor\composer\ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
+fallbackDirsPsr4	swoframe\vendor\composer\ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
+file	swoframe\vendor\composer\ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
+file	swoframe\vendor\composer\ClassLoader.php	/^            $file = apcu_fetch($this->apcuPrefix.$class, $hit);$/;"	v
+file	swoframe\vendor\composer\ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v
+file	swoframe\vendor\composer\ClassLoader.php	/^        if ($this->useIncludePath && $file = stream_resolve_include_path($logicalPathPsr0)) {$/;"	v
+files	swoframe\vendor\composer\ClassLoader.php	/^     * Turns on searching the include path for class files.$/;"	c
+findFile	swoframe\vendor\composer\ClassLoader.php	/^    public function findFile($class)$/;"	f
+findFileWithExtension	swoframe\vendor\composer\ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f
+first	swoframe\vendor\composer\ClassLoader.php	/^        $first = $class[0];$/;"	v
+first	swoframe\vendor\composer\ClassLoader.php	/^        $first = $prefix[0];$/;"	v
+getApcuPrefix	swoframe\vendor\composer\ClassLoader.php	/^    public function getApcuPrefix()$/;"	f
+getClassMap	swoframe\vendor\composer\ClassLoader.php	/^    public function getClassMap()$/;"	f
+getFallbackDirs	swoframe\vendor\composer\ClassLoader.php	/^    public function getFallbackDirs()$/;"	f
+getFallbackDirsPsr4	swoframe\vendor\composer\ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f
+getPrefixes	swoframe\vendor\composer\ClassLoader.php	/^    public function getPrefixes()$/;"	f
+getPrefixesPsr4	swoframe\vendor\composer\ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f
+getUseIncludePath	swoframe\vendor\composer\ClassLoader.php	/^    public function getUseIncludePath()$/;"	f
+in	swoframe\vendor\composer\ClassLoader.php	/^ * In this example, if you try to use a class in the Symfony\\Component$/;"	c
+includeFile	swoframe\vendor\composer\ClassLoader.php	/^function includeFile($file)$/;"	f
+is	swoframe\vendor\composer\ClassLoader.php	/^     * Finds the path to the file where the class is defined.$/;"	c
+is	swoframe\vendor\composer\ClassLoader.php	/^ * This class is loosely based on the Symfony UniversalClassLoader.$/;"	c
+isClassMapAuthoritative	swoframe\vendor\composer\ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f
+lastPos	swoframe\vendor\composer\ClassLoader.php	/^            while (false !== $lastPos = strrpos($subPath, '\\\\')) {$/;"	v
+length	swoframe\vendor\composer\ClassLoader.php	/^            $length = strlen($prefix);$/;"	v
+loadClass	swoframe\vendor\composer\ClassLoader.php	/^    public function loadClass($class)$/;"	f
+loader	swoframe\vendor\composer\ClassLoader.php	/^ *     $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	swoframe\vendor\composer\ClassLoader.php	/^ * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.$/;"	c
+logicalPathPsr0	swoframe\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr0	swoframe\vendor\composer\ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v
+logicalPathPsr4	swoframe\vendor\composer\ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+lookup	swoframe\vendor\composer\ClassLoader.php	/^     * Should class lookup fail if not found in the current class map?$/;"	c
+map	swoframe\vendor\composer\ClassLoader.php	/^        \/\/ class map lookup$/;"	c
+map	swoframe\vendor\composer\ClassLoader.php	/^     * that have not been registered with the class map.$/;"	c
+missingClasses	swoframe\vendor\composer\ClassLoader.php	/^    private $missingClasses = array();$/;"	v
+name	swoframe\vendor\composer\ClassLoader.php	/^            \/\/ PEAR-like class name$/;"	c
+name	swoframe\vendor\composer\ClassLoader.php	/^            \/\/ namespaced class name$/;"	c
+or	swoframe\vendor\composer\ClassLoader.php	/^     * Loads the given class or interface.$/;"	c
+pathEnd	swoframe\vendor\composer\ClassLoader.php	/^                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);$/;"	v
+pos	swoframe\vendor\composer\ClassLoader.php	/^        if (false !== $pos = strrpos($class, '\\\\')) {$/;"	v
+prefix	swoframe\vendor\composer\ClassLoader.php	/^            foreach ($this->prefixesPsr0[$first] as $prefix => $dirs) {$/;"	v
+prefixDirsPsr4	swoframe\vendor\composer\ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v
+prefixLengthsPsr4	swoframe\vendor\composer\ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v
+prefixesPsr0	swoframe\vendor\composer\ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v
+prepend	swoframe\vendor\composer\ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	v
+prepend	swoframe\vendor\composer\ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	v
+register	swoframe\vendor\composer\ClassLoader.php	/^    public function register($prepend = false)$/;"	f
+search	swoframe\vendor\composer\ClassLoader.php	/^                $search = $subPath . '\\\\';$/;"	v
+set	swoframe\vendor\composer\ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f
+setApcuPrefix	swoframe\vendor\composer\ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f
+setClassMapAuthoritative	swoframe\vendor\composer\ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f
+setPsr4	swoframe\vendor\composer\ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f
+setUseIncludePath	swoframe\vendor\composer\ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f
+subPath	swoframe\vendor\composer\ClassLoader.php	/^                $subPath = substr($subPath, 0, $lastPos);$/;"	v
+subPath	swoframe\vendor\composer\ClassLoader.php	/^            $subPath = $class;$/;"	v
+under	swoframe\vendor\composer\ClassLoader.php	/^ * the autoloader will first look for the class under the component\/$/;"	c
+unregister	swoframe\vendor\composer\ClassLoader.php	/^    public function unregister()$/;"	f
+useIncludePath	swoframe\vendor\composer\ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v
+useIncludePath	swoframe\vendor\composer\ClassLoader.php	/^    private $useIncludePath = false;$/;"	v
+baseDir	swoframe\vendor\composer\autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+vendorDir	swoframe\vendor\composer\autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+baseDir	swoframe\vendor\composer\autoload_files.php	/^$baseDir = dirname($vendorDir);$/;"	v
+vendorDir	swoframe\vendor\composer\autoload_files.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+baseDir	swoframe\vendor\composer\autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+vendorDir	swoframe\vendor\composer\autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+baseDir	swoframe\vendor\composer\autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+vendorDir	swoframe\vendor\composer\autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+ComposerAutoloaderInit677b88ca78bfe7d72caf6d1aca6b8eea	swoframe\vendor\composer\autoload_real.php	/^class ComposerAutoloaderInit677b88ca78bfe7d72caf6d1aca6b8eea$/;"	c
+classMap	swoframe\vendor\composer\autoload_real.php	/^            $classMap = require __DIR__ . '\/autoload_classmap.php';$/;"	v
+composerRequire677b88ca78bfe7d72caf6d1aca6b8eea	swoframe\vendor\composer\autoload_real.php	/^function composerRequire677b88ca78bfe7d72caf6d1aca6b8eea($fileIdentifier, $file)$/;"	f
+fileIdentifier	swoframe\vendor\composer\autoload_real.php	/^        foreach ($includeFiles as $fileIdentifier => $file) {$/;"	v
+getLoader	swoframe\vendor\composer\autoload_real.php	/^    public static function getLoader()$/;"	f
+includeFiles	swoframe\vendor\composer\autoload_real.php	/^            $includeFiles = Composer\\Autoload\\ComposerStaticInit677b88ca78bfe7d72caf6d1aca6b8eea::$files;$/;"	v
+includeFiles	swoframe\vendor\composer\autoload_real.php	/^            $includeFiles = require __DIR__ . '\/autoload_files.php';$/;"	v
+loadClassLoader	swoframe\vendor\composer\autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f
+loader	swoframe\vendor\composer\autoload_real.php	/^        self::$loader = $loader = new \\Composer\\Autoload\\ClassLoader();$/;"	v
+loader	swoframe\vendor\composer\autoload_real.php	/^    private static $loader;$/;"	v
+map	swoframe\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_namespaces.php';$/;"	v
+map	swoframe\vendor\composer\autoload_real.php	/^            $map = require __DIR__ . '\/autoload_psr4.php';$/;"	v
+namespace	swoframe\vendor\composer\autoload_real.php	/^            foreach ($map as $namespace => $path) {$/;"	v
+useStaticLoader	swoframe\vendor\composer\autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());$/;"	v
+ComposerStaticInit677b88ca78bfe7d72caf6d1aca6b8eea	swoframe\vendor\composer\autoload_static.php	/^class ComposerStaticInit677b88ca78bfe7d72caf6d1aca6b8eea$/;"	c
+files	swoframe\vendor\composer\autoload_static.php	/^    public static $files = array ($/;"	v
+getInitializer	swoframe\vendor\composer\autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f
+prefixDirsPsr4	swoframe\vendor\composer\autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v
+prefixLengthsPsr4	swoframe\vendor\composer\autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v
+Application	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^class Application$/;"	c
+__construct	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function __construct($path = null)$/;"	f
+basePath	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^        $this->basePath = \\rtrim($path,"\\\/");$/;"	v
+basePath	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^    protected $basePath = "";$/;"	v
+getBasePath	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function getBasePath()$/;"	f
+httpServer	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^        $httpServer = new HttpServer($this);$/;"	v
+run	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function run()$/;"	f
+setBasePath	swoframe\vendor\niushao\swocore\src\Foundation\Application.php	/^    public function setBasePath($path)$/;"	f
+Index	swoframe\vendor\niushao\swocore\src\Index.php	/^class Index$/;"	c
+index	swoframe\vendor\niushao\swocore\src\Index.php	/^    public function index()$/;"	f
+HttpServer	swoframe\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^class HttpServer extends Server$/;"	c
+createServer	swoframe\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^    public function createServer()$/;"	f
+initEvent	swoframe\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^    protected function initEvent()$/;"	f
+onRequest	swoframe\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^    public function onRequest($request,$response)$/;"	f
+swooleServer	swoframe\vendor\niushao\swocore\src\Server\Http\HttpServer.php	/^        $this->swooleServer = new SwooleServer($this->host,$this->port);$/;"	v
+Server	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^abstract class Server$/;"	c
+__construct	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function __construct($app)$/;"	f
+action	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_CREATE';$/;"	v
+action	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_DELETE';$/;"	v
+action	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_MODIF';$/;"	v
+action	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/       $action = 'IN_MOVE';$/;"	v
+action	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^            \/\/ $action = 'file:';$/;"	v
+app	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^        $this->app = $app;$/;"	v
+app	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $app;$/;"	v
+config	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^        $this->config = array_map($this->config,$config);$/;"	v
+config	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $config = [$/;"	v
+createServer	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected abstract function createServer();$/;"	f
+event	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^            foreach($events as $event => $func){$/;"	v
+event	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $event = [$/;"	v
+getConfig	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function getConfig()$/;"	f
+host	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $host       = "0.0.0.0";$/;"	v
+initEvent	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected abstract function initEvent();$/;"	f
+inotify	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^            $this->inotify = new Inotify($this->app->getBasePath(), $this->watchEvent());$/;"	v
+inotify	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $inotify = null;$/;"	v
+onStart	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function onStart(SwooleServer $server)$/;"	f
+onWorkerStart	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function onWorkerStart(SwooleServer $server,int $worker_id)$/;"	f
+pidMap	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $pidMap = [$/;"	v
+port	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $port       = "9005";$/;"	v
+serverType	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $serverType = "TCP";$/;"	v
+setConfig	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function setConfig()$/;"	f
+setEvent	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function setEvent($type,$event)$/;"	f
+setSwooleEvent	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected function setSwooleEvent()$/;"	f
+start	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function start()$/;"	f
+swooleServer	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $swooleServer;$/;"	v
+type	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^        foreach($this->event as $type => $events){$/;"	v
+type	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^        if( $type == 'server' ){$/;"	v
+watchEvent	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected function watchEvent()$/;"	f
+watchFile	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^        $this->watchFile = $watchFile;$/;"	v
+watchFile	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    protected $watchFile = false;$/;"	v
+watchFile	swoframe\vendor\niushao\swocore\src\Server\Server.php	/^    public function watchFile($watchFile)$/;"	f
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

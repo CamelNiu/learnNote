@@ -1,0 +1,26 @@
+{
+    "name": "niushao/swoframe",
+    "description": "swoole test frame",
+    "type": "library",
+    "authors": [
+        {
+            "name": "NiuShao.Lenovo",
+            "email": "camel_niu@163.com"
+        }
+    ],
+    "require": {
+        "niushao/swocore": "dev-master"
+    },
+    "repositories": {
+        "niushao": {
+            "type": "path",
+            "url": "../swocore"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "database\\": "database/"
+        }
+    }
+}

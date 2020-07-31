@@ -1,0 +1,32 @@
+[
+    {
+        "name": "niushao/swocore",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "../swocore",
+            "reference": "c2c404490199bc1d35028bd9afcec9abf5f78adf"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "src\\": "./src/"
+            },
+            "files": [
+                "src/Supper/Helper.php"
+            ]
+        },
+        "authors": [
+            {
+                "name": "NiuShao.Lenovo",
+                "email": "camel_niu@163.com"
+            }
+        ],
+        "description": "swoole test frame",
+        "transport-options": {
+            "relative": true
+        }
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "name": "niushao/swocore",
+    "description": "swoole test frame",
+    "type": "library",
+    "authors": [
+        {
+            "name": "NiuShao.Lenovo",
+            "email": "camel_niu@163.com"
+        }
+    ],
+    "require":{},
+    "autoload":{
+        "psr-4":{
+            "src\\":"./src/"
+        },
+        "files":[
+            "src/Supper/Helper.php"
+        ]
+    }
+}
