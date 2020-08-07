@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>websocket</title>
+</head>
+<body>
+  <input id="msg" value="" />
+  <input type="submit" value="send" onclick="start()">
+  <input type="submit" value="close" onclick="closes()">
+  <input id="clientId" value="" />
+  <div id="message"></div>
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    var ws = new WebSocket("ws://127.0.0.1:19001");
+
+
+    function start()
+    {
+        var msg = document.getElementById('msg').value;
+        let data = msg;
+        ws.send(data);
+        //console.log(msg);
+        //document.getElementById("message").innerHTML += "<p>request" + msg + "</p>"
+    }
+
+    function closes()
+    {
+        ws.close();
+    }
+
+    function getFormatDate() {
+        var nowDate = new Date();
+        var year = nowDate.getFullYear();
+        var month = nowDate.getMonth() + 1 < 10 ? "0" + (nowDate.getMonth() + 1) : nowDate.getMonth() + 1;
+        var date = nowDate.getDate() < 10 ? "0" + nowDate.getDate() : nowDate.getDate();
+        var hour = nowDate.getHours() < 10 ? "0" + nowDate.getHours() : nowDate.getHours();
+        var minute = nowDate.getMinutes() < 10 ? "0" + nowDate.getMinutes() : nowDate.getMinutes();
+        var second = nowDate.getSeconds() < 10 ? "0" + nowDate.getSeconds() : nowDate.getSeconds();
+        return year + "-" + month + "-" + date + " " + hour + ":" + minute + ":" + second;
+    }
+
+    ws.onopen = function(evt) {  //绑定连接事件
+        console.log("open:连接成功");
+    };
+
+    ws.onmessage = function(evt) {//绑定收到消息事件
+        let msg = evt.data;
+        let time = getFormatDate();
+        msg = "["+time+"] "+msg;
+        document.getElementById("message").innerHTML = "<p>:" + msg + "</p>"
+    };
+
+    ws.onclose = function(evt) { //绑定关闭或断开连接事件
+
+    };
+
+
+
+</script>

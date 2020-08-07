@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>websocket</title>
+</head>
+<body>
+  <button onclick="closes()" >close</button>
+  <div id="connect"></div>
+  <div>logNum:<i id="log_num" style="color:red"></i></div>
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    var ws = new WebSocket("ws://127.0.0.1:19001");
+
+
+    function closes()
+    {
+        ws.close();
+    }
+
+    function getFormatDate() {
+        var nowDate = new Date();
+        var year = nowDate.getFullYear();
+        var month = nowDate.getMonth() + 1 < 10 ? "0" + (nowDate.getMonth() + 1) : nowDate.getMonth() + 1;
+        var date = nowDate.getDate() < 10 ? "0" + nowDate.getDate() : nowDate.getDate();
+        var hour = nowDate.getHours() < 10 ? "0" + nowDate.getHours() : nowDate.getHours();
+        var minute = nowDate.getMinutes() < 10 ? "0" + nowDate.getMinutes() : nowDate.getMinutes();
+        var second = nowDate.getSeconds() < 10 ? "0" + nowDate.getSeconds() : nowDate.getSeconds();
+        return year + "-" + month + "-" + date + " " + hour + ":" + minute + ":" + second;
+    }
+
+    ws.onopen = function(evt) {  //绑定连接事件
+        console.log("open:连接成功");
+    };
+
+    ws.onmessage = function(evt) {//绑定收到消息事件
+        let msg = evt.data;
+        let time = getFormatDate();
+        msg = "["+time+"] "+msg;
+        //document.getElementById("connect").innerHTML = "<p>response:" + msg + "</p>"
+        document.getElementById("log_num").innerHTML = msg;
+    };
+
+    ws.onclose = function(evt) { //绑定关闭或断开连接事件
+
+    };
+</script>
