@@ -8,3 +8,7 @@ linux:
 
 
         docker run -itd --name coinApi -v /data/www/:/data/www -p 10081:10081 -p 10082:10082 -p 10083:10083  --network=mynet --ip 8.8.8.3  camelniu/lnmp-centos7:v1.0.0
+
+
+
+    docker run -itd --name lnmp -v /f:/data/www -p 8080:80 -p 19001:9001 -p 19002:9002 -p 19003:9003 -p 19004:9004 -p 19005:9005 -p 19006:9006  --network=mynet --ip 8.8.8.2  camelniu/lnmp-centos7:v1.0.0
