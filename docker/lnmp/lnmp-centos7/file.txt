@@ -12,3 +12,8 @@ linux:
 
 
     docker run -itd --name lnmp -v /f:/data/www -p 8080:80 -p 19001:9001 -p 19002:9002 -p 19003:9003 -p 19004:9004 -p 19005:9005 -p 19006:9006  --network=mynet --ip 8.8.8.2  camelniu/lnmp-centos7:v1.0.0
+
+mac:
+
+
+    docker run -itd --name lnmp -v /Users/niushaogang/data/self:/data/www/ --network=mynet --ip 8.8.8.12 -p 28080:80 -p 18080:18080 -p 18081:18081 -p 18082:18082 -p 18083:18083 -p 18084:18084 -p 18085:18085 -p 18086:18086 camelniu/lnmp-centos7:v1.1.0
