@@ -41,7 +41,7 @@
 ####v1.0.0[finished]
 1.v1.0.0
 
-	niushaogang/lnmp-centos7:v1.0.0
+	camelniu/lnmp-centos7:v1.0.0
 2.plan
 
 	1,nginx实现pathinfo模式
@@ -56,15 +56,27 @@
 	4,php根目录index.html,index.php修改内容，以前是调试内容，现在是欢迎语
 
 
-####v1.0.1[plan]
-1.v1.0.0
 
-	niushaogang/lnmp-centos7:v1.0.0
+####v1.1.0[finished]
+1.v1.1.0
+
+	camelniu/lnmp-centos7:v1.1.0
+
 2.plan
 
-	1,安装consul应用
-	2,系统时区，php时区
-	3,安装composer
+	1,系统时区，php时区
+	2,安装composer
+	3,安装yaf，yar
+	4,安装go语言运行环境
 
 3.describe
+
+	1,系统时区，php时区
+	2,安装composer
+	3,安装yaf，yar
+	4,安装go语言运行环境
+
+
+
+
 
