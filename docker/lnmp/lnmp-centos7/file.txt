@@ -1,19 +1,19 @@
 win:
-    docker run -itd --name lnmp -v /f:/data/www -p 8080:80 -p 19001:9001 -p 19002:9002 -p 19003:9003 -p 19004:9004 -p 19005:9005 -p 19006:9006  --network=mynet --ip 8.8.8.2  camelniu/lnmp-centos7:v1.0.0
+    #docker run -itd --name lnmp -v /f:/data/www -p 8080:80 -p 19001:9001 -p 19002:9002 -p 19003:9003 -p 19004:9004 -p 19005:9005 -p 19006:9006  --network=mynet --ip 8.8.8.2  camelniu/lnmp-centos7:v1.1.0
 
 linux:
 
-        docker run -itd --name lnmp -v /data/www/:/data/www -p 8080:80 -p 19001:9001 -p 19002:9002 -p 19003:9003 -p 19004:9004 -p 19005:9005 -p 19006:9006  --network=mynet --ip 8.8.8.2  camelniu/lnmp-centos7:v1.0.0
+        #docker run -itd --name lnmp -v /data/www/:/data/www -p 8080:80 -p 19001:9001 -p 19002:9002 -p 19003:9003 -p 19004:9004 -p 19005:9005 -p 19006:9006  --network=mynet --ip 8.8.8.2  camelniu/lnmp-centos7:v1.0.0
 
 
 
-        docker run -itd --name coinApi -v /data/www/:/data/www -p 10081:10081 -p 10082:10082 -p 10083:10083  --network=mynet --ip 8.8.8.3  camelniu/lnmp-centos7:v1.0.0
+        #docker run -itd --name coinApi -v /data/www/:/data/www -p 10081:10081 -p 10082:10082 -p 10083:10083  --network=mynet --ip 8.8.8.3  camelniu/lnmp-centos7:v1.0.0
 
 
+win:
 
-    docker run -itd --name lnmp -v /f:/data/www -p 8080:80 -p 19001:9001 -p 19002:9002 -p 19003:9003 -p 19004:9004 -p 19005:9005 -p 19006:9006  --network=mynet --ip 8.8.8.2  camelniu/lnmp-centos7:v1.0.0
+    docker run -itd --name lnmp -v /F/www:/data/www -p 18080:80 -p 18081:18081 -p 18082:18082 -p 18083:18083 -p 18084:18084 -p 18085:18085 -p 18086:18086 -p 18087:18087 -p 18088:18088 -p 16379:6379 -p 13306:3306 --network=mynet --ip 8.8.8.2 --privileged=true camelniu/lnmp-centos7:v1.1.0
 
 mac:
 
-
-    docker run -itd --name lnmp -v /Users/niushaogang/data/self:/data/www/ --network=mynet --ip 8.8.8.12 -p 28080:80 -p 18080:18080 -p 18081:18081 -p 18082:18082 -p 18083:18083 -p 18084:18084 -p 18085:18085 -p 18086:18086 camelniu/lnmp-centos7:v1.1.0
+    docker run -itd --name lnmp -v /Users/niushaogang/data/self:/data/www/-p 18080:80 -p 18081:18081 -p 18082:18082 -p 18083:18083 -p 18084:18084 -p 18085:18085 -p 18086:18086 -p 18087:18087 -p 18088:18088 -p 16379:6379 -p 13306:3306 --network=mynet --ip 8.8.8.16 --privileged=true camelniu/lnmp-centos7:v1.1.0
