@@ -179,5 +179,47 @@
 
 
 事务
+ 
+	acid，持久性，隔离性，一致性，原子性
 
-	
+	有可能出现死锁  （预知未来，成则成，败则败 ）
+
+	innodb，
+	myisam，不支持事务，但也可以实现。伪事务实现。利用表锁实现
+
+	事务本质上是利用行锁实现，(排他锁，共享锁)
+
+	什么时候出现死锁
+		
+	mysql中：
+		begin；
+		start transaction；
+			业务逻辑 
+		commit；
+		rollback
+
+
+	事务日志：
+		
+		操作之前写日志，中途断电重启之后会继续按照日志记录执行
+
+		undo log 撤销日志
+		redo log 记录事务操作日志
+
+		
+		show engine innodb status;
+
+		Log sequence number 231733877
+		Log flushed up to   231733877
+		Pages flushed up to 231733877
+		Last checkpoint at  231733868
+
+		innidb_log_buffer,日志缓存区  
+
+		 
+		事务会影响性能，可以控制刷新时间优化
+
+		innodb_flush_log_at_trx_commit
+		0 每秒缓存一次
+        1 1，系统默认，实时刷新，实时写 
+        2  介于1/0之间
