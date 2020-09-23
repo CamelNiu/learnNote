@@ -2,6 +2,14 @@
 
 class Input
 {
+    /**
+     * [info describe...]
+     * @Author NiuShaoGang
+     * @Email  camel_niu@163.com
+     * @Time   2020/9/23 21:28
+     * @param $message
+     * @param null $description
+     */
     public static function info($message, $description = null)
     {
         echo "======>>> ".$description." start\n";
