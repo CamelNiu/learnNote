@@ -1,0 +1,1 @@
+curl -X POST -d "admin_name=niushao&admin_password=niushao" http://8.8.8.1:18080/DH_TuoLing/ThinkPHP5_5.0.15_old/public/index.php/admin/login/login_check
