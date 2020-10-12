@@ -20,7 +20,7 @@ class email
 
     }
 
-    public static function send($to,$title,$content)
+    public static function send($to, $title, $content)
     {
         self::init();
         //使用smtp鉴权方式发送邮件
@@ -34,7 +34,7 @@ class email
         // 这个就是之前得到的授权码，一共16位
         self::$mail->Password = self::$password;
 
-        self::$mail->setFrom(self::$username,self::$from);
+        self::$mail->setFrom(self::$username, self::$from);
         // $to 为收件人的邮箱地址，如果想一次性发送向多个邮箱地址，则只需要将下面这个方法多次调用即可
         self::$mail->addAddress($to);
         // 该邮件的主题
@@ -43,7 +43,7 @@ class email
         self::$mail->Body = $content;
 
         // 使用 send() 方法发送邮件
-        if(!self::$mail->send()) {
+        if (!self::$mail->send()) {
             return 'error: ' . self::$mail->ErrorInfo;
         } else {
             return "success";

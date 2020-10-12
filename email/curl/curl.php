@@ -7,7 +7,6 @@ class curl
 {
 
 
-
     public static function get($url)
     {        //初始化
         $ch = curl_init();
