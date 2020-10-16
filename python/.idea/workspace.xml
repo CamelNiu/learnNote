@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a12221c-8a18-46b1-8439-a8a98c58b0d5" name="Default Changelist" comment="" />
+    <list default="true" id="7a12221c-8a18-46b1-8439-a8a98c58b0d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../docker/lnmp/lnmp-centos7/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/lnmp/lnmp-centos7/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curl/curl.py" beforeDir="false" afterPath="$PROJECT_DIR$/curl/curl.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +77,7 @@
       <workItem from="1601258683178" duration="1624000" />
       <workItem from="1601819337723" duration="61000" />
       <workItem from="1602220233177" duration="3000" />
+      <workItem from="1602818784824" duration="631000" />
     </task>
     <servers />
   </component>

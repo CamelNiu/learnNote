@@ -38,6 +38,8 @@ def execs():
             print(pwd)
 
 
+        g
+
 
 if __name__ == '__main__':
     p = Pool(300)
