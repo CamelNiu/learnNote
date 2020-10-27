@@ -77,6 +77,24 @@
 	4,安装go语言运行环境
 
 
+####v1.1.1[plan]
+1.v1.1.1
+
+	camelniu/lnmp-centos7:v1.1.1
+
+2.plan
+
+	1,优化start,stop,restart脚本
+    2,mysql数据库，加新用户niushao
+    3,优化phpfpm，nginx进程
+    4,安装seaslog扩展
+    
+3.describe
+
+	1,优化start,stop,restart脚本
+    2,mysql数据库，加新用户niushao
+    3,优化phpfpm，nginx进程
+    4,安装seaslog扩展
 
 
 
