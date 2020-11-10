@@ -1,0 +1,43 @@
+mkdir -p /data/appData/mysql
+mkdir -p /data/app/mysql
+mkdir -p /data/logs/mysql
+touch /data/logs/mysql/mysql.info
+touch /data/logs/mysql/mysql-relay-bin
+touch /data/logs/mysql/mysqlslow.info
+touch /data/logs/mysql/mysql-bin
+
+
+
+
+
+201110 16:20:54 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+OK
+Filling help tables...
+201110 16:20:54 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+OK
+
+To start mysqld at boot time you have to copy
+support-files/mysql.server to the right place for your system
+
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+To do so, start the server, then issue the following commands:
+
+/data/app/mysql/bin/mysqladmin -u root password 'new-password'
+/data/app/mysql/bin/mysqladmin -u root -h 172.104.88.48 password 'new-password'
+
+Alternatively you can run:
+/data/app/mysql/bin/mysql_secure_installation
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the manual for more instructions.
+
+You can start the MySQL daemon with:
+cd /data/app/mysql ; /data/app/mysql/bin/mysqld_safe &
+
+You can test the MySQL daemon with mysql-test-run.pl
+cd /data/app/mysql/mysql-test ; perl mysql-test-run.pl
+
+Please report any problems with the /data/app/mysql/scripts/mysqlbug script!

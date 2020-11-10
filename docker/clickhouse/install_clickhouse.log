@@ -1,0 +1,3 @@
+docker pull centos:centos7
+
+    docker run -itd --name clickhouse -v /data/www:/data/www/ -p 38080:38080 -p 38081:38081 -p 38082:38082 --network=mynet --ip 8.8.8.168 --privileged=true centos:centos7

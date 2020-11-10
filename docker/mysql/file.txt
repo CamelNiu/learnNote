@@ -1,0 +1,1 @@
+docker run -itd --name mysql -v /data/www:/data/www --network=mynet --ip 8.8.8.16 -p 13600:3600 centos:7
