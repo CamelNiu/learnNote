@@ -1,0 +1,36 @@
+useradd postgres
+
+mkdir -p /data/appData/postgres /data/logs/postgres
+
+chown -R postgres.postgres /data/appData/postgres /data/logs/postgres
+yum -y install openssl-devel libxml2-devel libxslt-devel python-devel cmake gcc-c++ zlib-devel bzip2 readline-devel expect git uuid-devel systemd-devel gcc automake autoconf libtool make vim wget
+
+
+./configure \
+--prefix=/data/app/postgres \
+--with-pgport=5432 \
+--with-openssl \
+--disable-float4-byval \
+--disable-float8-byval \
+--with-libxml \
+--with-libxslt \
+--with-ossp-uuid \
+--with-systemd
+
+gmake world
+gmake install-world
+
+/data/app/postgres/bin/pg_ctl -D /data/appData/postgres -l logfile start
+
+
+
+./configure \
+--prefix=/usr/local/postgresql \
+--with-pgport=5432 \
+--with-openssl \
+--disable-float4-byval \
+--disable-float8-byval \
+--with-libxml \
+--with-libxslt \
+--with-ossp-uuid \
+--with-systemd

@@ -1,0 +1,1 @@
+docker run -itd --name pgsql -v /data/www:/data/www --network=mynet --ip 8.8.8.17 -p 15433:15433 centos:7

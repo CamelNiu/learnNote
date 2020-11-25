@@ -1,0 +1,9 @@
+yum install postgresql-devel zeromq-devel openssl-devel libxml2-devel libxslt-devel python-devel cmake gcc-c++ zlib-devel bzip2 readline-devel expect git uuid-devel systemd-devel
+
+make USE_PGXS=1
+
+pglogical_create_subscriber.c:46:29: fatal error: access/timeline.h: No such file or directory
+
+
+
+/data/app/postgres/bin/pg_ctl -D /data/appData/postgres -l logfile start

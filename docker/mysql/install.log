@@ -1,10 +1,8 @@
 mkdir -p /data/appData/mysql
 mkdir -p /data/app/mysql
 mkdir -p /data/logs/mysql
-touch /data/logs/mysql/mysql.info
-touch /data/logs/mysql/mysql-relay-bin
-touch /data/logs/mysql/mysqlslow.info
-touch /data/logs/mysql/mysql-bin
+
+
 
 
 
