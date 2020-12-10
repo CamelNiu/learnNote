@@ -38,7 +38,7 @@ def execs():
             print(pwd)
 
 
-        g
+
 
 
 if __name__ == '__main__':

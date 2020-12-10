@@ -1,0 +1,1 @@
+docker run -itd --name beanstalk -v /data/www:/data/www --network=mynet --ip 8.8.8.28 -p 15434:15434 centos:7
