@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a12221c-8a18-46b1-8439-a8a98c58b0d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../go/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../go/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../postgresql/PostgreSQL语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/../postgresql/PostgreSQL语法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go/codesDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../go/codesDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       <workItem from="1601819337723" duration="61000" />
       <workItem from="1602220233177" duration="3000" />
       <workItem from="1602818784824" duration="631000" />
-      <workItem from="1607565903962" duration="473000" />
+      <workItem from="1607565903962" duration="1509000" />
     </task>
     <servers />
   </component>
