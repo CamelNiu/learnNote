@@ -1,18 +1,12 @@
 package main
 
 import (
-	"fmt"
-	//"learn/sin"
-	"learn/dataType"
+	//"fmt"
+	//"learn/pointer"
+	//"learn/taoyi"
+	"learn/container"
 )
 
 func main() {
-
-	fmt.Println("hello Niu")
-
-	//绘制正玄函数
-	//sin.SinMain()
-
-	dataType.DataTypeDemo()
-
+	container.ActionMain()
 }

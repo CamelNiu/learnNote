@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f772d9-f3fd-4f8f-abf1-8928980e43cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learn" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/dataType/dataType.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/dataType/dataType.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +45,5 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1108" y="568" width="670" height="505" key="search.everywhere.popup" timestamp="1607523464926">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="1477" y="753" width="670" height="676" key="search.everywhere.popup/-1373.251.1373.877/0.23.2560.1417@0.23.2560.1417" timestamp="1607445912641" />
-    <state x="1108" y="568" width="670" height="505" key="search.everywhere.popup/-1388.203.1388.877/0.23.1920.1057@0.23.1920.1057" timestamp="1607523464926" />
   </component>
 </project>
