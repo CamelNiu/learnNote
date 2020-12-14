@@ -64,5 +64,14 @@ func arr(){
 
 
 func mutiArr(){
+	//多维数组，场景为具有父子关系或者坐标系相关数据
+	//var arrName [size][size]...[size] array_type
+	//了解其本质，二维数组也是由众多一维数组构成的
+	var arr1 [2][2]int
+	arr1 = [2][2]int{{1,2},{3,4}}
+
+	arr1[0][0] = 8
+
+	fmt.Println(arr1[0][0])
 
 }
