@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f772d9-f3fd-4f8f-abf1-8928980e43cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learn" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/dataType/dataType.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/dataType/dataType.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/container/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/container/container.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -34,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />

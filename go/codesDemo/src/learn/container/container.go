@@ -5,7 +5,8 @@ import (
 )
 
 func ActionMain()  {
-	arr()
+	//arr()
+	mutiArr()
 }
 
 func arr(){
@@ -40,6 +41,28 @@ func arr(){
 	//...表示数组的长度是根据初始化值的时候元素个数来计算
 
 	p := [...]int{3,4,5,6,7,8}
-	fmt.Printf("%T",p)
+	fmt.Printf("%T\n",p)
+
+	//大小
+	// [3]int{1,2,3}
+	//q = [4]int{1,2,3,4}
+	
+	x := [2]int{1,2}
+	y := [...]int{1,2}
+	z := [2]int{1,3}
+	fmt.Println(x == y,x==z,y==z)
+
+	var arrTeam [3]string
+
+	arrTeam = [3]string{"hammer","soldier","mum"}
+
+	for k,v := range arrTeam {
+		fmt.Println(k,v)
+	}
+
+}
+
+
+func mutiArr(){
 
 }
