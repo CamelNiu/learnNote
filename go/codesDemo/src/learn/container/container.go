@@ -6,7 +6,9 @@ import (
 
 func ActionMain()  {
 	//arr()
-	mutiArr()
+	//mutiArr()
+	//sliceDemo()
+	operateSlice()
 }
 
 func arr(){
@@ -73,5 +75,57 @@ func mutiArr(){
 	arr1[0][0] = 8
 
 	fmt.Println(arr1[0][0])
+
+}
+
+func sliceDemo(){
+	//go语言切片，对数组的一个连续片段的引用，引用类型。内部包含地址，大小和容量，切片一般用于快速地操作一块数据集合
+	//切片默认指向一段连续内存区域，可以是数组，也可以是切片本身。
+	//slice [start:end]
+
+	//var a = [3]int{1,2,3}
+	//fmt.Println(a,a[1:2])
+
+	var highRiseBuilding [30] int
+	for i:=0;i<30;i++{
+		highRiseBuilding[i] = i+1
+	}
+	//fmt.Println(highRiseBuilding)
+	//fmt.Println(highRiseBuilding[10:15])
+	//fmt.Println(highRiseBuilding[10:])
+	//fmt.Println(highRiseBuilding[:5])
+	//
+	//a := []int{1,2,3}
+	//fmt.Println(a[:])
+	//fmt.Println(a[0:0])
+	//
+	//var strList []string
+	//var numList []int
+	//var numListEmpty = []int{}
+	//fmt.Println(strList,numList,numListEmpty)
+	//fmt.Println(len(strList),len(numList),len(numListEmpty))
+	//
+	//fmt.Println(strList == nil)
+	//fmt.Println(numList == nil)
+	//fmt.Println(numListEmpty == nil)//因为numListEmpty已经被分配了内存，但是没有元素，和nil比较是false
+
+	//make([]Type,size,cap)
+
+	//a := make([]int,2)
+	//b := make([]int,2,10)
+	//fmt.Println(a,b)
+	//
+	//fmt.Println(len(a),len(b))
+
+	//使用 make() 函数生成的切片一定发生了内存分配操作，但给定开始与结束位置（包括切片复位）的切片只是将新的切片结构指向已经分配好的内存区域，设定开始与结束位置，不会发生内存分配操作。
+
+	var a = [3] int{1,2,3}
+	b := a[1:2]
+
+	fmt.Printf("%T",b)
+
+}
+
+func operateSlice(){
 
 }
