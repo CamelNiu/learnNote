@@ -8,7 +8,10 @@ func ActionMain()  {
 	//arr()
 	//mutiArr()
 	//sliceDemo()
-	operateSlice()
+	//operateSliceAppend()
+	//opreateSliceCopy()
+	//opreateSliceDel()
+	rangeDemo()
 }
 
 func arr(){
@@ -126,6 +129,177 @@ func sliceDemo(){
 
 }
 
-func operateSlice(){
+func operateSliceAppend(){
+
+	//append()函数，动态为切片添加元素
+
+    //尾部添加元素
+	var a []int
+	a = append(a,1)
+	fmt.Println(a)
+	a = append(a,1,2,3,4,5)
+	fmt.Println(a)
+	a = append(a,[]int{9,8,7,6,5,4,3,2,1}...)
+	fmt.Println(a)
+
+	//扩容
+	var numbers []int
+	for i:=0;i<5;i++{
+		numbers = append(numbers,i)
+		fmt.Printf("len:%d cap:%d pointer:%p\n",len(numbers),cap(numbers),numbers )
+	}
+	fmt.Println(numbers)
+
+    //头部添加元素
+    //在切片开头添加元素一般都会导致内存的重新分配，而且会导致已有元素全部被复制 1 次，因此，从切片的开头添加元素的性能要比从尾部追加元素的性能差很多。
+    var b = []int{1,2,3}
+    b = append([]int{9,8,7,6,5},b...)
+    b = append([]int{987654321},b...)
+    fmt.Println(b)
+
+    //append函数返回的是新切片，所以可以链式操作
+
+
+
+}
+
+func opreateSliceCopy(){
+//     //copy 函数
+//     //copy （a,b []T) int,把b复制到a中，copy() 函数的返回值表示实际发生复制的元素个数
+//     slice1 := []int{1,2,3,4,5}
+//     slice2 := []int{5,4,3}
+//     fmt.Println(slice1)
+//     fmt.Println(slice2)
+//
+//     copy1 := copy(slice2,slice1)
+//     fmt.Println(slice1)
+//     fmt.Println(slice2)
+//
+//     copy2 := copy(slice1,slice2)
+//     fmt.Println(slice1)
+//     fmt.Println(slice2)
+//
+//     fmt.Println(copy1)
+//     fmt.Println(copy2)
+//
+
+
+    const elementCount int = 10000;
+
+    srcData := make([]int,elementCount)
+
+    for i := 0;i<elementCount;i++{
+        srcData[i] = i
+    }
+
+    //切片不回因为=而进行元素的复制
+    refData := srcData
+
+    copyData := make([]int,elementCount)
+    copy(copyData,srcData)
+    srcData[0] = 999
+    fmt.Println(refData[0])
+    fmt.Println(copyData[0],copyData[elementCount-1])
+
+    copy(copyData,srcData[4:6])
+
+    for i :=0;i<5;i++ {
+        fmt.Printf("%d",copyData[i])
+    }
+
+    fmt.Println(refData[0])
+
+}
+
+func opreateSliceDel(){
+
+    //Go语言中删除切片元素的本质是，以被删除元素为分界点，将前后两个部分的内存重新连接起来
+
+//     //1,删除开头的元素，可以直接移动数据指针
+//     var b []int
+//     b = []int{1,2,3}
+//     b = b[1:]
+//     b = b[2:]
+//     //fmt.Println(b)
+//
+//     //2,append原地完成
+//     var c []int
+//     c = []int{1,2,3,4,5,6,7}
+//     //fmt.Println(c)
+//
+//     fmt.Println(c[:0])
+//     fmt.Println(c[1:])
+//
+//     c = append(c[:0],c[1:]...)
+//     fmt.Println(c)
+//
+//
+//     //copy完成
+//     c = append([]int{1},c...)
+//     var d []int
+//     //d = copy(c,c[1:])
+//     //fmt.Println(d)
+//     //c = c[:d]
+
+//[x:] [:x] 开始包含当前值，结束不包含当前值
+//     var a []int
+//     a = []int{1,2,3,4,5}
+//
+//     fmt.Println(a[:3])
+//     fmt.Println(a[4:])
+//
+//     tmpA := append(a[:3],a[4:]...)
+//
+//     fmt.Println( tmpA )
+
+//     a := []int{1,2,3,4,5,6,7,8,9,10}
+//
+//     a = a[:3+copy( a[3:],a[4:] )]
+//
+//     fmt.Println(a)
+//
+//     b := copy( a[3:],a[4:] )
+//     fmt.Println(b)
+//
+//     a := []int{1,2,3}
+//     a = a[:len(a)-1]
+//     fmt.Println(a)
+
+//     seq := []string{"a","b","c","d","e","f"}
+//
+//     index := 2
+//
+//     fmt.Println(seq[:index],seq[index+1:])
+//
+//     seq = append(seq[:index],seq[index+1:]...)
+//
+//     fmt.Println(seq)
+
+}
+
+func rangeDemo() {
+//     slice := []int{1,2,3,4,5,6}
+//
+//     for k,v := range slice {
+//         fmt.Println(k,v)
+//     }
+
+//     slice := []int{10,20,30,40}
+//
+//     for k,v := range slice {
+//         fmt.Printf("v:%d,v-addr:%X ele-addr:%X\n",v,&v,&slice[k])
+//     }
+
+//     slice := []int{1,2,3,4,5,6,7,8,9}
+//     for _,v := range slice{
+//         fmt.Println(v)
+//     }
+
+    v := 0
+
+    for {
+        fmt.Println(v)
+        v += 20000000000000000000000000000000000000000000000000000000000000000
+    }
 
 }
