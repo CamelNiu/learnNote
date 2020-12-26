@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b6c131-4bbd-44d8-a8c5-a305af44c430" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../python/curl/createData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codesDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codesDemo/bin/learn" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/bin/learn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codesDemo/src/learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/src/learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codesDemo/src/learn/container/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/src/learn/container/container.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codesDemo/src/learn/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/src/learn/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/curl/curl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/curl/curl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -22,6 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a7d67d-0356-4cc2-a974-280e4d8bc464" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/learn" beforeDir="false" afterPath="$PROJECT_DIR$/../../bin/learn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/container/container.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608086405721</updated>
       <workItem from="1608086406884" duration="702000" />
+      <workItem from="1608124643638" duration="13000" />
     </task>
     <servers />
   </component>
@@ -54,5 +57,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

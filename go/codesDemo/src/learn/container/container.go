@@ -11,7 +11,8 @@ func ActionMain()  {
 	//operateSliceAppend()
 	//opreateSliceCopy()
 	//opreateSliceDel()
-	rangeDemo()
+	//rangeDemo()
+	mapDemo()
 }
 
 func arr(){
@@ -285,7 +286,7 @@ func rangeDemo() {
 //     }
 
 //     slice := []int{10,20,30,40}
-//
+//ll
 //     for k,v := range slice {
 //         fmt.Printf("v:%d,v-addr:%X ele-addr:%X\n",v,&v,&slice[k])
 //     }
@@ -295,11 +296,116 @@ func rangeDemo() {
 //         fmt.Println(v)
 //     }
 
-    v := 0
-
-    for {
-        fmt.Println(v)
-        v += 20000000000000000000000000000000000000000000000000000000000000000
-    }
+    //v := 0
+	//
+    //for {
+    //    fmt.Println(v)
+    //    v += 20000000000000000000000000000000000000000000000000000000000000000
+    //}
 
 }
+
+func mutiSliceDemo()  {
+	//多维切片
+	//var slice [][]int
+	//slice = [][]int{{10},{100,200}}
+	//
+	//fmt.Println(slice)
+
+	slice := [][]int{{10},{100,200,300},{400,500,600}}
+	slice[0] = append(slice[0],20)
+	fmt.Println(slice)
+
+
+}
+
+func mapDemo()  {
+	//map,元素对的无序集合，k-v，关联数组，字典
+	//var mapName map[keyType]valueType
+	//var mapList map[string]int
+	//mapList = map[string]int{"one":1,"two":2}
+	//fmt.Println(mapList)
+	//
+	//mapCreated := make(map[string]float32)
+	//mapCreated["key1"] = 3.1415
+	//
+	//fmt.Println(mapCreated)
+	//
+	//var mapAssigned map[string]int
+	//mapAssigned = mapList
+	//fmt.Println(mapAssigned)
+	//
+	//noteFrequency := map[string]float32 {
+	//	"C0": 16.35, "D0": 18.35, "E0": 20.60, "F0": 21.83,
+	//	"G0": 24.50, "A0": 27.50, "B0": 30.87, "A4": 440}
+	//
+	//fmt.Println(noteFrequency)
+	//
+	////mp1 := make(map[int][]int)
+	////mp2 := make(map[int]*[]int)
+	//
+	//scene := make(map[string]int)
+	//
+	//scene["route"] = 66
+	//scene["brazil"] = 4
+	//scene["china"] = 960
+	//
+	//var sceneList[] string
+	//for k := range scene {
+	//	sceneList = append(sceneList,k)
+	//}
+	//
+	//fmt.Println(sceneList);
+	//sort.Strings(sceneList)
+	//fmt.Println(sceneList)
+	////for k,v := range scene{
+	////	fmt.Println(k,v)
+	////}
+	//
+	//
+	////delete(map,key)
+	//delete(scene,"route")
+	//fmt.Println(scene)
+
+	//ele := []int{2,6,9,5,8}
+	//target := 10
+	//
+	////var res []int
+	//res := twoSum(ele,target)
+	//
+	//fmt.Println(res)
+
+	//var slice []int
+	//for i:=0;i<997;i++{
+	//	if i%2 == 0 {
+	//		slice = append(slice, i)
+	//	}
+	//}
+	//
+	//binSearch(slice,68)
+
+	arr1 := []int{1,2,3,4,5}
+	fmt.Println(arr1)
+
+}
+
+func binSearch(slice []int,target int)  {
+
+}
+
+func twoSum(nums []int,target int) []int {
+
+	//var keySlice []int
+	//
+	//for i:=0;i<len(nums);i++ {
+
+	//	for j:=i+1;j<len(nums);j++{
+	//		sum := nums[i]+nums[j]
+	//		if sum == target {
+	//			keySlice = append(keySlice,i,j)
+	//		}
+	//	}
+	//}
+	//return keySlice
+}
+

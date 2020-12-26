@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f772d9-f3fd-4f8f-abf1-8928980e43cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../python/curl/createData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learn" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learn/container/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/container/container.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/curl/curl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/curl/curl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

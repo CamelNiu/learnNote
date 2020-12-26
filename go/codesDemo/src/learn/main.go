@@ -4,9 +4,12 @@ import (
 	//"fmt"
 	//"learn/pointer"
 	//"learn/taoyi"
-	"learn/container"
+	//"learn/container"
+	//"learn/funcDemo"
+	//"learn/interFaceDemo"
+	"learn/reflactDemo"
 )
 
 func main() {
-	container.ActionMain()
+	reflactDemo.TestReflactDemo()
 }
