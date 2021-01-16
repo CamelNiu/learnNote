@@ -1,0 +1,26 @@
+package calc
+
+type OperationInterface interface {
+	Exe(a,b int) int
+}
+
+type OperationAdd struct {}
+type OperationSub struct {}
+type OperationDiv struct {}
+type OperationMul struct {}
+
+func (this *OperationAdd) Exe(a,b int) int  {
+	return a+b
+}
+
+func (this *OperationSub) Exe(a,b int) int  {
+	return a-b
+}
+
+func (this *OperationDiv) Exe(a,b int) int  {
+	return a/b
+}
+
+func (this *OperationMul) Exe(a,b int) int  {
+	return a*b
+}

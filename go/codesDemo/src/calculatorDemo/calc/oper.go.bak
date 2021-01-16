@@ -1,0 +1,26 @@
+package calc
+
+import "fmt"
+
+var opers map[string]OperationInterface
+
+func init()  {
+	opers = make(map[string]OperationInterface,0)
+	opers["+"] = new(OperationAdd)
+	opers["-"] = new(OperationSub)
+	opers["*"] = new(OperationMul)
+	opers["/"] = new(OperationDiv)
+}
+
+func OperationFactory(oper string) OperationInterface {
+	return opers[oper]
+}
+
+func Operate() {
+	res := OperationFactory("+")
+	res1 := res.Exe(1,5)
+	fmt.Println(res1)
+
+	fmt.Println(opers)
+
+}

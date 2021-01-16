@@ -7,9 +7,11 @@ import (
 	//"learn/container"
 	//"learn/funcDemo"
 	//"learn/interFaceDemo"
-	"learn/reflactDemo"
+	//"learn/reflactDemo"
+	//"learn/factory"
+	"learn/structDemo"
 )
 
 func main() {
-	reflactDemo.TestReflactDemo()
+	structDemo.DemoMain()
 }

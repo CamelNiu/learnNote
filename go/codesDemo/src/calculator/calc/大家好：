@@ -1,0 +1,101 @@
+大家好：
+打扰，下面是2020-12-28工作日报:
+一，工作学习部分
+    1，参加会议，简单了解网站监控报表任务导出问题
+    2，开发网站监控任务名称重复的问题，梳理批量任务，单任务，批量修改，单任务修改，内网任务接口
+    3，配合部分ci打包
+二，后续
+    1，继续开发网站监控，任务名称重复的问题
+
+
+
+
+
+curl -H "token:907ffef59a1dab03f1bd140adff46e90" -X POST -d '{"agent":1,"all_snapshot":0,"frequency":2,"group_id":6,"header":[],"history":0,"mtr_conditions":{},"open_scope":1,"plugin_task_uselist_id":[],"reminds":0,"retry":1,"task_id":0,"task_mtr":0,"task_name": "NiuTest","task_type":"http","url":"https://studygolang.com/pkgdoc","url_type":0}' http://dev.jkb.com:28080/siteapi/tasks
+
+
+
+private_v3.4.0
+
+
+git archive -o jkbV6Api.zip $(git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4...2793c3c0e661d5964c4650471a07621f23f3fc03 --name-only --diff-filter=d )
+
+
+git archive -o update.zip $(git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4..2793c3c0e661d5964c4650471a07621f23f3fc03 --diff-filter=d --name-only )
+
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4...2793c3c0e661d5964c4650471a07621f23f3fc03 --name-only
+
+
+
+
+git archive -o jkbV6Api.zip HEAD $(git diff 2793c3c0e661d5964c4650471a07621f23f3fc03...89311518c7d1b7ff3293393313da3adcebd5b5a4 --name-only)
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4 89311518c7d1b7ff3293393313da3adcebd5b5a4  --name-only | xargs zip update.zip
+
+
+git diff 2793c3c0e661d5964c4650471a07621f23f3fc03 89311518c7d1b7ff3293393313da3adcebd5b5a4 --name-only | xargs zip jkbV6Api.zip
+
+
+git archive private_v3.4.0 $(git diff 2793c3c0e661d5964c4650471a07621f23f3fc03 89311518c7d1b7ff3293393313da3adcebd5b5a4 --name-only)|gzip >jkbV6ApiUpdate.zip
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4 2793c3c0e661d5964c4650471a07621f23f3fc03  --name-only | xargs zip jkbV6Api.zip
+
+git  diff  89311518c7d1b7ff3293393313da3adcebd5b5a4 2793c3c0e661d5964c4650471a07621f23f3fc03  --name-only |  xargs  tar  -czvf jkbV6ApiUpdate.tar.gz
+
+
+
+git  diff  89311518c7d1b7ff3293393313da3adcebd5b5a4 2793c3c0e661d5964c4650471a07621f23f3fc03  --name-only |  xargs  tar  -czvf jkbV6ApiUpdate.tar.gz
+
+
+git archive develop $( git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4..2793c3c0e661d5964c4650471a07621f23f3fc03  --name-only)|gzip >aaa.zip
+
+
+
+git archive develop $( git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4..2793c3c0e661d5964c4650471a07621f23f3fc03  --name-only)|gzip >aaa.zip
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4...2793c3c0e661d5964c4650471a07621f23f3fc03 --diff-filter=D
+
+
+
+
+
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4...2793c3c0e661d5964c4650471a07621f23f3fc03 --diff-filter=A --name-only
+
+
+
+
+
+
+
+
+
+
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4...2793c3c0e661d5964c4650471a07621f23f3fc03 --name-only | xargs zip jkbV6Api.zip
+
+
+
+
+
+
+
+
+
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4 2793c3c0e661d5964c4650471a07621f23f3fc03  --name-only | xargs zip /Users/niushaogang/workcode/package/jkbV6ApiUpdate.zip
+
+git diff 89311518c7d1b7ff3293393313da3adcebd5b5a4 2793c3c0e661d5964c4650471a07621f23f3fc03  --name-only --diff-filter=D >> /Users/niushaogang/workcode/package/jkbV6ApiDelete.txt
+
+git diff 4d0a5784b1ecaccc8f033a9739b87f91763c8573 781a6b39849d62b897792c20ff81f54f612cf2d0  --name-only | xargs zip /Users/niushaogang/workcode/package/jkbV6WebUpdate.zip
+
+git diff 4d0a5784b1ecaccc8f033a9739b87f91763c8573 781a6b39849d62b897792c20ff81f54f612cf2d0  --name-only --diff-filter=D >> /Users/niushaogang/workcode/package/jkbV6WebDelete.txt
+
+
+git diff 4f32f1c10bb48b7fb66317c6d01ebaf834490b35 cbed9d6f1123ec1b7d7accdf9e089571fa77fa75 --name-only | xargs zip /Users/niushaogang/workcode/package/jiankongbaoWebUpdate.zip
+
+git diff 4f32f1c10bb48b7fb66317c6d01ebaf834490b35 cbed9d6f1123ec1b7d7accdf9e089571fa77fa75 --name-only --diff-filter=D >> /Users/niushaogang/workcode/package/jiankongbaoWebDelete.txt
+
+
+
