@@ -5,36 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73f772d9-f3fd-4f8f-abf1-8928980e43cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Factory/clsfactory/base/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/clsfactory/cls1/reg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/clsfactory/cls2/reg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/clsfactory/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestApi/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestApi/pkgHttp/pkgHttp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestApi/pkgHttp/pkgHttp_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/httpServer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/structDemo/structDemo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rountine/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rountine/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rountine/rountine01/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rountine/rountine02/chanEx.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rountine/rountine02/chanEx_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rountine/rountine02/demoChan.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rountine/rpcDemo/rpcDemo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sixdeuE/cmd/sixedu/sixedu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sixdeuE/controller/autoController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sixdeuE/controller/indexController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sixdeuE/controller/route.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sixdeuE/util/console.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/userList/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/userList/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/userList/model/customer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/userList/service/customerService.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/userList/view/customerView.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codesDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codesDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Geo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rountine/homework1/homework1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rountine/homework1/homework1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcpIpDemo/tcp/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcpIpDemo/tcp/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/reflactDemo/reflectDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/reflactDemo/reflectDemo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rountine/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/rountine/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,9 +1,10 @@
 package main
 
 import (
-	rpc "rountine/rpcDemo"
+	h1 "rountine/homework1"
 )
 
 func main()  {
-	rpc.RpcMain()
+	h1.H1Test()
 }
+

@@ -1,7 +1,29 @@
-package main    // 声明 main 包
-import (
-	"fmt"       // 导入 fmt 包，打印字符串是需要用到
-)
-func main() {   // 声明 main 主函数
-	fmt.Println("Hello World!") // 打印 Hello World!
+package main
+
+import "fmt"
+
+func main()  {
+
+	ins := struct {
+		a int
+		b string
+	}{
+		a:1,
+		b:"abc",
+	}
+
+	ins2 := &struct {
+		a int
+		b string
+	}{
+		a:1,
+		b:"abc",
+	}
+
+	fmt.Printf("%T\n",ins)
+	fmt.Printf("%T\n",ins2)
+
+	fmt.Println(ins)
+	fmt.Println(ins2)
+
 }

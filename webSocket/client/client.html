@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket测试</title>
+</head>
+<body>
+    <h1>WebSocket测试</h1>
+    <script>
+        var wsUrl = "ws://127.0.0.1:8000";
+        var webSocket = new WebSocket(wsUrl);
+        // 实例对象的onOpen属性
+        webSocket.onopen = function (e) {
+            webSocket.send("hello!");
+            console.log("打开链接成功！")
+        };
+
+        // 实例化 onMessage
+        webSocket.onmessage = function (e) {
+            console.log("接收的内容：",e.data);
+        };
+
+        // 实例化 onClose
+        webSocket.onclose = function (e) {
+            console.log("关闭链接");
+        };
+
+        // 实例化 onClose
+        webSocket.onerror = function (e) {
+            console.log("错误：",e.data);
+        };
+
+    </script>
+</body>
+</html>

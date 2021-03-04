@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WS-Test</title>
+</head>
+<body>
+    <div>This Time Is </div>
+</body>
+
+<script type="text/javascript">
+
+    var ws = new WebSocket("ws://127.0.0.1:8000")
+
+    ws.onopen = function () {
+        alert("connect success")
+    }
+
+</script>
+
+</html>

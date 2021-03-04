@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b6c131-4bbd-44d8-a8c5-a305af44c430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../python/curl/createData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codesDemo/src/Geo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codesDemo/src/rountine/homework1/homework1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codesDemo/src/rountine/homework1/homework1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codesDemo/src/tcpIpDemo/tcp/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codesDemo/src/tcpIpDemo/tcp/server/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codesDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codesDemo/bin/learn" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/bin/learn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codesDemo/src/learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/src/learn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codesDemo/src/learn/container/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/src/learn/container/container.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codesDemo/src/learn/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/src/learn/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/curl/curl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/curl/curl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codesDemo/src/rountine/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/codesDemo/src/rountine/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1l3wKOJSp7qz8tURa1oa7380A3s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,10 +38,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
